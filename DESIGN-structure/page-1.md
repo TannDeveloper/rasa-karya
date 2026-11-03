@@ -1,0 +1,3172 @@
+# Structure: Page 1
+
+- **Html → Body** · `FRAME` · 1280×3005 · vertical stack, gap 40px · 3 children
+  - **Main** · `FRAME` · 1280×2647 · vertical stack, padding 80/0/0/0px · 1 children
+    - **Container** · `FRAME` · 1280×2567 · 6 children
+      - **Section - Interactive Daily Bake Schedule Bar** · `FRAME` · 1280×72 · vertical stack, padding 16/40/16/40px · 1 children
+        - **Container** · `FRAME` · 1200×40 · horizontal row, gap 74.63999938964844px · 2 children
+          - **Container** · `FRAME` · 329×40 · horizontal row, gap 12px · 2 children
+            - **Background** · `FRAME` · 32×32 · horizontal row · 1 children
+              - **Container** · `FRAME` · 15×15 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×15
+            - **Container** · `FRAME` · 285×40 · vertical stack · 2 children
+              - **Heading 2** · `FRAME` · 285×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 203×20 · “Jadwal Keluar Oven Hari Ini”
+              - **Container** · `FRAME` · 285×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 285×20 · “Pesan hangat tepat saat aroma terbaik tercium”
+          - **Container** · `FRAME` · 797×32 · horizontal row, gap 16px · 3 children
+            - **Background+Shadow** · `FRAME` · 235×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+              - **Background** · `RECTANGLE` · 10×10
+              - **Container** · `FRAME` · 65×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 65×16 · “06:00 WIB”
+              - **Container** · `FRAME` · 111×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 111×20 · “Pastry & Croissant”
+            - **Background+Shadow** · `FRAME` · 259×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+              - **Background** · `RECTANGLE` · 8×8
+              - **Container** · `FRAME` · 61×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 61×16 · “10:30 WIB”
+              - **Container** · `FRAME` · 142×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 142×20 · “Sourdough & Baguette”
+            - **Background+Shadow** · `FRAME` · 271×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+              - **Background** · `RECTANGLE` · 8×8
+              - **Container** · `FRAME` · 62×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 62×16 · “14:00 WIB”
+              - **Container** · `FRAME` · 154×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 154×20 · “Roti Sobek & Sweet Buns”
+      - **Section - Impact & Philosophy Stats Grid** · `FRAME` · 1280×265 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×185 · horizontal row, gap 24px · 4 children
+          - **Overlay+OverlayBlur** · `FRAME` · 282×182 · vertical stack, gap 4px, padding 16px · 4 children
+            - **Icon** · `VECTOR` · 27×24
+            - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+              - **Text** · `TEXT` · 160×48 · “15.000+”
+            - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 111×20 · “Pelanggan Setia”
+            - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+              - **Text** · `TEXT` · 232×40 · “Menikmati sarapan hangat di seantero
+Jabodetabek”
+          - **Overlay+OverlayBlur** · `FRAME` · 282×177 · vertical stack, gap 4px, padding 16px · 4 children
+            - **Icon** · `VECTOR` · 29×19
+            - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+              - **Text** · `TEXT` · 72×48 · “35+”
+            - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 132×20 · “Varian Roti & Pastry”
+            - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+              - **Text** · `TEXT` · 214×40 · “Dari sourdough klasik hingga kreasi
+rempah nusantara”
+          - **Overlay+OverlayBlur** · `FRAME` · 282×179 · vertical stack, gap 4px, padding 16px · 4 children
+            - **Icon** · `VECTOR` · 21×21
+            - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+              - **Text** · `TEXT` · 111×48 · “100%”
+            - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 84×20 · “Bahan Alami”
+            - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+              - **Text** · `TEXT` · 229×40 · “Tanpa pewarna sintetis, pemutih, atau
+enzim buatan”
+          - **Overlay+OverlayBlur** · `FRAME` · 282×185 · vertical stack, gap 4px, padding 16px · 4 children
+            - **Icon** · `VECTOR` · 27×27
+            - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+              - **Text** · `TEXT` · 117×48 · “4.9 / 5”
+            - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 115×20 · “Rating Kepuasan”
+            - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+              - **Text** · `TEXT` · 242×40 · “Konsistensi rasa hangat dan pengiriman
+tepat waktu”
+      - **Section - Immersive Editorial Hero** · `FRAME` · 1280×524 · vertical stack, padding 24/40/40/40px · 3 children
+        - **Ambient Warm Gradients** · `RECTANGLE` · 850×500
+        - **Overlay+Blur** · `RECTANGLE` · 384×384
+        - **Container** · `FRAME` · 1200×460 · vertical stack · 2 children
+          - **Left Column: Typography & CTAs** · `FRAME` · 690×419 · vertical stack · 4 children
+            - **Trust Badges Bar** · `FRAME` · 690×22 · horizontal row, gap 8px · 3 children
+              - **Overlay** · `FRAME` · 167×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+                - **Container** · `FRAME` · 15×14 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 114×14 · “100% Halal Certified”
+              - **Background** · `FRAME` · 217×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+                - **Background** · `RECTANGLE` · 8×8
+                - **Text** · `TEXT` · 171×14 · “Baking Fresh Every 06:00 WIB”
+              - **Background** · `FRAME` · 185×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+                - **Container** · `FRAME` · 11×11 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 136×14 · “Tanpa Pengawet Buatan”
+            - **Headline:margin** · `FRAME` · 690×245 · vertical stack, padding 24/0/0/0px · 1 children
+              - **Headline** · `FRAME` · 690×221 · vertical stack, gap 7.989999771118164px · 2 children
+                - **Heading 1** · `FRAME` · 690×125 · vertical stack, padding 0/0/4.204999923706055/0px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 576×88 · vertical stack
+                  - _…and 1 more_
+            - **CTA Actions:margin** · `FRAME` · 690×76 · vertical stack, padding 24/0/0/0px · 1 children
+              - **CTA Actions** · `FRAME` · 690×52 · horizontal row, gap 16px, padding 4/0/0/0px · 2 children
+                - **Link** · `FRAME` · 231×48 · horizontal row, gap 8px, padding 14/40/14/40px
+                  - _…and 3 more_
+                - **Link** · `FRAME` · 194×48 · horizontal row, gap 8px, padding 14/24/14/24px
+                  - _…and 2 more_
+            - **Micro Social Proof:margin** · `FRAME` · 690×76 · vertical stack, padding 24/0/0/0px
+          - **Right Column: Visual Showcase Bento** · `FRAME` · 486×460 · vertical stack · 2 children
+            - **Main Hero Image Frame** · `FRAME` · 486×460 · vertical stack · 2 children
+              - **Artisan Sourdough dan Viennoiserie Rasa Karya** · `FRAME` · 486×460
+              - **Gradient** · `RECTANGLE` · 486×460
+            - **Overlapping Floating Micro Card** · `FRAME` · 192×117 · vertical stack, gap 4px, padding 16px · 3 children
+              - **Container** · `FRAME` · 160×14 · horizontal row, gap 76.52999877929688px · 2 children
+                - **Container** · `FRAME` · 67×14 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 11×13 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 160×30 · vertical stack · 1 children
+                - **82%** · `TEXT` · 160×30 · “82%”
+              - **Container** · `FRAME` · 160×33 · vertical stack · 1 children
+                - **Tekstur lembut berpori sempurna** · `TEXT` · 160×33 · “Tekstur lembut berpori
+sempurna”
+      - **Signature Collections Section** · `FRAME` · 1280×714 · vertical stack, padding 40/0/40/0px · 1 children
+        - **Container** · `FRAME` · 1280×634 · vertical stack, gap 24px, padding 0/40/0/40px · 2 children
+          - **Section Header** · `FRAME` · 1200×116 · horizontal row, gap 439.94000244140625px · 2 children
+            - **Container** · `FRAME` · 574×116 · vertical stack, gap 4px, padding 6.5/0/0/0px · 3 children
+              - **Text** · `TEXT` · 98×14 · “PALING DIMINATI”
+              - **Heading 2** · `FRAME` · 574×40 · vertical stack, padding 3.5/0/0/0px · 1 children
+                - **Text** · `TEXT` · 347×36 · “Koleksi Tanda Tangan Kami”
+              - **Container** · `FRAME` · 574×48 · vertical stack · 1 children
+                - **Text** · `TEXT` · 574×48 · “Setiap adonan difermentasi perlahan selama 36 hingga 48 jam untuk menciptakan
+ra”
+            - **Link** · `FRAME` · 178×20 · horizontal row, gap 8px · 2 children
+              - **Text** · `TEXT` · 158×20 · “Lihat Semua 35+ Varian”
+              - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×12
+          - **3 Signature Cards Grid** · `FRAME` · 1200×494 · horizontal row, gap 24px · 3 children
+            - **Card 1: Sourdough Gandum Utuh** · `FRAME` · 384×494 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 2 children
+                - **Sourdough Gandum Utuh** · `FRAME` · 384×288
+                - **Overlay+OverlayBlur** · `FRAME` · 133×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×206 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×94 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 336×64 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Card 2: Butter Croissant Klasik** · `FRAME` · 384×494 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 2 children
+                - **Butter Croissant Klasik** · `FRAME` · 384×288
+                - **Overlay** · `FRAME` · 137×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×206 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×94 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 336×64 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Card 3: Roti Sobek Pandan Srikaya** · `FRAME` · 384×494 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 2 children
+                - **Roti Sobek Pandan Srikaya** · `FRAME` · 384×288
+                - **Overlay+OverlayBlur** · `FRAME` · 114×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×206 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×94 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 336×64 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+      - **Section - Editorial Storytelling Split Banner: Sourdough Heritage** · `FRAME` · 1280×572 · vertical stack, padding 40px · 1 children
+        - **Background+Shadow** · `FRAME` · 1200×492 · vertical stack · 2 children
+          - **Container** · `FRAME` · 600×489 · vertical stack, gap 15.100000381469727px, padding 40px · 5 children
+            - **Overlay** · `FRAME` · 138×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+              - **Container** · `FRAME` · 11×13 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 11×13
+              - **Text** · `TEXT` · 88×14 · “Seni Kesabaran”
+            - **Heading 2** · `FRAME` · 520×103 · vertical stack, padding 2.9000000953674316/0/0/0px · 1 children
+              - **Fermentasi Alami Tanpa Kompromi Waktu** · `TEXT` · 520×100 · “Fermentasi Alami
+Tanpa Kompromi Waktu”
+            - **Container** · `FRAME` · 520×98 · vertical stack · 1 children
+              - **Di Rasa Karya, kami tidak pernah mempercepat waktu dengan ragi instan berlebihan. Setiap adonan beristirahat dalam ruang suhu terkontrol, memungkinkan bakteri baik menghasilkan asam laktat yang menenangkan perut dan memecah gluten secara alami.** · `TEXT` · 520×98 · “Di Rasa Karya, kami tidak pernah mempercepat waktu dengan ragi instan
+berlebihan”
+            - **Container** · `FRAME` · 520×93 · vertical stack, gap 8px, padding 4.900000095367432/0/0/0px · 2 children
+              - **Container** · `FRAME` · 520×40 · horizontal row, gap 12px · 2 children
+                - **Margin** · `FRAME` · 17×19 · vertical stack, padding 2/0/0/0px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 488×40 · vertical stack, padding 0/11.579999923706055/0/0px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 520×40 · horizontal row, gap 12px · 2 children
+                - **Margin** · `FRAME` · 17×19 · vertical stack, padding 2/0/0/0px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 488×40 · vertical stack, padding 0/36.70000076293945/0/0px
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 520×33 · vertical stack, padding 10.899999618530273/0/2/0px · 1 children
+              - **Link** · `FRAME` · 204×20 · horizontal row, gap 8px · 2 children
+                - **Text** · `TEXT` · 184×20 · “Pelajari Filosofi Dapur Kami”
+                - **Container** · `FRAME` · 12×12 · vertical stack
+                  - _…and 1 more_
+          - **Proses pembuatan roti artisanal Rasa Karya** · `FRAME` · 600×492
+      - **Section - B2B Partnership Teaser: Hotel & Cafe** · `FRAME` · 1280×413 · vertical stack, padding 0/40/40/40px · 1 children
+        - **Background+Shadow** · `FRAME` · 1200×373 · vertical stack, padding 40px · 2 children
+          - **Ambient Decorative Vector Accent** · `FRAME` · 240×246 · vertical stack, padding 0/0/6/0px · 1 children
+            - **Icon** · `VECTOR` · 240×240
+          - **Container** · `FRAME` · 672×293 · vertical stack, gap 14.899999618530273px · 4 children
+            - **Overlay** · `FRAME` · 162×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+              - **Container** · `FRAME` · 15×13 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×13
+              - **Text** · `TEXT` · 107×14 · “Kemitraan HoReCa”
+            - **Heading 2** · `FRAME` · 672×103 · vertical stack, padding 3.0999999046325684/0/0/0px · 1 children
+              - **Sajikan Roti Artisan Terbaik untuk Tamu & Kafe Anda** · `TEXT` · 672×100 · “Sajikan Roti Artisan Terbaik untuk
+Tamu & Kafe Anda”
+            - **Container** · `FRAME` · 672×74 · vertical stack · 1 children
+              - **Kami menjadi mitra pasokan harian terpercaya bagi 24+ hotel butik, specialty coffee shop, dan restoran terkemuka. Dapatkan kurasi roti segar terjadwal dengan harga korporat kompetitif dan konsistensi kualitas tertinggi.** · `TEXT` · 672×74 · “Kami menjadi mitra pasokan harian terpercaya bagi 24+ hotel butik, specialty cof”
+            - **Container** · `FRAME` · 672×49 · horizontal row, gap 16px, padding 5.099999904632568/0/0/0px · 1 children
+              - **Link** · `FRAME` · 239×44 · horizontal row, gap 8px, padding 12/24/12/24px · 3 children
+                - **Link:shadow** · `RECTANGLE` · 239×44
+                - **Container** · `FRAME` · 171×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 12×12 · vertical stack
+                  - _…and 1 more_
+  - **Footer** · `FRAME` · 1280×318 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×318 · vertical stack, gap 39.9900016784668px, padding 40px · 2 children
+      - **Container** · `FRAME` · 1200×153 · horizontal row, gap 24px · 4 children
+        - **Container** · `FRAME` · 282×151 · vertical stack, gap 15.100000381469727px, padding 0/0/2.009999990463257/0px · 3 children
+          - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+            - **Logo Rasa Karya** · `FRAME` · 32×32
+            - **Container** · `FRAME` · 94×26 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+            - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 282×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+          - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/21.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+          - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/45.380001068115234/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Jadwal Panggang & Toko** · `TEXT` · 282×24 · “Jadwal Panggang & Toko”
+          - **Container** · `FRAME` · 282×68 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 74.2699966430664px · 2 children
+              - **Text** · `TEXT` · 95×20 · “Selasa - Jumat:”
+              - **Text** · `TEXT` · 113×20 · “07.00 - 18.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 69.62999725341797px · 2 children
+              - **Text** · `TEXT` · 101×20 · “Sabtu - Minggu:”
+              - **Text** · `TEXT` · 112×20 · “06.30 - 16.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 77.75px · 2 children
+              - **Text** · `TEXT` · 39×20 · “Senin:”
+              - **Text** · `TEXT` · 165×20 · “Tutup Pemeliharaan Starter”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/25.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+          - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+              - **Icon** · `VECTOR` · 12×15
+              - **Text** · `TEXT` · 232×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 105×20 · “+62 21 3192 4890”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×12
+              - **Text** · `TEXT` · 113×20 · “halo@rasakarya.id”
+      - **HorizontalBorder** · `FRAME` · 1200×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+  - **Header** · `FRAME` · 1280×80 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×80 · horizontal row, gap 139.1999969482422px, padding 0/39.9900016784668/0/40px · 3 children
+      - **Container** · `FRAME` · 158×40 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 114×40 · vertical stack · 2 children
+          - **Container** · `FRAME` · 114×26 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 114×14 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+      - **Nav** · `FRAME` · 560×48 · horizontal row, gap 4px, padding 4px · 4 children
+        - **Link** · `FRAME` · 92×40 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 60×24 · “Beranda”
+        - **Link** · `FRAME` · 124×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 92×20 · “Tentang Kami”
+        - **Link** · `FRAME` · 178×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 146×20 · “Produk & Pemesanan”
+        - **Link** · `FRAME` · 146×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 114×20 · “Kerja Sama Mitra”
+      - **Container** · `FRAME` · 204×40 · horizontal row, gap 16px · 2 children
+        - **Button - Keranjang Belanja** · `FRAME` · 40×40 · horizontal row · 2 children
+          - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 13×17
+          - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+            - **Text** · `TEXT` · 7×14 · “3”
+        - **VerticalBorder** · `FRAME` · 148×32 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+          - **Profile** · `FRAME` · 32×32
+          - **Container** · `FRAME` · 95×30 · vertical stack · 2 children
+            - **Container** · `FRAME` · 95×14 · vertical stack · 1 children
+              - **Text** · `TEXT` · 95×14 · “Selamat Datang,”
+            - **Container** · `FRAME` · 95×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 53×16 · “Ibu Maya”
+- **Tentang Kami** · `FRAME` · 1280×4202 · vertical stack, gap 40px · 3 children
+  - **Main** · `FRAME` · 1280×3843 · vertical stack, padding 80/0/0/0px · 1 children
+    - **Container** · `FRAME` · 1280×3763 · vertical stack · 6 children
+      - **Section - Editorial Hero & Narrative Header** · `FRAME` · 1280×478 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×398 · horizontal row, gap 100px · 2 children
+          - **Container** · `FRAME` · 700×398 · vertical stack · 4 children
+            - **Overlay:align-flex-start** · `FRAME` · 700×22 · vertical stack · 1 children
+              - **Overlay** · `FRAME` · 226×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+                - **Container** · `FRAME` · 15×9 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 171×14 · vertical stack
+                  - _…and 1 more_
+            - **Heading 1:margin** · `FRAME` · 700×208 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Heading 1** · `FRAME` · 700×192 · vertical stack · 1 children
+                - **Mendedikasikan Cinta pada Seni Roti Tradisional & Presisi Modern.** · `TEXT` · 700×192 · “Mendedikasikan Cinta
+pada Seni Roti Tradisional
+& Presisi Modern.”
+            - **Margin** · `FRAME` · 672×104 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Container** · `FRAME` · 672×88 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti artisan di Nusantara. Kami memadukan presisi fermentasi klasik Prancis dengan kekayaan rempah serta biji-bijian organik dari tanah Indonesia.** · `TEXT` · 672×84 · “Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti”
+            - **Margin** · `FRAME` · 700×64 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Container** · `FRAME` · 700×48 · horizontal row, gap 24px, padding 16/0/0/0px · 2 children
+                - **Background** · `FRAME` · 196×32 · horizontal row, gap 12px, padding 8/16/8/16px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 210×32 · horizontal row, gap 12px, padding 8/16/8/16px
+                  - _…and 2 more_
+          - **Highlight Metric Display** · `FRAME` · 400×282 · vertical stack, gap 16px, padding 24px · 4 children
+            - **Paragraph** · `FRAME` · 352×16 · horizontal row, gap 201.16000366210938px · 2 children
+              - **Text** · `TEXT` · 87×14 · “DEDIKASI RAGI”
+              - **Text** · `TEXT` · 64×16 · “Sejak 2018”
+            - **Horizontal Divider** · `RECTANGLE` · 352×1
+            - **Container** · `FRAME` · 352×104 · horizontal row, gap 16px · 2 children
+              - **Container** · `FRAME` · 168×104 · vertical stack, padding 0/0/20/0px · 2 children
+                - **Paragraph** · `FRAME` · 168×44
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 168×40 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 168×104 · vertical stack · 2 children
+                - **Paragraph** · `FRAME` · 168×44
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 168×60 · vertical stack
+                  - _…and 1 more_
+            - **Background** · `FRAME` · 352×65 · horizontal row, gap 8px, padding 16px · 2 children
+              - **Container** · `FRAME` · 16×21 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×21
+              - **Container** · `FRAME` · 288×33 · vertical stack, padding 0/27.190000534057617/0/0px · 1 children
+                - **Text** · `TEXT` · 261×33 · “Standar higienitas HACCP dan pengolahan
+artisan bersertifikat resmi.”
+      - **Section - Narrative & Visual Split** · `FRAME` · 1280×569 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×489 · vertical stack · 2 children
+          - **Narrative Content** · `FRAME` · 588×470 · vertical stack, padding 0/0/0/16px · 4 children
+            - **Container** · `FRAME` · 572×16 · vertical stack · 1 children
+              - **WARISAN & FILOSOFI** · `TEXT` · 572×16 · “WARISAN & FILOSOFI”
+            - **Heading 2:margin** · `FRAME` · 572×116 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Heading 2** · `FRAME` · 572×100 · vertical stack · 1 children
+                - **Perjalanan Menghormati Tradisi Ragi Liar** · `TEXT` · 572×100 · “Perjalanan Menghormati
+Tradisi Ragi Liar”
+            - **Margin** · `FRAME` · 572×218 · vertical stack, padding 15.0649995803833/0/0/0px · 1 children
+              - **Container** · `FRAME` · 572×203 · vertical stack, gap 7.065000057220459px · 2 children
+                - **Container** · `FRAME` · 572×98 · vertical stack · ×2
+                  - _…and 1 more_
+            - **Micro Quote Box:margin** · `FRAME` · 572×120 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Micro Quote Box** · `FRAME` · 572×104 · horizontal row, gap 16px, padding 16px · 2 children
+                - **Icon** · `VECTOR` · 23×16
+                - **Container** · `FRAME` · 492×72 · vertical stack, padding 0/13.979999542236328/0/0px
+                  - _…and 1 more_
+          - **Visual Composition** · `FRAME` · 588×489 · 2 children
+            - **Overlay+Shadow** · `FRAME` · 588×441 · vertical stack · 1 children
+              - **AB6AXuAtUnoIDTYDXcsGAVxfYms-Gh67QxJ2072BoW-cutmnSkzw1UhE5oXj9e6qdVJJYEyPsYZofC58sEn-SowhxcSuvBZgiVwloO3ZC2iBJqmHaPVdkMe0aSDTkOT467Dm98_O_f0QlUEqpM2ux-0gCSpwnSM9FKA7_5lYD3GJX4vc5Bn2b_QcrdJ2zw_7vUZEKDXR9bCVOS9mAxjUUYgz13zLgTWL8hTE3CT8AE0j_ke1odr2CW66cWGT** · `FRAME` · 588×441
+            - **Overlapping Card** · `FRAME` · 320×93 · vertical stack, gap 4px, padding 16px · 3 children
+              - **Overlapping Card:shadow** · `RECTANGLE` · 320×93
+              - **Container** · `FRAME` · 288×17 · horizontal row, gap 8px · 2 children
+                - **Container** · `FRAME` · 17×17 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 84×14 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 288×40 · vertical stack · 1 children
+                - **Tepung gandum batu giling, garam laut Bali, dan mata air pegunungan murni.** · `TEXT` · 288×40 · “Tepung gandum batu giling, garam laut Bali,
+dan mata air pegunungan murni.”
+      - **Section - Milestone Timeline** · `FRAME` · 1280×471 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×391 · vertical stack · 2 children
+          - **Container** · `FRAME` · 1200×72 · horizontal row, gap 290.2699890136719px · 2 children
+            - **Paragraph** · `FRAME` · 462×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+              - **Text** · `TEXT` · 102×16 · “JEJAK LANGKAH”
+              - **Heading 2 → Tonggak Perjalanan Kami** · `TEXT` · 462×48 · “Tonggak Perjalanan Kami”
+            - **Container** · `FRAME` · 448×48 · vertical stack, padding 0/6.800000190734863/0/0px · 1 children
+              - **Text** · `TEXT` · 441×48 · “Dari sebuah oven dapur rumahan sederhana berkapasitas 6 roti
+hingga menjadi pion”
+          - **Timeline Bento Track:margin** · `FRAME` · 1200×319 · vertical stack, padding 40/0/0/0px · 1 children
+            - **Timeline Bento Track** · `FRAME` · 1200×279 · horizontal row, gap 24px · 3 children
+              - **2018 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+              - **2021 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+              - **2024 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+      - **Section - Core Values** · `FRAME` · 1280×524 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×444 · vertical stack, gap 40px · 2 children
+          - **Container** · `FRAME` · 672×128 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+            - **Text** · `TEXT` · 173×16 · “PRINSIP TANPA KOMPROMI”
+            - **Heading 2** · `FRAME` · 672×51 · vertical stack, padding 2.5/0/0/0px · 1 children
+              - **Text** · `TEXT` · 420×48 · “Nilai Utama Rasa Karya”
+            - **Container** · `FRAME` · 672×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 664×48 · “Pondasi moral dan etika kerja yang membimbing setiap sendok tepung dan setiap me”
+          - **Container** · `FRAME` · 1200×276 · horizontal row, gap 24px · 3 children
+            - **Value 1** · `FRAME` · 384×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 18×18 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 258×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Bahan Baku Murni Tanpa Kimia** · `TEXT` · 258×26 · “Bahan Baku Murni Tanpa Kimia”
+              - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/8.479999542236328/0/0px · 1 children
+                - **Text** · `TEXT` · 328×98 · “Menolak keras penggunaan pengembang
+artifisial, pemutih tepung (bleaching agent)”
+            - **Value 2** · `FRAME` · 384×276 · vertical stack, padding 24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 20×22 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 237×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Kebersihan Standar HACCP** · `TEXT` · 237×26 · “Kebersihan Standar HACCP”
+              - **Margin** · `FRAME` · 336×138 · vertical stack, padding 16/35.52000045776367/0/0px · 1 children
+                - **Text** · `TEXT` · 300×122 · “Menerapkan disiplin ketat sanitasi dapur,
+monitoring rantai dingin bahan, dan ru”
+            - **Value 3** · `FRAME` · 384×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 24×17 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 240×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Pemberdayaan Petani Lokal** · `TEXT` · 240×26 · “Pemberdayaan Petani Lokal”
+              - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/26.229999542236328/0/0px · 1 children
+                - **Text** · `TEXT` · 310×98 · “Bekerja sama langsung dengan petani lokal
+untuk pasokan rempah alami, kacang men”
+      - **Section - Facilities Gallery & Certifications** · `FRAME` · 1280×1385 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×1305 · vertical stack, gap 40px · 3 children
+          - **Container** · `FRAME` · 1200×72 · horizontal row, gap 193.5500030517578px · 2 children
+            - **Paragraph** · `FRAME` · 494×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+              - **Text** · `TEXT` · 136×16 · “DAPUR & TEKNOLOGI”
+              - **Heading 2 → Fasilitas Modern & Higienis** · `TEXT` · 494×48 · “Fasilitas Modern & Higienis”
+            - **Container** · `FRAME` · 512×48 · vertical stack, padding 0/45.15999984741211/0/0px · 1 children
+              - **Text** · `TEXT` · 467×48 · “Perpaduan instrumen dapur berteknologi tinggi dari Eropa dengan
+kehangatan keram”
+          - **Facility Grid** · `FRAME` · 1200×1059 · vertical stack · 4 children
+            - **Card 1** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuCMKJITHmvz_Y0wOu_Rl1Du9uxC7v1G77-23cF5yM_pO5DQIJR-nhgfJxTZE4XujXn5n8GmJtWQ7-0VlfiixHAcr0DbctagAjL9OZ77q2QP4f9UN9dFO6FjKD75W10T0Ramsufkb-d_I9hrMcZkRgYBxgiM0cU-hh63eawD1GyZTv-BG0HePSEWpg4mCliUsl41WONW32OqjAHHNkjkpluq8TuaWGCTwVUUA1-JBzMp_5Beq0lIvMmF** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 84×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 2** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuDnewbvmwbjNFkf46tvEj3wxYXgFkCS8IuPxIkOV14BZ93ruSV5EcNF4HT1GBjIfy4lSJ-g0a8z3cdPUyTrN5JUcFrQlZwKHGIfde8iUcl7DpykDg4Cp-MHQLi6xzs5pUtLR3zpXduyyO_6PhM0jt-nBUNYJi98fR4KRaLjQIJZOumOWB7C9JUxf-I16xsyc3QJxnVRLeh4lzV1lLrlGzQX8XNxJLIFFasIrxDjabxj3jmwMw2HSsnk** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 94×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 3** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuC76veOmGqtZBq7k9G0K4bk5zwJy7dzdt3W0sZrmW3EngDyPDhYRvjf4WdSciloKFHyk1r_0oombFQdsGnUqyxhA4dui5SBsQY4KhlVAq2cDxMCC8GAjaABZGtjmrWywbF1sdpK5DnBH-umWCPleWMn8ZI4Ho28Hw4UfJOXLHAk7j4ahFksa1kudMFL_1PFB5S3lNmAsXzPiTcozRecgxLHiCiZa0ZMsE0tb7HyIh-Bv-Ic9VLtBdy_** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 133×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 4** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuBbngLverwm__uiUGQCIOMjqv0upb9bT94p4aweVoJPqPVSteXKc-dHHJPgtKpv0toTAMYVNeZoxtNYO9Xv6Che5Fv3dJYpplz3PYf2CBmWR_Z1P_Z-sMXqZv4Yqa6Rr5vPvzQ7oQOEwgNWufdxNMORXG_R18i12oaK8QUMqYoFGXgEmMayG1ln2jtOmaN6t-7ASpk4faMBFXkI9kXYu43jw11LUlq29g6mjFpudO5wY5migWQHB8UA** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 125×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+          - **Trust Badges & Formal Certifications Strip** · `FRAME` · 1200×94 · horizontal row, gap 100.66999816894531px, padding 24px · 2 children
+            - **Container** · `FRAME` · 492×40 · vertical stack · 2 children
+              - **Container** · `FRAME` · 492×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 207×16 · “JAMINAN KUALITAS & LEGALITAS”
+              - **Container** · `FRAME` · 492×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 492×24 · “Kepatuhan Penuh Terhadap Standar Higienitas Nasional & Global”
+            - **Container** · `FRAME` · 536×46 · horizontal row, gap 24px · 3 children
+              - **Halal Indonesia** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×30 · vertical stack
+                  - _…and 2 more_
+              - **BPOM RI** · `FRAME` · 165×46 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 109×30 · vertical stack
+                  - _…and 2 more_
+              - **ISO 22000** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×30 · vertical stack
+                  - _…and 2 more_
+      - **Section - Interactive Bakery Journey Call to Action** · `FRAME` · 1280×336 · vertical stack, padding 40px · 1 children
+        - **Background+Shadow** · `FRAME` · 1200×256 · horizontal row, gap 117.02999877929688px, padding 40px · 3 children
+          - **Subtle Decorative Background Shape** · `RECTANGLE` · 256×256
+          - **Container** · `FRAME` · 570×176 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+            - **Text** · `TEXT` · 286×16 · “INGIN MERASAKAN KEHANGATAN ROTI KAMI?”
+            - **Heading 3** · `FRAME` · 570×99 · vertical stack, padding 2.5/0/0/0px · 1 children
+              - **Text** · `TEXT` · 479×96 · “Kunjungi Outlet Kami atau
+Pesan Batch Pagi Ini.”
+            - **Container** · `FRAME` · 570×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 570×48 · “Setiap fajar kami memanggang batch terbatas agar Anda selalu menikmati aroma
+dan”
+          - **Container** · `FRAME` · 427×36 · horizontal row, gap 8px · 2 children
+            - **Link** · `FRAME` · 213×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 165×20 · “Lihat Menu & Pre-Order”
+            - **Link** · `FRAME` · 206×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 158×20 · “Kemitraan Hotel & Kafe”
+  - **Footer** · `FRAME` · 1280×318 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×318 · vertical stack, gap 39.9900016784668px, padding 40px · 2 children
+      - **Container** · `FRAME` · 1200×153 · horizontal row, gap 24px · 4 children
+        - **Container** · `FRAME` · 282×151 · vertical stack, gap 15.100000381469727px, padding 0/0/2.009999990463257/0px · 3 children
+          - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+            - **Logo Rasa Karya** · `FRAME` · 32×32
+            - **Container** · `FRAME` · 94×26 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+            - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 282×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+          - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/21.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+          - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/45.380001068115234/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Jadwal Panggang & Toko** · `TEXT` · 282×24 · “Jadwal Panggang & Toko”
+          - **Container** · `FRAME` · 282×68 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 74.2699966430664px · 2 children
+              - **Text** · `TEXT` · 95×20 · “Selasa - Jumat:”
+              - **Text** · `TEXT` · 113×20 · “07.00 - 18.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 69.62999725341797px · 2 children
+              - **Text** · `TEXT` · 101×20 · “Sabtu - Minggu:”
+              - **Text** · `TEXT` · 112×20 · “06.30 - 16.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 77.75px · 2 children
+              - **Text** · `TEXT` · 39×20 · “Senin:”
+              - **Text** · `TEXT` · 165×20 · “Tutup Pemeliharaan Starter”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/25.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+          - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+              - **Icon** · `VECTOR` · 12×15
+              - **Text** · `TEXT` · 232×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 105×20 · “+62 21 3192 4890”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×12
+              - **Text** · `TEXT` · 113×20 · “halo@rasakarya.id”
+      - **HorizontalBorder** · `FRAME` · 1200×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+  - **Header** · `FRAME` · 1280×80 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×80 · horizontal row, gap 138.89999389648438px, padding 0/39.9900016784668/0/40px · 3 children
+      - **Container** · `FRAME` · 158×40 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 114×40 · vertical stack · 2 children
+          - **Container** · `FRAME` · 114×26 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 114×14 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+      - **Nav** · `FRAME` · 561×48 · horizontal row, gap 4px, padding 4px · 4 children
+        - **Link** · `FRAME` · 90×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 58×20 · “Beranda”
+        - **Link** · `FRAME` · 127×40 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 95×24 · “Tentang Kami”
+        - **Link** · `FRAME` · 178×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 146×20 · “Produk & Pemesanan”
+        - **Link** · `FRAME` · 146×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 114×20 · “Kerja Sama Mitra”
+      - **Container** · `FRAME` · 204×40 · horizontal row, gap 16px · 2 children
+        - **Button - Keranjang Belanja** · `FRAME` · 40×40 · horizontal row · 2 children
+          - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 13×17
+          - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+            - **Text** · `TEXT` · 7×14 · “3”
+        - **VerticalBorder** · `FRAME` · 148×32 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+          - **Profile** · `FRAME` · 32×32
+          - **Container** · `FRAME` · 95×30 · vertical stack · 2 children
+            - **Container** · `FRAME` · 95×14 · vertical stack · 1 children
+              - **Text** · `TEXT` · 95×14 · “Selamat Datang,”
+            - **Container** · `FRAME` · 95×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 53×16 · “Ibu Maya”
+- **Tentang Kami** · `FRAME` · 1280×4202 · vertical stack, gap 40px · 3 children
+  - **Main** · `FRAME` · 1280×3843 · vertical stack, padding 80/0/0/0px · 1 children
+    - **Container** · `FRAME` · 1280×3763 · vertical stack · 6 children
+      - **Section - Editorial Hero & Narrative Header** · `FRAME` · 1280×478 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×398 · horizontal row, gap 100px · 2 children
+          - **Container** · `FRAME` · 700×398 · vertical stack · 4 children
+            - **Overlay:align-flex-start** · `FRAME` · 700×22 · vertical stack · 1 children
+              - **Overlay** · `FRAME` · 226×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+                - **Container** · `FRAME` · 15×9 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 171×14 · vertical stack
+                  - _…and 1 more_
+            - **Heading 1:margin** · `FRAME` · 700×208 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Heading 1** · `FRAME` · 700×192 · vertical stack · 1 children
+                - **Mendedikasikan Cinta pada Seni Roti Tradisional & Presisi Modern.** · `TEXT` · 700×192 · “Mendedikasikan Cinta
+pada Seni Roti Tradisional
+& Presisi Modern.”
+            - **Margin** · `FRAME` · 672×104 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Container** · `FRAME` · 672×88 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti artisan di Nusantara. Kami memadukan presisi fermentasi klasik Prancis dengan kekayaan rempah serta biji-bijian organik dari tanah Indonesia.** · `TEXT` · 672×84 · “Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti”
+            - **Margin** · `FRAME` · 700×64 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Container** · `FRAME` · 700×48 · horizontal row, gap 24px, padding 16/0/0/0px · 2 children
+                - **Background** · `FRAME` · 196×32 · horizontal row, gap 12px, padding 8/16/8/16px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 210×32 · horizontal row, gap 12px, padding 8/16/8/16px
+                  - _…and 2 more_
+          - **Highlight Metric Display** · `FRAME` · 400×282 · vertical stack, gap 16px, padding 24px · 4 children
+            - **Paragraph** · `FRAME` · 352×16 · horizontal row, gap 201.16000366210938px · 2 children
+              - **Text** · `TEXT` · 87×14 · “DEDIKASI RAGI”
+              - **Text** · `TEXT` · 64×16 · “Sejak 2018”
+            - **Horizontal Divider** · `RECTANGLE` · 352×1
+            - **Container** · `FRAME` · 352×104 · horizontal row, gap 16px · 2 children
+              - **Container** · `FRAME` · 168×104 · vertical stack, padding 0/0/20/0px · 2 children
+                - **Paragraph** · `FRAME` · 168×44
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 168×40 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 168×104 · vertical stack · 2 children
+                - **Paragraph** · `FRAME` · 168×44
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 168×60 · vertical stack
+                  - _…and 1 more_
+            - **Background** · `FRAME` · 352×65 · horizontal row, gap 8px, padding 16px · 2 children
+              - **Container** · `FRAME` · 16×21 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×21
+              - **Container** · `FRAME` · 288×33 · vertical stack, padding 0/27.190000534057617/0/0px · 1 children
+                - **Text** · `TEXT` · 261×33 · “Standar higienitas HACCP dan pengolahan
+artisan bersertifikat resmi.”
+      - **Section - Narrative & Visual Split** · `FRAME` · 1280×569 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×489 · vertical stack · 2 children
+          - **Narrative Content** · `FRAME` · 588×470 · vertical stack, padding 0/0/0/16px · 4 children
+            - **Container** · `FRAME` · 572×16 · vertical stack · 1 children
+              - **WARISAN & FILOSOFI** · `TEXT` · 572×16 · “WARISAN & FILOSOFI”
+            - **Heading 2:margin** · `FRAME` · 572×116 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Heading 2** · `FRAME` · 572×100 · vertical stack · 1 children
+                - **Perjalanan Menghormati Tradisi Ragi Liar** · `TEXT` · 572×100 · “Perjalanan Menghormati
+Tradisi Ragi Liar”
+            - **Margin** · `FRAME` · 572×218 · vertical stack, padding 15.0649995803833/0/0/0px · 1 children
+              - **Container** · `FRAME` · 572×203 · vertical stack, gap 7.065000057220459px · 2 children
+                - **Container** · `FRAME` · 572×98 · vertical stack · ×2
+                  - _…and 1 more_
+            - **Micro Quote Box:margin** · `FRAME` · 572×120 · vertical stack, padding 16/0/0/0px · 1 children
+              - **Micro Quote Box** · `FRAME` · 572×104 · horizontal row, gap 16px, padding 16px · 2 children
+                - **Icon** · `VECTOR` · 23×16
+                - **Container** · `FRAME` · 492×72 · vertical stack, padding 0/13.979999542236328/0/0px
+                  - _…and 1 more_
+          - **Visual Composition** · `FRAME` · 588×489 · 2 children
+            - **Overlay+Shadow** · `FRAME` · 588×441 · vertical stack · 1 children
+              - **AB6AXuAtUnoIDTYDXcsGAVxfYms-Gh67QxJ2072BoW-cutmnSkzw1UhE5oXj9e6qdVJJYEyPsYZofC58sEn-SowhxcSuvBZgiVwloO3ZC2iBJqmHaPVdkMe0aSDTkOT467Dm98_O_f0QlUEqpM2ux-0gCSpwnSM9FKA7_5lYD3GJX4vc5Bn2b_QcrdJ2zw_7vUZEKDXR9bCVOS9mAxjUUYgz13zLgTWL8hTE3CT8AE0j_ke1odr2CW66cWGT** · `FRAME` · 588×441
+            - **Overlapping Card** · `FRAME` · 320×93 · vertical stack, gap 4px, padding 16px · 3 children
+              - **Overlapping Card:shadow** · `RECTANGLE` · 320×93
+              - **Container** · `FRAME` · 288×17 · horizontal row, gap 8px · 2 children
+                - **Container** · `FRAME` · 17×17 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 84×14 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 288×40 · vertical stack · 1 children
+                - **Tepung gandum batu giling, garam laut Bali, dan mata air pegunungan murni.** · `TEXT` · 288×40 · “Tepung gandum batu giling, garam laut Bali,
+dan mata air pegunungan murni.”
+      - **Section - Milestone Timeline** · `FRAME` · 1280×471 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×391 · vertical stack · 2 children
+          - **Container** · `FRAME` · 1200×72 · horizontal row, gap 290.2699890136719px · 2 children
+            - **Paragraph** · `FRAME` · 462×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+              - **Text** · `TEXT` · 102×16 · “JEJAK LANGKAH”
+              - **Heading 2 → Tonggak Perjalanan Kami** · `TEXT` · 462×48 · “Tonggak Perjalanan Kami”
+            - **Container** · `FRAME` · 448×48 · vertical stack, padding 0/6.800000190734863/0/0px · 1 children
+              - **Text** · `TEXT` · 441×48 · “Dari sebuah oven dapur rumahan sederhana berkapasitas 6 roti
+hingga menjadi pion”
+          - **Timeline Bento Track:margin** · `FRAME` · 1200×319 · vertical stack, padding 40/0/0/0px · 1 children
+            - **Timeline Bento Track** · `FRAME` · 1200×279 · horizontal row, gap 24px · 3 children
+              - **2018 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+              - **2021 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+              - **2024 Card** · `FRAME` · 384×279 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 336×191 · vertical stack, gap -0.8999999761581421px
+                  - _…and 3 more_
+                - **Container** · `FRAME` · 336×40 · horizontal row, gap 8px, padding 24/0/0/0px
+                  - _…and 2 more_
+      - **Section - Core Values** · `FRAME` · 1280×524 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×444 · vertical stack, gap 40px · 2 children
+          - **Container** · `FRAME` · 672×128 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+            - **Text** · `TEXT` · 173×16 · “PRINSIP TANPA KOMPROMI”
+            - **Heading 2** · `FRAME` · 672×51 · vertical stack, padding 2.5/0/0/0px · 1 children
+              - **Text** · `TEXT` · 420×48 · “Nilai Utama Rasa Karya”
+            - **Container** · `FRAME` · 672×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 664×48 · “Pondasi moral dan etika kerja yang membimbing setiap sendok tepung dan setiap me”
+          - **Container** · `FRAME` · 1200×276 · horizontal row, gap 24px · 3 children
+            - **Value 1** · `FRAME` · 384×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 18×18 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 258×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Bahan Baku Murni Tanpa Kimia** · `TEXT` · 258×26 · “Bahan Baku Murni Tanpa Kimia”
+              - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/8.479999542236328/0/0px · 1 children
+                - **Text** · `TEXT` · 328×98 · “Menolak keras penggunaan pengembang
+artifisial, pemutih tepung (bleaching agent)”
+            - **Value 2** · `FRAME` · 384×276 · vertical stack, padding 24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 20×22 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 237×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Kebersihan Standar HACCP** · `TEXT` · 237×26 · “Kebersihan Standar HACCP”
+              - **Margin** · `FRAME` · 336×138 · vertical stack, padding 16/35.52000045776367/0/0px · 1 children
+                - **Text** · `TEXT` · 300×122 · “Menerapkan disiplin ketat sanitasi dapur,
+monitoring rantai dingin bahan, dan ru”
+            - **Value 3** · `FRAME` · 384×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+              - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+                - **Container** · `FRAME` · 24×17 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 240×42 · vertical stack, padding 16/0/0/0px · 1 children
+                - **Heading 3 → Pemberdayaan Petani Lokal** · `TEXT` · 240×26 · “Pemberdayaan Petani Lokal”
+              - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/26.229999542236328/0/0px · 1 children
+                - **Text** · `TEXT` · 310×98 · “Bekerja sama langsung dengan petani lokal
+untuk pasokan rempah alami, kacang men”
+      - **Section - Facilities Gallery & Certifications** · `FRAME` · 1280×1385 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×1305 · vertical stack, gap 40px · 3 children
+          - **Container** · `FRAME` · 1200×72 · horizontal row, gap 193.5500030517578px · 2 children
+            - **Paragraph** · `FRAME` · 494×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+              - **Text** · `TEXT` · 136×16 · “DAPUR & TEKNOLOGI”
+              - **Heading 2 → Fasilitas Modern & Higienis** · `TEXT` · 494×48 · “Fasilitas Modern & Higienis”
+            - **Container** · `FRAME` · 512×48 · vertical stack, padding 0/45.15999984741211/0/0px · 1 children
+              - **Text** · `TEXT` · 467×48 · “Perpaduan instrumen dapur berteknologi tinggi dari Eropa dengan
+kehangatan keram”
+          - **Facility Grid** · `FRAME` · 1200×1059 · vertical stack · 4 children
+            - **Card 1** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuCMKJITHmvz_Y0wOu_Rl1Du9uxC7v1G77-23cF5yM_pO5DQIJR-nhgfJxTZE4XujXn5n8GmJtWQ7-0VlfiixHAcr0DbctagAjL9OZ77q2QP4f9UN9dFO6FjKD75W10T0Ramsufkb-d_I9hrMcZkRgYBxgiM0cU-hh63eawD1GyZTv-BG0HePSEWpg4mCliUsl41WONW32OqjAHHNkjkpluq8TuaWGCTwVUUA1-JBzMp_5Beq0lIvMmF** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 84×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 2** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuDnewbvmwbjNFkf46tvEj3wxYXgFkCS8IuPxIkOV14BZ93ruSV5EcNF4HT1GBjIfy4lSJ-g0a8z3cdPUyTrN5JUcFrQlZwKHGIfde8iUcl7DpykDg4Cp-MHQLi6xzs5pUtLR3zpXduyyO_6PhM0jt-nBUNYJi98fR4KRaLjQIJZOumOWB7C9JUxf-I16xsyc3QJxnVRLeh4lzV1lLrlGzQX8XNxJLIFFasIrxDjabxj3jmwMw2HSsnk** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 94×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 3** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuC76veOmGqtZBq7k9G0K4bk5zwJy7dzdt3W0sZrmW3EngDyPDhYRvjf4WdSciloKFHyk1r_0oombFQdsGnUqyxhA4dui5SBsQY4KhlVAq2cDxMCC8GAjaABZGtjmrWywbF1sdpK5DnBH-umWCPleWMn8ZI4Ho28Hw4UfJOXLHAk7j4ahFksa1kudMFL_1PFB5S3lNmAsXzPiTcozRecgxLHiCiZa0ZMsE0tb7HyIh-Bv-Ic9VLtBdy_** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 133×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+            - **Card 4** · `FRAME` · 588×518 · vertical stack · 2 children
+              - **Container** · `FRAME` · 588×368 · vertical stack · 2 children
+                - **AB6AXuBbngLverwm__uiUGQCIOMjqv0upb9bT94p4aweVoJPqPVSteXKc-dHHJPgtKpv0toTAMYVNeZoxtNYO9Xv6Che5Fv3dJYpplz3PYf2CBmWR_Z1P_Z-sMXqZv4Yqa6Rr5vPvzQ7oQOEwgNWufdxNMORXG_R18i12oaK8QUMqYoFGXgEmMayG1ln2jtOmaN6t-7ASpk4faMBFXkI9kXYu43jw11LUlq29g6mjFpudO5wY5migWQHB8UA** · `FRAME` · 588×368
+                - **Overlay+OverlayBlur** · `FRAME` · 125×22 · vertical stack, padding 4/8/4/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 588×150 · vertical stack, padding 24px · 2 children
+                - **Heading 3** · `FRAME` · 540×26 · vertical stack
+                  - _…and 1 more_
+                - **Margin** · `FRAME` · 540×76 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+          - **Trust Badges & Formal Certifications Strip** · `FRAME` · 1200×94 · horizontal row, gap 100.66999816894531px, padding 24px · 2 children
+            - **Container** · `FRAME` · 492×40 · vertical stack · 2 children
+              - **Container** · `FRAME` · 492×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 207×16 · “JAMINAN KUALITAS & LEGALITAS”
+              - **Container** · `FRAME` · 492×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 492×24 · “Kepatuhan Penuh Terhadap Standar Higienitas Nasional & Global”
+            - **Container** · `FRAME` · 536×46 · horizontal row, gap 24px · 3 children
+              - **Halal Indonesia** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×30 · vertical stack
+                  - _…and 2 more_
+              - **BPOM RI** · `FRAME` · 165×46 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 109×30 · vertical stack
+                  - _…and 2 more_
+              - **ISO 22000** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 16×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×30 · vertical stack
+                  - _…and 2 more_
+      - **Section - Interactive Bakery Journey Call to Action** · `FRAME` · 1280×336 · vertical stack, padding 40px · 1 children
+        - **Background+Shadow** · `FRAME` · 1200×256 · horizontal row, gap 117.02999877929688px, padding 40px · 3 children
+          - **Subtle Decorative Background Shape** · `RECTANGLE` · 256×256
+          - **Container** · `FRAME` · 570×176 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+            - **Text** · `TEXT` · 286×16 · “INGIN MERASAKAN KEHANGATAN ROTI KAMI?”
+            - **Heading 3** · `FRAME` · 570×99 · vertical stack, padding 2.5/0/0/0px · 1 children
+              - **Text** · `TEXT` · 479×96 · “Kunjungi Outlet Kami atau
+Pesan Batch Pagi Ini.”
+            - **Container** · `FRAME` · 570×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 570×48 · “Setiap fajar kami memanggang batch terbatas agar Anda selalu menikmati aroma
+dan”
+          - **Container** · `FRAME` · 427×36 · horizontal row, gap 8px · 2 children
+            - **Link** · `FRAME` · 213×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 165×20 · “Lihat Menu & Pre-Order”
+            - **Link** · `FRAME` · 206×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 158×20 · “Kemitraan Hotel & Kafe”
+  - **Footer** · `FRAME` · 1280×318 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×318 · vertical stack, gap 39.9900016784668px, padding 40px · 2 children
+      - **Container** · `FRAME` · 1200×153 · horizontal row, gap 24px · 4 children
+        - **Container** · `FRAME` · 282×151 · vertical stack, gap 15.100000381469727px, padding 0/0/2.009999990463257/0px · 3 children
+          - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+            - **Logo Rasa Karya** · `FRAME` · 32×32
+            - **Container** · `FRAME` · 94×26 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+            - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 282×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+          - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/21.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+          - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/45.380001068115234/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Jadwal Panggang & Toko** · `TEXT` · 282×24 · “Jadwal Panggang & Toko”
+          - **Container** · `FRAME` · 282×68 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 74.2699966430664px · 2 children
+              - **Text** · `TEXT` · 95×20 · “Selasa - Jumat:”
+              - **Text** · `TEXT` · 113×20 · “07.00 - 18.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 69.62999725341797px · 2 children
+              - **Text** · `TEXT` · 101×20 · “Sabtu - Minggu:”
+              - **Text** · `TEXT` · 112×20 · “06.30 - 16.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 77.75px · 2 children
+              - **Text** · `TEXT` · 39×20 · “Senin:”
+              - **Text** · `TEXT` · 165×20 · “Tutup Pemeliharaan Starter”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/25.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+          - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+              - **Icon** · `VECTOR` · 12×15
+              - **Text** · `TEXT` · 232×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 105×20 · “+62 21 3192 4890”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×12
+              - **Text** · `TEXT` · 113×20 · “halo@rasakarya.id”
+      - **HorizontalBorder** · `FRAME` · 1200×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+  - **Header** · `FRAME` · 1280×80 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×80 · horizontal row, gap 138.89999389648438px, padding 0/39.9900016784668/0/40px · 3 children
+      - **Container** · `FRAME` · 158×40 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 114×40 · vertical stack · 2 children
+          - **Container** · `FRAME` · 114×26 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 114×14 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+      - **Nav** · `FRAME` · 561×48 · horizontal row, gap 4px, padding 4px · 4 children
+        - **Link** · `FRAME` · 90×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 58×20 · “Beranda”
+        - **Link** · `FRAME` · 127×40 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 95×24 · “Tentang Kami”
+        - **Link** · `FRAME` · 178×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 146×20 · “Produk & Pemesanan”
+        - **Link** · `FRAME` · 146×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 114×20 · “Kerja Sama Mitra”
+      - **Container** · `FRAME` · 204×40 · horizontal row, gap 16px · 2 children
+        - **Button - Keranjang Belanja** · `FRAME` · 40×40 · horizontal row · 2 children
+          - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 13×17
+          - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+            - **Text** · `TEXT` · 7×14 · “3”
+        - **VerticalBorder** · `FRAME` · 148×32 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+          - **Profile** · `FRAME` · 32×32
+          - **Container** · `FRAME` · 95×30 · vertical stack · 2 children
+            - **Container** · `FRAME` · 95×14 · vertical stack · 1 children
+              - **Text** · `TEXT` · 95×14 · “Selamat Datang,”
+            - **Container** · `FRAME` · 95×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 53×16 · “Ibu Maya”
+- **Group 26** · `GROUP` · 1280×3317 · 1 children
+  - **Produk & Pemesanan - Rasa Karya** · `FRAME` · 1280×3317 · vertical stack, gap 40px · 4 children
+    - **Main** · `FRAME` · 1280×2959 · vertical stack, padding 80/0/0/0px · 1 children
+      - **Container** · `FRAME` · 1280×2879 · vertical stack · 4 children
+        - **Section 1: Page Header with Editorial Atmosphere** · `FRAME` · 1280×195 · vertical stack, padding 40px · 2 children
+          - **Overlay+Blur** · `RECTANGLE` · 384×384
+          - **Container** · `FRAME` · 1200×115 · horizontal row, gap 209.77000427246094px · 1 children
+            - **Container** · `FRAME` · 625×115 · vertical stack, gap 8px, padding 3/0/0/0px · 2 children
+              - **Heading 1** · `FRAME` · 625×48 · vertical stack · 1 children
+                - **Text** · `TEXT` · 394×48 · “Produk & Pemesanan”
+              - **Container** · `FRAME` · 625×56 · vertical stack · 1 children
+                - **Pilih roti segar favorit Anda hari ini atau jadwalkan pemesanan khusus untuk acara istimewa. Dipanggang berkala dengan fermentasi lambat 36 jam.** · `TEXT` · 625×56 · “Pilih roti segar favorit Anda hari ini atau jadwalkan pemesanan khusus untuk
+aca”
+        - **Section 2: Two Hero Master Gateway Cards (Highlight Wireframe)** · `FRAME` · 1280×612 · vertical stack, padding 40px · 1 children
+          - **Container** · `FRAME` · 1200×532 · vertical stack · 2 children
+            - **Card A: Katalog Roti & Produk Segar** · `FRAME` · 690×532 · vertical stack · 2 children
+              - **Container** · `FRAME` · 690×320 · vertical stack · 3 children
+                - **AB6AXuDaZbXhD2kJGNhFJyr3kSJVTH1Etvp3UHhMUI_YT6edHC9trC7h12Zfdwzppm7D-fKTh-E_QQMHCQZGi_j0iIBr7U_grwV_blyFcCjmc2hhhTxNXK6U6rA5MlQGDpx8hfmu0SMOkv9CPq6YEAL7ninFb567cfxDbyxIv7CjpoE5cBk84MmnMOLsQhlq6bRewrUeAB0kWcClzOco9v7xF3VezyZ5eLvkFK9srIj3fWYcZAFbyaZNhakA** · `FRAME` · 690×320
+                - **Gradient** · `RECTANGLE` · 690×320
+                - **Container** · `FRAME` · 642×104 · vertical stack, gap 3.5px, padding 6.5/0/0/0px
+                  - _…and 3 more_
+              - **Background** · `FRAME` · 690×212 · vertical stack, gap 44px, padding 24px · 2 children
+                - **Container** · `FRAME` · 642×52 · vertical stack, gap 8px
+                  - _…and 2 more_
+                - **Margin** · `FRAME` · 642×68 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Card B: Layanan Kunjungan & Pemesanan Paket Khusus** · `FRAME` · 486×532 · vertical stack · 2 children
+              - **Container** · `FRAME` · 486×320 · vertical stack · 3 children
+                - **AB6AXuDWHMRK1PAfDHSXy8SF82ssWecIhuv6qrv0jcwLc4agI14XtPlumnipg2TiWPBbNjcePPX3dQug2MasDfQ-1TWcA2OrQ8tH7BKpDpq2gyNuouMab588SrtbElVbQ1nqGB-Dif7pxP0N68vy3rfkyoNqNPeLEgT66D_LZoOt-nwI2utBzTC_agVeMzgvlUtbwt5tbrpZHK0rfZVy0vBvJj5Ngish7GFRui4FH1h6VSiQysKNVNMqX5TC** · `FRAME` · 486×320
+                - **Gradient** · `RECTANGLE` · 486×320
+                - **Container** · `FRAME` · 438×140 · vertical stack, gap 3.5px, padding 6.5/0/0/0px
+                  - _…and 3 more_
+              - **Background** · `FRAME` · 486×212 · vertical stack, padding 24px · 2 children
+                - **Container** · `FRAME` · 438×84 · horizontal row, gap 8px
+                  - _…and 2 more_
+                - **Margin** · `FRAME` · 438×80 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+        - **Section 3: Interactive Product Catalog Grid** · `FRAME` · 1280×1192 · vertical stack, gap 24px, padding 24/40/24/40px · 2 children
+          - **Container** · `FRAME` · 1200×60 · horizontal row, gap 170.9199981689453px · 2 children
+            - **Container** · `FRAME` · 622×60 · vertical stack · 2 children
+              - **Heading 3** · `FRAME` · 622×36 · vertical stack · 1 children
+                - **Text** · `TEXT` · 331×36 · “Koleksi Roti Pilihan Hari Ini”
+              - **Container** · `FRAME` · 622×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 622×24 · “Stok dipanggang terbatas demi menjaga kesempurnaan kerak dan kelembapan adonan.”
+            - **Background** · `FRAME` · 407×34 · horizontal row, gap 8px, padding 6px · 5 children
+              - **Container** · `FRAME` · 96×22 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 72×14 · “Filter Cepat:”
+              - **Button** · `FRAME` · 63×22 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 39×14 · “Semua”
+              - **Button** · `FRAME` · 87×22 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 63×14 · “Sourdough”
+              - **Button** · `FRAME` · 60×22 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 36×14 · “Pastry”
+              - **Button** · `FRAME` · 57×22 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 33×14 · “Manis”
+          - **Product Cards Grid (Responsive 12-col layout)** · `FRAME` · 1200×1060 · vertical stack · 6 children
+            - **Item 1: Crispy Sourdough Boule** · `FRAME` · 384×496 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuCySliuqExD9w4fS_mZMmSqMoF8UKhKwHPS4xg9P7v5FferzGpyQD2FUi7jau2LkH72IrPmsTP4CzZzGfYLCuE8aDJifD_17nBz1uqU5P3_5_DchX5BP7x-fBYAv2twyFcPmlgsBVchZYLXiz8oM5yIhZ13kLJy78eHjHkSAEcI-IWkmqUJYfLgHe4opRcyHHl3uSJ9K6H6WfBuMn4o76S4i06ip27Besnz0cBiqVSZCieITV7VULTK** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 108×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Overlay** · `FRAME` · 65×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×208 · vertical stack, gap 20px, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×96 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×60 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Item 2: Almond Croissant** · `FRAME` · 384×496 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuCaXI_-T_h4grI0MpsmletQfV_00arXvs53eMptsVcYSNGTNdA2smsxbngFAyW4-R7aUjf8XKPcXbdX94iHOy6BijSs_8oUS2uuAVvqGuXaAYPhLjZKwY89EV77ED5maLh_Kj-h-4aWv57JAvHIqVr9jLO_tKBS6RV1wm2hqjwzOftfcwO_6t8MnOfwzrVp9SMAHl6fR7lMohB6v-Dn0b_vybIgJL1O2gst2ifEZmYbc5I11sMEX5ip** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 125×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 77×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×208 · vertical stack, gap 20px, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×96 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×60 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Item 3: Roti Cokelat Belgia Lumer** · `FRAME` · 384×496 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuDlCoORw9QeJZM7qrRrfDZ6N3U4BgrEkFP1_7mymuoLipTQSO8l7LwzwlvOAYGCO0TfP0YGL_Gu51l48vFkcgygXP85QDYKTr2QclFsTOAP64q2KfRMjJWB9kjU7bNqDRXphUWtKs0aohFSfGGVxh0cNjXTbcsexNKmcDd-FK-hMlkV9ajDUcmssHJzarnvLMX7FRjTjDGTjL1fYZ-WXXfeBc222XTwh2p9EOLI8_7UEERMpdsX-caQ** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 150×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Overlay** · `FRAME` · 77×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×208 · vertical stack, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×116 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×60 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Item 4: Brioche Bun Gurih** · `FRAME` · 384×538 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuBCTWjKeRd8NkxMnVys2g4YWad3kmwVVPmhkCk4WxcF3fSeUGzg1ZggFkatjLI-MGlPKLg6Lh_1F6ICOE17Sa2hbBhywOsHBhVChYFbj6byWwslxPo6SjXHHIvDsXDLI25eH-KZLUbVEmHoIY7BoknSjonXRbiFnFTHrvJsztJw26xUp_FaikXSBWV7SVMJTbHpBbYvqC3eu51kL40JjNEggsgp0lzln8a_nt5IdhB0-2-2gVPUbxdc** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 135×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 61×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×250 · vertical stack, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×142 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×76 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Item 5: Garlic Cheese Bread** · `FRAME` · 384×536 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuA8nGvQZ5tIDhgvDohyd9hVjAXRvucaCWme60YhzqrET0ux5csn7lJz4Iub76aO3ahVNv-dmiuHTZUwED3ZieJt4BXlriCnKdwWA3nH1xB5li1d61dK0RDwcPgk-lYB4QmIhoPTkS7NmxkTRVk35fOhBkut8PLhgD8sX5qXOxmk2Po7sGLOQTgjR7SnXciciBbztbQ830y9zmDTpr9GuHCYAnbln5PLxZ7hDutoTlfPcLNwHQZ21ymB** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 146×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Overlay** · `FRAME` · 89×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×248 · vertical stack, gap 40px, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×116 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×60 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+            - **Item 6: Artisan Country Loaf Sourdough** · `FRAME` · 384×536 · vertical stack · 2 children
+              - **Background** · `FRAME` · 384×288 · vertical stack · 3 children
+                - **AB6AXuA5I0sQo9IXKqSzhb4NbSUkZQy-hoxs0M_UZKfZ4Hs5voDHMI1idKlnzR526MOW4nTIZl5XwkEfRIzP05MkgerS5vdz7EkVrtMgj1Dpx_lbCkRXzNWUZy8Now3MpHIjznv58x1Jbk-uF8oLaEqSWFigh-C-a5ZXPeWeoxltzdP8vn-7vGe_a48P4TJOukrcs9xhMjsLnW8miGYUFlVOLccNy4irHYJUeSbLRwyoaYOBDoAwjUpa-O_7** · `FRAME` · 384×288
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 155×22 · vertical stack, padding 4/10/4/10px
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 74×18 · vertical stack, padding 2/8/2/8px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 384×248 · vertical stack, gap 40px, padding 16px · 2 children
+                - **Container** · `FRAME` · 352×116 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **Margin** · `FRAME` · 352×60 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+        - **Section 4: Formulir Pemesanan Online Cepat (Quick Order Form):margin** · `FRAME` · 1280×880 · vertical stack, padding 56/40/56/40px · 1 children
+          - **Section 4: Formulir Pemesanan Online Cepat (Quick Order Form)** · `FRAME` · 1200×768 · vertical stack, padding 40px · 2 children
+            - **Overlay+Blur** · `RECTANGLE` · 320×320
+            - **Container** · `FRAME` · 1120×688 · vertical stack · 2 children
+              - **Form Left Info & Order Overview** · `FRAME` · 453×681 · vertical stack, gap 140.5px · 3 children
+                - **Container** · `FRAME` · 453×122 · vertical stack, gap 8px
+                  - _…and 3 more_
+                - **Selected Products Mini Receipt:margin** · `FRAME` · 453×231 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+                - **Service Commitment Badges:margin** · `FRAME` · 453×47 · vertical stack, padding 16/0/0/0px
+                  - _…and 1 more_
+              - **Form Right Interactive Fields** · `FRAME` · 643×685 · vertical stack, padding 24px · 2 children
+                - **Form Right Interactive Fields:shadow** · `RECTANGLE` · 643×685
+                - **Form** · `FRAME` · 595×637 · vertical stack, gap 16px
+                  - _…and 7 more_
+    - **Footer** · `FRAME` · 1280×318 · vertical stack · 1 children
+      - **Container** · `FRAME` · 1280×318 · vertical stack, gap 40px, padding 40px · 2 children
+        - **Container** · `FRAME` · 1200×153 · horizontal row, gap 24px · 4 children
+          - **Container** · `FRAME` · 282×151 · vertical stack, gap 15.100000381469727px, padding 0/0/2/0px · 3 children
+            - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+              - **Logo Rasa Karya** · `FRAME` · 32×32
+              - **Container** · `FRAME` · 94×26 · vertical stack · 1 children
+                - **Text** · `TEXT` · 94×26 · “Rasa Karya”
+            - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+              - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 282×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+            - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.900000095367432/16/4/16px · 2 children
+              - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×14
+              - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+          - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/21.3799991607666/0px · 2 children
+            - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+              - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+            - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+              - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+                - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+              - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+                - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+              - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+                - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+              - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+                - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+          - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/45.380001068115234/0px · 2 children
+            - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+              - **Jadwal Panggang & Toko** · `TEXT` · 282×24 · “Jadwal Panggang & Toko”
+            - **Container** · `FRAME` · 282×68 · vertical stack, gap 4px · 3 children
+              - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 74.2699966430664px · 2 children
+                - **Text** · `TEXT` · 95×20 · “Selasa - Jumat:”
+                - **Text** · `TEXT` · 113×20 · “07.00 - 18.00 WIB”
+              - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 69.62999725341797px · 2 children
+                - **Text** · `TEXT` · 101×20 · “Sabtu - Minggu:”
+                - **Text** · `TEXT` · 112×20 · “06.30 - 16.00 WIB”
+              - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 77.75px · 2 children
+                - **Text** · `TEXT` · 39×20 · “Senin:”
+                - **Text** · `TEXT` · 165×20 · “Tutup Pemeliharaan Starter”
+          - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/25.3799991607666/0px · 2 children
+            - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+              - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+            - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+              - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+                - **Icon** · `VECTOR` · 12×15
+                - **Text** · `TEXT` · 232×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+              - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+                - **Container** · `FRAME` · 14×14 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 105×20 · “+62 21 3192 4890”
+              - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+                - **Container** · `FRAME` · 15×12 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 113×20 · “halo@rasakarya.id”
+        - **HorizontalBorder** · `FRAME` · 1200×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+          - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+          - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+            - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+            - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+    - **Sticky / Floating Mini Cart Bar for Seamless Desktop UX** · `FRAME` · 672×64 · horizontal row, gap 184.22000122070312px, padding 12/15.989999771118164/12/16px · 3 children
+      - **Sticky / Floating Mini Cart Bar for Seamless Desktop UX:shadow** · `RECTANGLE` · 672×64
+      - **Container** · `FRAME` · 285×40 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+        - **Background** · `FRAME` · 40×40 · horizontal row · 2 children
+          - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 13×17
+          - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+            - **Text** · `TEXT` · 7×14 · “3”
+        - **Container** · `FRAME` · 225×36 · vertical stack · 2 children
+          - **Container** · `FRAME` · 225×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 158×16 · “Ringkasan Keranjang Anda”
+          - **Container** · `FRAME` · 225×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 225×20 · “3 item terpilih • Subtotal: Rp 107.000”
+      - **Button** · `FRAME` · 164×32 · horizontal row, gap 5.989999771118164px, padding 8/20/8/20px · 3 children
+        - **Button:shadow** · `RECTANGLE` · 164×32
+        - **Container** · `FRAME` · 106×16 · vertical stack · 1 children
+          - **Text** · `TEXT` · 106×16 · “Lanjut ke Formulir”
+        - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 12×12
+    - **Header** · `FRAME` · 1280×80 · vertical stack · 1 children
+      - **Container** · `FRAME` · 1280×80 · horizontal row, gap 137.6999969482422px, padding 0/39.9900016784668/0/40px · 3 children
+        - **Container** · `FRAME` · 158×40 · horizontal row, gap 12px · 2 children
+          - **Logo Rasa Karya** · `FRAME` · 32×32
+          - **Container** · `FRAME` · 114×40 · vertical stack · 2 children
+            - **Container** · `FRAME` · 114×26 · vertical stack · 1 children
+              - **Text** · `TEXT` · 90×26 · “Rasa Karya”
+            - **Container** · `FRAME` · 114×14 · vertical stack · 1 children
+              - **Text** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+        - **Nav** · `FRAME` · 563×48 · horizontal row, gap 4px, padding 4px · 4 children
+          - **Link** · `FRAME` · 90×36 · vertical stack, padding 8/16/8/16px · 1 children
+            - **Text** · `TEXT` · 58×20 · “Beranda”
+          - **Link** · `FRAME` · 124×36 · vertical stack, padding 8/16/8/16px · 1 children
+            - **Tentang Kami** · `TEXT` · 92×20 · “Tentang Kami”
+          - **Link** · `FRAME` · 183×40 · vertical stack, padding 8/16/8/16px · 1 children
+            - **Text** · `TEXT` · 151×24 · “Produk & Pemesanan”
+          - **Link** · `FRAME` · 146×36 · vertical stack, padding 8/16/8/16px · 1 children
+            - **Text** · `TEXT` · 114×20 · “Kerja Sama Mitra”
+        - **Container** · `FRAME` · 204×40 · horizontal row, gap 16px · 2 children
+          - **Button - Keranjang Belanja** · `FRAME` · 40×40 · horizontal row · 2 children
+            - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 13×17
+            - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+              - **Text** · `TEXT` · 7×14 · “3”
+          - **VerticalBorder** · `FRAME` · 148×32 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+            - **Profile** · `FRAME` · 32×32
+            - **Container** · `FRAME` · 95×30 · vertical stack · 2 children
+              - **Container** · `FRAME` · 95×14 · vertical stack · 1 children
+                - **Text** · `TEXT` · 95×14 · “Selamat Datang,”
+              - **Container** · `FRAME` · 95×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 53×16 · “Ibu Maya”
+- **Kerja Sama Mitra - Rasa Karya** · `FRAME` · 1280×3401 · vertical stack, gap 40px · 3 children
+  - **Main** · `FRAME` · 1280×3043 · vertical stack, padding 80/0/0/0px · 1 children
+    - **Container** · `FRAME` · 1280×2963 · 4 children
+      - **Section - Top Visual Accent Header** · `FRAME` · 1280×387 · vertical stack, padding 96/256/96/256px · 3 children
+        - **Overlay+Blur** · `RECTANGLE` · 384×384
+        - **Overlay+Blur** · `RECTANGLE` · 384×384
+        - **Container** · `FRAME` · 768×195 · vertical stack · 3 children
+          - **Heading 1:margin** · `FRAME` · 425×80 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Heading 1** · `FRAME` · 425×64 · vertical stack · 1 children
+              - **Text** · `TEXT` · 425×64 · “Kerja Sama Mitra”
+          - **Margin** · `FRAME` · 672×75 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Container** · `FRAME` · 672×59 · vertical stack, padding 0/4.909999847412109/0/4.889999866485596px · 1 children
+              - **Text** · `TEXT` · 662×59 · “Berkolaborasi Menyajikan Roti Berkualitas Premium untuk Hotel, Restoran, Kafe
+(H”
+          - **Quick Metrics Pill:margin** · `FRAME` · 436×40 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Quick Metrics Pill** · `FRAME` · 436×24 · horizontal row, gap 16px, padding 8/0/0/0px · 3 children
+              - **Container** · `FRAME` · 102×16 · horizontal row, gap 6px · 2 children
+                - **Background** · `RECTANGLE` · 8×8
+                - **Text** · `TEXT` · 88×16 · “48+ Mitra Aktif”
+              - **Container** · `FRAME` · 188×16 · horizontal row, gap 6px · 2 children
+                - **Background** · `RECTANGLE` · 8×8
+                - **Text** · `TEXT` · 174×16 · “99.8% Ketepatan Pengiriman”
+              - **Container** · `FRAME` · 114×16 · horizontal row, gap 6px · 2 children
+                - **Background** · `RECTANGLE` · 8×8
+                - **Text** · `TEXT` · 100×16 · “100% Ragi Alami”
+      - **Section - Detail Produk & Kapasitas Paket Kemitraan (Cards & Visual Bento)** · `FRAME` · 1280×1186 · vertical stack, padding 40/0/40/0px · 1 children
+        - **Container** · `FRAME` · 1280×1106 · vertical stack, gap 40px, padding 0/40/0/40px · 3 children
+          - **Container** · `FRAME` · 1200×128 · horizontal row, gap 323.7200012207031px · 2 children
+            - **Container** · `FRAME` · 554×128 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+              - **Text** · `TEXT` · 137×16 · “PORTOFOLIO SOLUSI”
+              - **Heading 2** · `FRAME` · 554×51 · vertical stack, padding 2.5/0/0/0px · 1 children
+                - **Text** · `TEXT` · 434×48 · “Pilihan Paket Kemitraan”
+              - **Container** · `FRAME` · 554×48 · vertical stack · 1 children
+                - **Text** · `TEXT` · 554×48 · “Format pesanan yang disesuaikan dengan ritme operasional dapur dan standar
+kepua”
+            - **Background+Shadow** · `FRAME` · 299×32 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+              - **Container** · `FRAME` · 17×16 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 17×16
+              - **Text** · `TEXT` · 242×16 · “Uji Coba Sampel & Food Tasting Tersedia”
+          - **3 Paket Cards** · `FRAME` · 1200×614 · horizontal row, gap 24px · 3 children
+            - **Paket 1: Kafe & Coffee Shop** · `FRAME` · 384×614 · vertical stack · 2 children
+              - **Container** · `FRAME` · 384×554 · vertical stack · 2 children
+                - **Container** · `FRAME` · 384×224 · vertical stack
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 384×330 · vertical stack, gap 16px, padding 24px
+                  - _…and 3 more_
+              - **Container** · `FRAME` · 384×60 · vertical stack, padding 0/24/24/24px · 1 children
+                - **Button** · `FRAME` · 336×36 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px
+                  - _…and 2 more_
+            - **Paket 2: Hotel & Restoran** · `FRAME` · 384×614 · vertical stack · 2 children
+              - **Container** · `FRAME` · 384×554 · vertical stack · 2 children
+                - **Container** · `FRAME` · 384×224 · vertical stack
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 384×330 · vertical stack, gap 16px, padding 24px
+                  - _…and 3 more_
+              - **Container** · `FRAME` · 384×60 · vertical stack, padding 0/24/24/24px · 1 children
+                - **Button** · `FRAME` · 336×36 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px
+                  - _…and 2 more_
+            - **Paket 3: Event & Souvenir** · `FRAME` · 384×614 · vertical stack · 2 children
+              - **Container** · `FRAME` · 384×554 · vertical stack · 2 children
+                - **Container** · `FRAME` · 384×224 · vertical stack
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 384×330 · vertical stack, gap 16px, padding 24px
+                  - _…and 3 more_
+              - **Container** · `FRAME` · 384×60 · vertical stack, padding 0/24/24/24px · 1 children
+                - **Button** · `FRAME` · 336×36 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px
+                  - _…and 2 more_
+          - **Capacity & Sourdough Lifecycle Infographic** · `FRAME` · 1200×284 · vertical stack, padding 40px · 1 children
+            - **Container** · `FRAME` · 1120×204 · horizontal row, gap 24px · 3 children
+              - **Container** · `FRAME` · 357×184 · vertical stack, gap 4px, padding 6.5/0/0/0px · 3 children
+                - **Text** · `TEXT` · 135×14 · “PROTOKOL DAPUR B2B”
+                - **Heading 4** · `FRAME` · 357×76 · vertical stack, padding 3.5/0/0/0px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 357×80 · vertical stack
+                  - _…and 1 more_
+              - **Production Capacity Donut / Progress SVG** · `FRAME` · 357×204 · 3 children
+                - **Margin** · `FRAME` · 171×24 · vertical stack, padding 8/0/0/0px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 226×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 128×128 · horizontal row
+                  - _…and 2 more_
+              - **Quality Steps** · `FRAME` · 357×204 · vertical stack, gap 12px · 3 children
+                - **Container** · `FRAME` · 357×60 · horizontal row, gap 12px · ×3
+                  - _…and 2 more_
+      - **Section - Form Pengajuan Kerja Sama & Kontak Kami** · `FRAME` · 1280×1063 · vertical stack, padding 40px · 1 children
+        - **Container** · `FRAME` · 1200×983 · vertical stack · 2 children
+          - **Kolom Kiri: Form Pengajuan (7 cols)** · `FRAME` · 690×766 · vertical stack, gap 24px, padding 40px · 3 children
+            - **Kolom Kiri: Form Pengajuan (7 cols):shadow** · `RECTANGLE` · 690×766
+            - **Container** · `FRAME` · 610×108 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+              - **Text** · `TEXT` · 141×16 · “FORMULIR BISNIS B2B”
+              - **Heading 2** · `FRAME` · 610×39 · vertical stack, padding 2.5/0/0/0px · 1 children
+                - **Mulai Diskusi Kemitraan** · `TEXT` · 610×36 · “Mulai Diskusi Kemitraan”
+              - **Container** · `FRAME` · 610×40 · vertical stack · 1 children
+                - **Isi data usaha Anda di bawah ini. Tim partnership kami akan menghubungi via WhatsApp/telepon dalam waktu maksimal 3 jam kerja untuk jadwal kirim sampel gratis.** · `TEXT` · 610×40 · “Isi data usaha Anda di bawah ini. Tim partnership kami akan menghubungi via What”
+            - **Form** · `FRAME` · 610×554 · vertical stack, gap 16px · 6 children
+              - **Container** · `FRAME` · 610×68 · horizontal row, gap 16px · 2 children
+                - **Nama PIC** · `FRAME` · 297×68 · vertical stack, gap 4px
+                  - _…and 2 more_
+                - **Nama Usaha / Perusahaan** · `FRAME` · 297×68 · vertical stack, gap 4px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 610×68 · horizontal row, gap 16px · 2 children
+                - **Email Bisnis** · `FRAME` · 297×68 · vertical stack, gap 4px
+                  - _…and 2 more_
+                - **WhatsApp** · `FRAME` · 297×68 · vertical stack, gap 4px
+                  - _…and 2 more_
+              - **Jenis Kebutuhan Kemitraan Dropdown** · `FRAME` · 610×76 · vertical stack, gap 6.5px, padding 5.5/0/0/0px · 2 children
+                - **Label → Jenis Kebutuhan Kemitraan** · `TEXT` · 161×16 · “Jenis Kebutuhan Kemitraan”
+                - **Container** · `FRAME` · 610×48 · vertical stack
+                  - _…and 2 more_
+              - **Pesan / Estimasi Kuantitas Harian** · `FRAME` · 610×162 · vertical stack, gap 6.5px, padding 5.5/0/6/0px · 2 children
+                - **Label → Pesan & Estimasi Kuantitas Harian ** · `TEXT` · 201×16 · “Pesan & Estimasi Kuantitas Harian ”
+                - **Textarea** · `FRAME` · 610×128 · horizontal row, padding 16/16/64/16px
+                  - _…and 1 more_
+              - **Checkbox Terms** · `FRAME` · 610×52 · horizontal row, gap 8px, padding 4/0/8/0px · 2 children
+                - **Input:margin** · `FRAME` · 13×20 · vertical stack, padding 4/0/0/0px
+                  - _…and 1 more_
+                - **Label** · `FRAME` · 589×40 · vertical stack, padding 0/1.8300000429153442/0/0px
+                  - _…and 1 more_
+              - **Tombol Aksi Tegas → Button** · `FRAME` · 610×48 · horizontal row, gap 7.989999771118164px, padding 14/32/14/32px · 2 children
+                - **Container** · `FRAME` · 188×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 16×13 · vertical stack
+                  - _…and 1 more_
+          - **Kolom Kanan: Info Kontak Langsung & Central Kitchen (5 cols)** · `FRAME` · 486×1043 · vertical stack, gap 16px · 3 children
+            - **Card Info Kontak Langsung** · `FRAME` · 486×594 · vertical stack, gap 16px, padding 24px · 4 children
+              - **Card Info Kontak Langsung:shadow** · `RECTANGLE` · 486×594
+              - **Heading 3** · `FRAME` · 438×26 · vertical stack · 1 children
+                - **Kontak Khusus Mitra & HORECA** · `TEXT` · 438×26 · “Kontak Khusus Mitra & HORECA”
+              - **Container** · `FRAME` · 438×40 · vertical stack · 1 children
+                - **Butuh penawaran mendesak atau konsultasi menu khusus untuk grand opening kafe minggu ini? Hubungi jalur prioritas kami:** · `TEXT` · 438×40 · “Butuh penawaran mendesak atau konsultasi menu khusus untuk grand
+opening kafe mi”
+              - **Container** · `FRAME` · 438×448 · vertical stack, gap 8px, padding 8/0/0/0px · 4 children
+                - **Link - WhatsApp Dedicated** · `FRAME` · 438×74 · horizontal row, gap 12px, padding 8px
+                  - _…and 2 more_
+                - **Link - Email B2B** · `FRAME` · 438×74 · horizontal row, gap 12px, padding 8px
+                  - _…and 2 more_
+                - **Alamat Central Kitchen** · `FRAME` · 438×94 · horizontal row, gap 12px, padding 8px
+                  - _…and 2 more_
+                - **Jam Operasional Dapur** · `FRAME` · 438×174 · horizontal row, gap 12px, padding 8px
+                  - _…and 2 more_
+            - **Peta Lokasi Central Kitchen** · `FRAME` · 486×252 · vertical stack, gap 4px, padding 16px · 3 children
+              - **Peta Lokasi Central Kitchen:shadow** · `RECTANGLE` · 486×252
+              - **Container** · `FRAME` · 454×24 · horizontal row, gap 110.62999725341797px · 2 children
+                - **Container** · `FRAME` · 224×24 · horizontal row, gap 6px
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 113×14 · vertical stack
+                  - _…and 1 more_
+              - **Background+Shadow** · `FRAME` · 454×192 · horizontal row, padding 8px · 1 children
+                - **Overlay+Shadow+OverlayBlur** · `FRAME` · 294×22 · horizontal row, gap 8px, padding 4/16/4/16px
+                  - _…and 2 more_
+            - **FAQ Card Singkat Mitra** · `FRAME` · 486×165 · vertical stack, gap 8px, padding 24px · 2 children
+              - **Heading 4** · `FRAME` · 438×24 · horizontal row, gap 8px · 2 children
+                - **Container** · `FRAME` · 17×17 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 270×24 · “Bagaimana Proses Tasting Sampel?”
+              - **Container** · `FRAME` · 438×85 · 4 children
+                - **Text** · `TEXT` · 372×22 · “Setelah mengisi form di samping, tim kami akan mengirimkan ”
+                - **Strong** · `FRAME` · 397×37
+                  - _…and 2 more_
+                - **Text** · `TEXT` · 323×22 · “ berisi aneka viennoiserie dan sourdough langsung ke”
+                - **Text** · `TEXT` · 424×43 · “alamat resto/kafe Anda, lengkap bersama lembar saran penyimpanan
+dan penyajian h”
+      - **Section - 4 Badges Lingkaran Berjejer Horizontal:margin** · `FRAME` · 1280×304 · 1 children
+        - **Section - 4 Badges Lingkaran Berjejer Horizontal** · `FRAME` · 1280×352 · vertical stack, padding 40px · 1 children
+          - **Container** · `FRAME` · 1200×272 · horizontal row, gap 24px · 4 children
+            - **Badge 1** · `FRAME` · 282×272 · vertical stack, padding 24px · 5 children
+              - **Badge 1:shadow** · `RECTANGLE` · 282×272
+              - **Margin** · `FRAME` · 80×96 · vertical stack, padding 0/0/16/0px · 1 children
+                - **Background** · `FRAME` · 80×80 · horizontal row
+                  - _…and 1 more_
+              - **Margin** · `FRAME` · 128×18 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Container** · `FRAME` · 128×14 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 160×30 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Heading 3** · `FRAME` · 160×26 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 234×80 · vertical stack, padding 0/7.690000057220459/0/7.690000057220459px · 1 children
+                - **Text** · `TEXT` · 219×80 · “Didukung dapur industri higienis
+bersertifikasi, menjamin suplai
+konsisten haria”
+            - **Badge 2** · `FRAME` · 282×272 · vertical stack, padding 24px · 5 children
+              - **Badge 2:shadow** · `RECTANGLE` · 282×272
+              - **Margin** · `FRAME` · 80×96 · vertical stack, padding 0/0/16/0px · 1 children
+                - **Background** · `FRAME` · 80×80 · horizontal row
+                  - _…and 1 more_
+              - **Margin** · `FRAME` · 78×18 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Container** · `FRAME` · 78×14 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 220×30 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Heading 3** · `FRAME` · 220×26 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 234×80 · vertical stack, padding 0/2.25/0/2.25px · 1 children
+                - **Text** · `TEXT` · 230×80 · “Fleksibilitas profil rasa, tingkat hidrasi,
+tekstur kerak, dan ukuran khusus
+ses”
+            - **Badge 3** · `FRAME` · 282×272 · vertical stack, padding 24px · 5 children
+              - **Badge 3:shadow** · `RECTANGLE` · 282×272
+              - **Margin** · `FRAME` · 80×96 · vertical stack, padding 0/0/16/0px · 1 children
+                - **Background** · `FRAME` · 80×80 · horizontal row
+                  - _…and 1 more_
+              - **Margin** · `FRAME` · 137×18 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Container** · `FRAME` · 137×14 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 195×30 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Heading 3** · `FRAME` · 195×26 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 234×80 · vertical stack, padding 0/1.590000033378601/0/1.590000033378601px · 1 children
+                - **Text** · `TEXT` · 231×80 · “Armada berpendingin dan pengatur
+suhu tiba antara pukul 04.30 - 06.00
+WIB, siap ”
+            - **Badge 4** · `FRAME` · 282×272 · vertical stack, padding 24px · 5 children
+              - **Badge 4:shadow** · `RECTANGLE` · 282×272
+              - **Margin** · `FRAME` · 80×96 · vertical stack, padding 0/0/16/0px · 1 children
+                - **Background** · `FRAME` · 80×80 · horizontal row
+                  - _…and 1 more_
+              - **Margin** · `FRAME` · 105×18 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Container** · `FRAME` · 105×14 · vertical stack
+                  - _…and 1 more_
+              - **Heading 3:margin** · `FRAME` · 225×30 · vertical stack, padding 0/0/4/0px · 1 children
+                - **Heading 3** · `FRAME` · 225×26 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 234×80 · vertical stack, padding 0/9.09000015258789/0/9.079999923706055px · 1 children
+                - **Text** · `TEXT` · 216×80 · “Potongan volume bertingkat
+transparan, opsi konsinyasi selektif,
+serta syarat pe”
+  - **Footer** · `FRAME` · 1280×318 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×318 · vertical stack, gap 40px, padding 40px · 2 children
+      - **Container** · `FRAME` · 1200×153 · horizontal row, gap 24px · 4 children
+        - **Container** · `FRAME` · 282×151 · vertical stack, gap 15.100000381469727px, padding 0/0/2/0px · 3 children
+          - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+            - **Logo Rasa Karya** · `FRAME` · 32×32
+            - **Container** · `FRAME` · 94×26 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+            - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 282×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+          - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.900000095367432/16/4/16px · 2 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/21.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+          - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+            - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+              - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/45.380001068115234/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Jadwal Panggang & Toko** · `TEXT` · 282×24 · “Jadwal Panggang & Toko”
+          - **Container** · `FRAME` · 282×68 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 74.2699966430664px · 2 children
+              - **Text** · `TEXT` · 95×20 · “Selasa - Jumat:”
+              - **Text** · `TEXT` · 113×20 · “07.00 - 18.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 69.62999725341797px · 2 children
+              - **Text** · `TEXT` · 101×20 · “Sabtu - Minggu:”
+              - **Text** · `TEXT` · 112×20 · “06.30 - 16.00 WIB”
+            - **Paragraph** · `FRAME` · 282×20 · horizontal row, gap 77.75px · 2 children
+              - **Text** · `TEXT` · 39×20 · “Senin:”
+              - **Text** · `TEXT` · 165×20 · “Tutup Pemeliharaan Starter”
+        - **Container** · `FRAME` · 282×153 · vertical stack, gap 16px, padding 0/0/25.3799991607666/0px · 2 children
+          - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+            - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+          - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+            - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+              - **Icon** · `VECTOR` · 12×15
+              - **Text** · `TEXT` · 232×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 105×20 · “+62 21 3192 4890”
+            - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×12
+              - **Text** · `TEXT` · 113×20 · “halo@rasakarya.id”
+      - **HorizontalBorder** · `FRAME` · 1200×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+  - **Header** · `FRAME` · 1280×80 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×80 · horizontal row, gap 139.10000610351562px, padding 0/39.9900016784668/0/40px · 3 children
+      - **Container** · `FRAME` · 158×40 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 114×40 · vertical stack · 2 children
+          - **Container** · `FRAME` · 114×26 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×26 · “Rasa Karya”
+          - **Container** · `FRAME` · 114×14 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+      - **Nav** · `FRAME` · 560×48 · horizontal row, gap 4px, padding 4px · 4 children
+        - **Link** · `FRAME` · 90×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 58×20 · “Beranda”
+        - **Link** · `FRAME` · 124×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 92×20 · “Tentang Kami”
+        - **Link** · `FRAME` · 178×36 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 146×20 · “Produk & Pemesanan”
+        - **Link** · `FRAME` · 149×40 · vertical stack, padding 8/16/8/16px · 1 children
+          - **Text** · `TEXT` · 117×24 · “Kerja Sama Mitra”
+      - **Container** · `FRAME` · 204×40 · horizontal row, gap 16px · 2 children
+        - **Button - Keranjang Belanja** · `FRAME` · 40×40 · horizontal row · 2 children
+          - **Container** · `FRAME` · 13×17 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 13×17
+          - **Background** · `FRAME` · 20×20 · horizontal row, padding 2.5/0/3.5/0px · 1 children
+            - **Text** · `TEXT` · 7×14 · “3”
+        - **VerticalBorder** · `FRAME` · 148×32 · horizontal row, gap 12px, padding 0/0/0/8px · 2 children
+          - **Profile** · `FRAME` · 32×32
+          - **Container** · `FRAME` · 95×30 · vertical stack · 2 children
+            - **Container** · `FRAME` · 95×14 · vertical stack · 1 children
+              - **Text** · `TEXT` · 95×14 · “Selamat Datang,”
+            - **Container** · `FRAME` · 95×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 53×16 · “Ibu Maya”
+- **Kerja sama mitra** · `FRAME` · 1440×1904 · 5 children
+  - **Group 53** · `GROUP` · 1440×352 · 5 children
+    - **Rectangle 34** · `RECTANGLE` · 1440×352
+    - **Container** · `FRAME` · 327×208 · horizontal row, gap 24px · 1 children
+      - **Badge 1** · `FRAME` · 327×208 · vertical stack, padding 24px · 3 children
+        - **Badge 1:shadow** · `RECTANGLE` · 327×208
+        - **Margin** · `FRAME` · 108×130 · 1 children
+          - **Background** · `FRAME` · 94×94 · 1 children
+            - **image 12** · `RECTANGLE` · 73×73
+        - **Heading 3:margin** · `FRAME` · 215×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Heading 3** · `FRAME` · 215×26 · vertical stack · 1 children
+            - **Politeknik Negeri Jember** · `TEXT` · 215×26 · “Politeknik Negeri Jember”
+    - **Container** · `FRAME` · 327×208 · horizontal row, gap 24px · 1 children
+      - **Badge 1** · `FRAME` · 327×208 · vertical stack, padding 24px · 3 children
+        - **Badge 1:shadow** · `RECTANGLE` · 327×208
+        - **Margin** · `FRAME` · 108×130 · 1 children
+          - **Background** · `FRAME` · 94×94 · 1 children
+            - **Mask group** · `GROUP` · 76×76 · 2 children
+              - **Ellipse 4** · `ELLIPSE` · 76×76
+              - **image 13** · `RECTANGLE` · 76×76
+        - **Heading 3:margin** · `FRAME` · 238×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Heading 3** · `FRAME` · 238×26 · vertical stack · 1 children
+            - **Jurusan Teknologi Pertanian** · `TEXT` · 238×26 · “Jurusan Teknologi Pertanian”
+    - **Container** · `FRAME` · 327×208 · horizontal row, gap 24px · 1 children
+      - **Badge 1** · `FRAME` · 327×208 · 3 children
+        - **Badge 1:shadow** · `RECTANGLE` · 327×208
+        - **image (3) 1** · `RECTANGLE` · 216×58
+        - **Heading 3:margin** · `FRAME` · 237×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Heading 3** · `FRAME` · 237×26 · vertical stack · 1 children
+            - **Jurusan Teknologi Informasi** · `TEXT` · 237×26 · “Jurusan Teknologi Informasi”
+    - **Container** · `FRAME` · 327×208 · horizontal row, gap 24px · 1 children
+      - **Badge 1** · `FRAME` · 327×208 · vertical stack, padding 24px · 3 children
+        - **Badge 1:shadow** · `RECTANGLE` · 327×208
+        - **Margin** · `FRAME` · 108×130 · 1 children
+          - **Background** · `FRAME` · 94×94 · 1 children
+            - **Mask group** · `GROUP` · 70×70 · 2 children
+              - **Ellipse 2** · `ELLIPSE` · 70×70
+              - **image 10** · `RECTANGLE` · 70×70
+        - **Heading 3:margin** · `FRAME` · 183×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Heading 3** · `FRAME` · 183×26 · vertical stack · 1 children
+            - **Tefa Bakery & Coffee** · `TEXT` · 183×26 · “Tefa Bakery & Coffee”
+  - **Group 55** · `GROUP` · 1440×827 · 3 children
+    - **Rectangle 38** · `RECTANGLE` · 1440×827
+    - **Kolom Kanan: Info Kontak Langsung & Central Kitchen (5 cols)** · `FRAME` · 486×636 · vertical stack, gap 16px · 2 children
+      - **Card Info Kontak Langsung** · `FRAME` · 533×404 · vertical stack, gap 16px, padding 24px · 3 children
+        - **Card Info Kontak Langsung:shadow** · `RECTANGLE` · 533×404
+        - **Heading 3** · `FRAME` · 485×26 · vertical stack · 1 children
+          - **Kontak Kami** · `TEXT` · 485×26 · “Kontak Kami”
+        - **Container** · `FRAME` · 485×314 · vertical stack, gap 8px, padding 8/0/0/0px · 4 children
+          - **Link - WhatsApp Dedicated** · `FRAME` · 485×62 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+              - **akar-icons:whatsapp-fill** · `INSTANCE` · 20×20 · instance of akar-icons:whatsapp-fill
+            - **Container** · `FRAME` · 154×38 · vertical stack, gap -0.5px · 2 children
+              - **Container** · `FRAME` · 154×14 · vertical stack · 1 children
+                - **WHATSAPP** · `TEXT` · 65×14 · “WHATSAPP”
+              - **+62 8233-3497-811** · `TEXT` · 154×24 · “+62 8233-3497-811”
+          - **Link - Email B2B** · `FRAME` · 485×56 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+              - **Vector** · `VECTOR` · 20×20
+            - **Container** · `FRAME` · 112×38 · vertical stack, gap -0.5px · 2 children
+              - **Container** · `FRAME` · 112×14 · vertical stack · 1 children
+                - **Instagram** · `TEXT` · 69×14 · “Instagram”
+              - **@tefasippolije** · `TEXT` · 112×24 · “@tefasippolije”
+          - **Alamat Central Kitchen** · `FRAME` · 485×74 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+              - **Container** · `FRAME` · 17×15 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 17×15
+            - **Container** · `FRAME` · 249×58 · vertical stack, padding 0/0/1/0px · 2 children
+              - **Container** · `FRAME` · 249×14 · vertical stack · 1 children
+                - **Alamat** · `TEXT` · 47×14 · “Alamat”
+              - **Container** · `FRAME` · 285×43 · vertical stack, padding 0/0/3/0px · 1 children
+                - **Jl. Tawang Mangu No. 68, Politeknik Negeri Jember** · `TEXT` · 285×40 · “Jl. Tawang Mangu No. 68, Politeknik Negeri Jember”
+          - **Jam Operasional Dapur** · `FRAME` · 485×90 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+              - **Container** · `FRAME` · 17×17 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 17×17
+            - **Container** · `FRAME` · 111×74 · vertical stack · 2 children
+              - **Container** · `FRAME` · 111×14 · vertical stack · 1 children
+                - **Jam Operasional** · `TEXT` · 111×14 · “Jam Operasional”
+              - **Container** · `FRAME` · 297×60 · vertical stack, gap 2px · 1 children
+                - **Container** · `FRAME` · 297×60 · vertical stack
+                  - _…and 1 more_
+      - **Peta Lokasi Central Kitchen** · `FRAME` · 533×248 · vertical stack, gap 4px, padding 16px · 3 children
+        - **Peta Lokasi Central Kitchen:shadow** · `RECTANGLE` · 533×248
+        - **Container** · `FRAME` · 501×24 · horizontal row, gap 110.62999725341797px · 2 children
+          - **Container** · `FRAME` · 106×24 · horizontal row, gap 6px · 2 children
+            - **Container** · `FRAME` · 12×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×15
+            - **Peta Lokasi** · `TEXT` · 88×24 · “Peta Lokasi”
+          - **Container** · `FRAME` · 126×14 · vertical stack · 1 children
+            - **Sumbersari, jember** · `TEXT` · 126×14 · “Sumbersari, jember”
+        - **Screenshot From 2026-10-27 19-13-02 1** · `RECTANGLE` · 501×188
+    - **Kolom Kiri: Form Pengajuan (7 cols)** · `FRAME` · 758×570 · vertical stack, gap 24px, padding 40px · 3 children
+      - **Kolom Kiri: Form Pengajuan (7 cols):shadow** · `RECTANGLE` · 758×570
+      - **Container** · `FRAME` · 678×68 · vertical stack, gap 4px, padding 5.5/0/0/0px · 2 children
+        - **Heading 2** · `FRAME` · 678×39 · vertical stack, padding 2.5/0/0/0px · 1 children
+          - **Kontak Bermitra** · `TEXT` · 678×36 · “Kontak Bermitra”
+        - **Container** · `FRAME` · 678×20 · vertical stack · 1 children
+          - **Kami siap melayani! Kunjungi toko kami atau hubungi untuk pemesanan dan informasi lebih lanjut.** · `TEXT` · 678×20 · “Kami siap melayani! Kunjungi toko kami atau hubungi untuk pemesanan dan informas”
+      - **Form** · `FRAME` · 678×370 · 4 children
+        - **Container** · `FRAME` · 678×68 · horizontal row, gap 16px · 2 children
+          - **Nama PIC** · `FRAME` · 331×68 · vertical stack, gap 4px · 2 children
+            - **Label** · `FRAME` · 331×16 · horizontal row, gap 149.1999969482422px · 2 children
+              - **Nama** · `TEXT` · 35×16 · “Nama”
+              - **Container** · `FRAME` · 36×16 · vertical stack
+            - **Input** · `FRAME` · 331×48 · horizontal row, padding 14.5/16/14.5/16px · 1 children
+              - **Container** · `FRAME` · 299×19 · vertical stack · 1 children
+                - **Masukkan Nama Anda** · `TEXT` · 299×19 · “Masukkan Nama Anda”
+          - **Nama Usaha / Perusahaan** · `FRAME` · 331×68 · vertical stack, gap 4px · 2 children
+            - **Label** · `FRAME` · 331×16 · horizontal row, gap 140.80999755859375px · 1 children
+              - **Text** · `TEXT` · 120×16 · “Nama Usaha / Brand”
+            - **Input** · `FRAME` · 331×48 · horizontal row, padding 14.5/16/14.5/16px · 1 children
+              - **Container** · `FRAME` · 299×19 · vertical stack · 1 children
+                - **Masukkan Nama Usaha Anda** · `TEXT` · 299×19 · “Masukkan Nama Usaha Anda”
+        - **Container** · `FRAME` · 678×68 · horizontal row, gap 16px · 2 children
+          - **Email Bisnis** · `FRAME` · 331×68 · vertical stack, gap 4px · 2 children
+            - **Label** · `FRAME` · 331×16 · horizontal row, gap 191.67999267578125px · 1 children
+              - **Email** · `TEXT` · 33×16 · “Email”
+            - **Input** · `FRAME` · 331×48 · horizontal row, padding 14.5/16/14.5/16px · 1 children
+              - **Container** · `FRAME` · 299×19 · vertical stack · 1 children
+                - **no@exemple.com** · `TEXT` · 299×19 · “no@exemple.com”
+          - **WhatsApp** · `FRAME` · 331×68 · vertical stack, gap 4px · 2 children
+            - **Label** · `FRAME` · 331×16 · horizontal row, gap 154.50999450683594px · 2 children
+              - **Text** · `TEXT` · 107×16 · “Nomor WhatsApp”
+              - **Container** · `FRAME` · 36×16 · vertical stack
+            - **Input** · `FRAME` · 331×48 · horizontal row, padding 14.5/16/14.5/16px · 1 children
+              - **Container** · `FRAME` · 299×19 · vertical stack · 1 children
+                - **0812 3456 7890** · `TEXT` · 299×19 · “0812 3456 7890”
+        - **Pesan / Estimasi Kuantitas Harian** · `FRAME` · 678×138 · vertical stack, gap 6.5px, padding 5.5/0/6/0px · 2 children
+          - **Pesan** · `TEXT` · 37×16 · “Pesan ”
+          - **Textarea** · `FRAME` · 678×104 · horizontal row, padding 16/16/64/16px · 1 children
+            - **Container** · `FRAME` · 646×24 · vertical stack · 1 children
+              - **Tulis Pesan Anda** · `TEXT` · 646×24 · “Tulis Pesan Anda”
+        - **Tombol Aksi Tegas → Button** · `FRAME` · 678×71 · horizontal row, gap 7.989999771118164px, padding 14/32/14/32px · 2 children
+          - **Container** · `FRAME` · 188×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 188×20 · “Kirim Pengajuan Kerja Sama”
+          - **Container** · `FRAME` · 16×13 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×13
+  - **Group 52** · `GROUP` · 1456×391 · 4 children
+    - **Rectangle 35** · `RECTANGLE` · 1440×382
+    - **Rectangle 36** · `RECTANGLE` · 1440×382
+    - **Bersama mitra terpercaya, menghadirkan roti premium dengan cita rasa istimewa dan kualitas terbaik.** · `TEXT` · 754×92 · “Bersama mitra terpercaya, menghadirkan roti premium dengan cita rasa istimewa da”
+    - **Kerja Sama Mitra** · `TEXT` · 532×99 · “Kerja Sama Mitra”
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 310×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **navigation bar** · `INSTANCE` · 1347×48 · instance of navigation bar
+- **Beranda ** · `FRAME` · 1440×3005 · 4 children
+  - **Frame 1** · `FRAME` · 1440×2925 · 8 children
+    - **Group 6** · `GROUP` · 1440×524 · 7 children
+      - **Rectangle 8** · `RECTANGLE` · 1440×524
+      - **Overlay** · `FRAME` · 167×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 114×14 · “100% Halal Certified”
+      - **Background** · `FRAME` · 217×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+        - **Background** · `RECTANGLE` · 8×8
+        - **Text** · `TEXT` · 171×14 · “Baking Fresh Every 06:00 WIB”
+      - **Background** · `FRAME` · 185×22 · horizontal row, gap 6px, padding 4/16/4/16px · 2 children
+        - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 11×11
+        - **Text** · `TEXT` · 136×14 · “Tanpa Pengawet Buatan”
+      - **Text** · `TEXT` · 573×88 · “Dibuat dari bahan-bahan organik pilihan dengan metode fermentasi
+alami tradision”
+      - **Kehangatan Roti Segar Setiap Hari** · `TEXT` · 690×121 · “Kehangatan Roti Segar
+Setiap Hari”
+      - **kucing 1** · `RECTANGLE` · 541×381
+    - **Section - Interactive Daily Bake Schedule Bar** · `FRAME` · 1440×72 · vertical stack, padding 16/40/16/40px · 1 children
+      - **Container** · `FRAME` · 1360×40 · horizontal row, gap 74.63999938964844px · 2 children
+        - **Container** · `FRAME` · 329×40 · horizontal row, gap 12px · 2 children
+          - **Background** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 15×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×15
+          - **Container** · `FRAME` · 285×40 · vertical stack · 2 children
+            - **Heading 2** · `FRAME` · 285×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 203×20 · “Jadwal Keluar Oven Hari Ini”
+            - **Container** · `FRAME` · 285×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 285×20 · “Pesan hangat tepat saat aroma terbaik tercium”
+        - **Container** · `FRAME` · 797×32 · horizontal row, gap 16px · 3 children
+          - **Background+Shadow** · `FRAME` · 235×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+            - **Background** · `RECTANGLE` · 10×10
+            - **Container** · `FRAME` · 65×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 65×16 · “06:00 WIB”
+            - **Container** · `FRAME` · 111×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 111×20 · “Pastry & Croissant”
+          - **Background+Shadow** · `FRAME` · 259×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+            - **Background** · `RECTANGLE` · 8×8
+            - **Container** · `FRAME` · 61×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 61×16 · “10:30 WIB”
+            - **Container** · `FRAME` · 142×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 142×20 · “Sourdough & Baguette”
+          - **Background+Shadow** · `FRAME` · 271×32 · horizontal row, gap 8px, padding 6/16/6/16px · 3 children
+            - **Background** · `RECTANGLE` · 8×8
+            - **Container** · `FRAME` · 62×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 62×16 · “14:00 WIB”
+            - **Container** · `FRAME` · 154×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 154×20 · “Roti Sobek & Sweet Buns”
+    - **Group 12** · `GROUP` · 1440×713 · 7 children
+      - **Rectangle 9** · `RECTANGLE` · 1440×713
+      - **PALING DIMINATI** · `TEXT` · 98×14 · “PALING DIMINATI”
+      - **Dibuat dengan Sepenuh Hati** · `TEXT` · 356×36 · “Dibuat dengan Sepenuh Hati”
+      - **Setiap roti kami dibuat dengan penuh perhatian, menggunakan bahan pilihan dan sentuhan kehangatan di setiap prosesnya. Dari gigitan pertama hingga terakhir, kami hadirkan rasa istimewa untuk menemani setiap momen Anda.** · `TEXT` · 752×72 · “Setiap roti kami dibuat dengan penuh perhatian, menggunakan bahan pilihan dan se”
+      - **Group 8** · `GROUP` · 384×489 · 3 children
+        - **Rectangle 10** · `RECTANGLE` · 384×489
+        - **image 4** · `RECTANGLE` · 384×270
+        - **Container** · `FRAME` · 384×187 · vertical stack, padding 24px · 1 children
+          - **Container** · `FRAME` · 336×139 · vertical stack, gap 4px · 2 children
+            - **Container** · `FRAME` · 336×20 · horizontal row, gap 106.19000244140625px · 2 children
+              - **Container** · `FRAME` · 83×20 · horizontal row, gap 4px · 3 children
+                - **Container** · `FRAME` · 13×13 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 20×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 42×20 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 144×14 · vertical stack · 1 children
+                - **Text** · `TEXT` · 144×14 · “GANDUM UTUH ORGANIK”
+            - **Container** · `FRAME` · 336×115 · 3 children
+              - **Paragraph** · `FRAME` · 292×26 · horizontal row, gap 45.47999954223633px · 2 children
+                - **Roti Boy** · `TEXT` · 73×26 · “Roti Boy”
+                - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+              - **Container** · `FRAME` · 302×60 · vertical stack · 1 children
+                - **Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah, cocok untuk menemani waktu santai.** · `TEXT` · 302×60 · “Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah,”
+              - **Container** · `FRAME` · 98×14 · horizontal row, gap 4px · 2 children
+                - **Container** · `FRAME` · 8×11 · vertical stack
+                  - _…and 1 more_
+                - **250 kkal/piece** · `TEXT` · 86×14 · “250 kkal/piece”
+      - **Group 9** · `GROUP` · 384×489 · 3 children
+        - **Rectangle 10** · `RECTANGLE` · 384×489
+        - **Container** · `FRAME` · 384×68 · vertical stack, padding 24px · 1 children
+          - **Container** · `FRAME` · 336×20 · vertical stack, gap 4px · 1 children
+            - **Container** · `FRAME` · 336×20 · horizontal row, gap 106.19000244140625px · 2 children
+              - **Container** · `FRAME` · 83×20 · horizontal row, gap 4px · 3 children
+                - **Container** · `FRAME` · 13×13 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 20×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 42×20 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 144×14 · vertical stack · 1 children
+                - **Text** · `TEXT` · 144×14 · “GANDUM UTUH ORGANIK”
+        - **Mask group** · `GROUP` · 384×270 · 2 children
+          - **Rectangle 11** · `RECTANGLE` · 384×270
+          - **image 5** · `RECTANGLE` · 391×307
+      - **Group 10** · `GROUP` · 386×489 · 4 children
+        - **Rectangle 10** · `RECTANGLE` · 384×489
+        - **witwit 1** · `RECTANGLE` · 383×287
+        - **image 5** · `RECTANGLE` · 385×272
+        - **Container** · `FRAME` · 384×68 · vertical stack, padding 24px · 1 children
+          - **Container** · `FRAME` · 336×20 · vertical stack, gap 4px · 1 children
+            - **Container** · `FRAME` · 336×20 · horizontal row, gap 106.19000244140625px · 2 children
+              - **Container** · `FRAME` · 83×20 · horizontal row, gap 4px · 3 children
+                - **Container** · `FRAME` · 13×13 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 20×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 42×20 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 144×14 · vertical stack · 1 children
+                - **Text** · `TEXT` · 144×14 · “GANDUM UTUH ORGANIK”
+    - **Group 13** · `GROUP` · 1440×264 · 5 children
+      - **Rectangle 11** · `RECTANGLE` · 1440×264
+      - **Overlay+OverlayBlur** · `FRAME` · 282×185 · vertical stack, gap 4px, padding 16px · 4 children
+        - **Icon** · `VECTOR` · 27×27
+        - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+          - **Text** · `TEXT` · 117×48 · “4.9 / 5”
+        - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 115×20 · “Rating Kepuasan”
+        - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+          - **Text** · `TEXT` · 242×40 · “Konsistensi rasa hangat dan pengiriman
+tepat waktu”
+      - **Overlay+OverlayBlur** · `FRAME` · 282×179 · vertical stack, gap 4px, padding 16px · 4 children
+        - **Icon** · `VECTOR` · 21×21
+        - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+          - **Text** · `TEXT` · 111×48 · “100%”
+        - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 84×20 · “Bahan Alami”
+        - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+          - **Text** · `TEXT` · 229×40 · “Tanpa pewarna sintetis, pemutih, atau
+enzim buatan”
+      - **Overlay+OverlayBlur** · `FRAME` · 282×177 · vertical stack, gap 4px, padding 16px · 4 children
+        - **Icon** · `VECTOR` · 29×19
+        - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+          - **Text** · `TEXT` · 72×48 · “35+”
+        - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 132×20 · “Varian Roti & Pastry”
+        - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+          - **Text** · `TEXT` · 214×40 · “Dari sourdough klasik hingga kreasi
+rempah nusantara”
+      - **Overlay+OverlayBlur** · `FRAME` · 282×182 · vertical stack, gap 4px, padding 16px · 4 children
+        - **Icon** · `VECTOR` · 27×24
+        - **Container** · `FRAME` · 250×54 · vertical stack, padding 6/0/0/0px · 1 children
+          - **Text** · `TEXT` · 160×48 · “15.000+”
+        - **Container** · `FRAME` · 250×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 111×20 · “Pelanggan Setia”
+        - **Container** · `FRAME` · 250×40 · vertical stack · 1 children
+          - **Text** · `TEXT` · 232×40 · “Menikmati sarapan hangat di seantero
+Jabodetabek”
+    - **Frame 65** · `FRAME` · 211×36 · horizontal row, gap 10px, padding 8/20/7/19px · 1 children
+      - **Lihat Semua 35+ Varian** · `TEXT` · 181×20 · “Lihat Semua 35+ Varian”
+    - **Group 14** · `GROUP` · 1440×572 · 2 children
+      - **Rectangle 14** · `RECTANGLE` · 1440×572
+      - **Background+Shadow** · `FRAME` · 1200×492 · vertical stack · 2 children
+        - **Container** · `FRAME` · 600×476 · vertical stack, gap 15.100000381469727px, padding 40px · 4 children
+          - **Heading 2** · `FRAME` · 520×103 · vertical stack, padding 2.9000000953674316/0/0/0px · 1 children
+            - **Diproses dengan Penuh Ketelitian** · `TEXT` · 520×100 · “Diproses dengan Penuh Ketelitian”
+          - **Container** · `FRAME` · 520×122 · vertical stack · 1 children
+            - **Di RasaKarya, setiap roti dibuat melalui proses yang mengutamakan kebersihan, kualitas bahan, dan ketelitian dalam setiap tahap. Dengan menggabungkan pembelajaran dan praktik produksi, kami menghadirkan beragam roti yang lezat, lembut, dan berkualitas untuk menemani hari Anda.** · `TEXT` · 520×122 · “Di  RasaKarya, setiap roti dibuat melalui proses yang mengutamakan kebersihan, k”
+          - **Container** · `FRAME` · 520×93 · vertical stack, gap 8px, padding 4.900000095367432/0/0/0px · 2 children
+            - **Container** · `FRAME` · 520×40 · horizontal row, gap 12px · 2 children
+              - **Margin** · `FRAME` · 17×19 · vertical stack, padding 2/0/0/0px · 1 children
+                - **Icon** · `VECTOR` · 17×17
+              - **Container** · `FRAME` · 522×40 · vertical stack, padding 0/11.579999923706055/0/0px · 1 children
+                - **Bahan Berkualitas: Menggunakan bahan pilihan untuk menghasilkan roti dengan rasa dan tekstur yang nikmat.** · `TEXT` · 510×40 · “Bahan Berkualitas: Menggunakan bahan pilihan untuk menghasilkan roti dengan rasa”
+            - **Container** · `FRAME` · 520×40 · horizontal row, gap 12px · 2 children
+              - **Margin** · `FRAME` · 17×19 · vertical stack, padding 2/0/0/0px · 1 children
+                - **Icon** · `VECTOR` · 17×17
+              - **Container** · `FRAME` · 519×40 · vertical stack, padding 0/36.70000076293945/0/0px · 1 children
+                - **Proses Pembuatan Terjaga: Setiap tahap pengolahan dilakukan dengan memperhatikan kebersihan dan standar produksi.** · `TEXT` · 482×40 · “Proses Pembuatan Terjaga: Setiap tahap pengolahan dilakukan dengan memperhatikan”
+          - **Container** · `FRAME` · 520×33 · vertical stack, padding 10.899999618530273/0/2/0px · 1 children
+            - **Link** · `FRAME` · 205×20 · horizontal row, gap 8px · 2 children
+              - **Jelajahi Sejarah Dapur Kami** · `TEXT` · 185×20 · “Jelajahi Sejarah Dapur Kami”
+              - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×12
+        - **Proses pembuatan roti artisanal Rasa Karya** · `FRAME` · 600×492
+    - **Group 16** · `GROUP` · 1440×462 · 2 children
+      - **Rectangle 16** · `RECTANGLE` · 1440×462
+      - **Background+Shadow** · `FRAME` · 1200×373 · vertical stack, padding 40px · 1 children
+        - **Group 15** · `GROUP` · 1200×373 · 2 children
+          - **Ambient Decorative Vector Accent** · `FRAME` · 240×246 · vertical stack, padding 0/0/6/0px · 1 children
+            - **Icon** · `VECTOR` · 240×240
+          - **Container** · `FRAME` · 672×293 · vertical stack, gap 14.899999618530273px · 4 children
+            - **Overlay** · `FRAME` · 162×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+              - **Container** · `FRAME` · 15×13 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 15×13
+              - **Text** · `TEXT` · 107×14 · “Kemitraan HoReCa”
+            - **Heading 2** · `FRAME` · 672×103 · vertical stack, padding 3.0999999046325684/0/0/0px · 1 children
+              - **Sajikan Roti Artisan Terbaik untuk Tamu & Kafe Anda** · `TEXT` · 672×100 · “Sajikan Roti Artisan Terbaik untuk
+Tamu & Kafe Anda”
+            - **Container** · `FRAME` · 672×74 · vertical stack · 1 children
+              - **Kami menjadi mitra pasokan harian terpercaya bagi 24+ hotel butik, specialty coffee shop, dan restoran terkemuka. Dapatkan kurasi roti segar terjadwal dengan harga korporat kompetitif dan konsistensi kualitas tertinggi.** · `TEXT` · 672×74 · “Kami menjadi mitra pasokan harian terpercaya bagi 24+ hotel butik, specialty cof”
+            - **Container** · `FRAME` · 672×49 · horizontal row, gap 16px, padding 5.099999904632568/0/0/0px · 1 children
+              - **Link** · `FRAME` · 239×44 · horizontal row, gap 8px, padding 12/24/12/24px · 3 children
+                - **Link:shadow** · `RECTANGLE` · 239×44
+                - **Container** · `FRAME` · 171×20 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 12×12 · vertical stack
+                  - _…and 1 more_
+    - **Group 19** · `GROUP` · 1440×318 · 2 children
+      - **Rectangle 17** · `RECTANGLE` · 1440×318
+      - **Group 18** · `GROUP` · 1299×225 · 9 children
+        - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+          - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+          - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+            - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+            - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+        - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+          - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+        - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+          - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+            - **Icon** · `VECTOR` · 12×15
+            - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+          - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 14×14
+            - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+          - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×12
+            - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+        - **Group 17** · `GROUP` · 271×137 · 10 children
+          - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+          - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+          - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+          - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+          - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+          - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+          - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+          - **Senin:** · `TEXT` · 43×20 · “Senin:”
+          - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+          - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+        - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+          - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+        - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+          - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+            - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+          - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+            - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+          - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+            - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+          - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+            - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+        - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+          - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 292×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+        - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+          - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×14
+          - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+        - **Container** · `FRAME` · 282×36 · horizontal row, gap 12px · 2 children
+          - **Logo Rasa Karya** · `FRAME` · 36×36
+          - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+            - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **Container** · `FRAME` · 336×115 · 3 children
+    - **Paragraph** · `FRAME` · 292×26 · horizontal row, gap 45.47999954223633px · 2 children
+      - **Roti Pisang Cokelat** · `TEXT` · 169×26 · “Roti Pisang Cokelat”
+      - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+    - **Container** · `FRAME` · 302×60 · vertical stack · 1 children
+      - **Perpaduan pisang yang manis dan cokelat yang lezat dalam balutan roti lembut, menciptakan rasa nikmat di setiap gigitan.** · `TEXT` · 302×60 · “Perpaduan pisang yang manis dan cokelat yang lezat dalam balutan roti lembut, me”
+    - **Container** · `FRAME` · 100×14 · horizontal row, gap 4px · 2 children
+      - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+        - **Icon** · `VECTOR` · 8×11
+      - **200 kkal/piece** · `TEXT` · 88×14 · “200 kkal/piece”
+  - **Container** · `FRAME` · 336×115 · 3 children
+    - **Paragraph** · `FRAME` · 292×26 · horizontal row, gap 45.47999954223633px · 2 children
+      - **Roti Pisang Cokelat** · `TEXT` · 169×26 · “Roti Pisang Cokelat”
+      - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+    - **Container** · `FRAME` · 302×60 · vertical stack · 1 children
+      - **Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa gurih dan aroma kacang yang menggugah selera.** · `TEXT` · 302×60 · “Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa g”
+    - **Container** · `FRAME` · 99×14 · horizontal row, gap 4px · 2 children
+      - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+        - **Icon** · `VECTOR` · 8×11
+      - **280 kkal/piece** · `TEXT` · 87×14 · “280 kkal/piece”
+  - **navigation bar** · `INSTANCE` · 1347×48 · instance of navigation bar
+- **Pemesanan Layanan** · `FRAME` · 1440×1342 · 2 children
+  - **Group 23** · `GROUP` · 1440×1024 · 3 children
+    - **Layanan Kunjungan** · `FRAME` · 1440×1024 · 6 children
+      - **Rectangle 13** · `RECTANGLE` · 1440×668
+      - **Pemesanan Layanan Kunjungan & Paket Khusus** · `TEXT` · 732×130 · “Pemesanan Layanan
+Kunjungan  & Paket Khusus”
+      - **Jadwalkan kunjungan edukatif Anda ke Teaching Factory Polije atau rencanakan kegiatan khusus bersama rombongan. Jelajahi fasilitas, pelajari proses produksi, dan rasakan pengalaman belajar langsung di dunia industri.** · `TEXT` · 875×82 · “Jadwalkan kunjungan edukatif Anda ke Teaching Factory Polije atau rencanakan keg”
+      - **Group 22** · `GROUP` · 348×549 · 14 children
+        - **Rectangle 21** · `RECTANGLE` · 348×549
+        - **Mask group** · `GROUP` · 348×549 · 2 children
+          - **Rectangle 15** · `RECTANGLE` · 348×549
+          - **image 1** · `RECTANGLE` · 732×732
+        - **Rectangle 19** · `VECTOR` · 348×372
+        - **Rectangle 24** · `RECTANGLE` · 348×286
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Tur komprehensif HACCP & rantai pasok** · `TEXT` · 251×44 · “Tur komprehensif HACCP & rantai
+pasok”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Sensory tasting viennoiserie artisan** · `TEXT` · 212×44 · “Sensory tasting viennoiserie
+artisan”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Modul formulasi & konsultasi unit bisnis** · `TEXT` · 245×44 · “Modul formulasi & konsultasi unit
+bisnis”
+        - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+        - **Rectangle 25** · `RECTANGLE` · 169×38
+        - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+        - **Studi Tiru dan Kunjungan Institusi** · `TEXT` · 255×20 · “Studi Tiru dan Kunjungan Institusi”
+      - **Group 23** · `GROUP` · 348×549 · 14 children
+        - **Rectangle 21** · `RECTANGLE` · 348×549
+        - **Mask group** · `GROUP` · 348×549 · 2 children
+          - **Rectangle 15** · `RECTANGLE` · 348×549
+          - **image 2** · `RECTANGLE` · 357×476
+        - **Rectangle 19** · `VECTOR` · 348×372
+        - **Rectangle 24** · `RECTANGLE` · 348×286
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Praktek dough kneading, proofing & baking** · `TEXT` · 258×44 · “Praktek dough kneading, proofing
+& baking”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Apron & baker toque resmi TeFa Polije** · `TEXT` · 238×44 · “Apron & baker toque resmi TeFa
+Polije”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Bawa pulang 6 pcs roti hasil olahan sendiri** · `TEXT` · 206×44 · “Bawa pulang 6 pcs roti hasil
+olahan sendiri”
+        - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+        - **Rectangle 25** · `RECTANGLE` · 169×38
+        - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+        - **Kunjungan Praktik dan Workshop** · `TEXT` · 255×20 · “Kunjungan Praktik dan Workshop”
+      - **Group 24** · `GROUP` · 348×549 · 14 children
+        - **Rectangle 21** · `RECTANGLE` · 348×549
+        - **Mask group** · `GROUP` · 348×549 · 2 children
+          - **Rectangle 15** · `RECTANGLE` · 348×549
+          - **image 3** · `RECTANGLE` · 348×457
+        - **Rectangle 19** · `VECTOR` · 348×372
+        - **Rectangle 24** · `RECTANGLE` · 348×286
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Menghias 3 donut glaze & cetak cookie lucu** · `TEXT` · 238×44 · “Menghias 3 donut glaze & cetak
+cookie lucu”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Topi chef cilik & sertifikat 'Junior Baker'** · `TEXT` · 236×44 · “Topi chef cilik & sertifikat 'Junior
+Baker'”
+        - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+          - **Icon** · `VECTOR` · 13×13
+        - **Foto dokumentasi kelompok & susu segar** · `TEXT` · 233×44 · “Foto dokumentasi kelompok &
+susu segar”
+        - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+        - **Rectangle 25** · `RECTANGLE` · 169×38
+        - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+        - **Kunjungan Edukasi (Educational Visit)** · `TEXT` · 277×20 · “Kunjungan Edukasi (Educational Visit)”
+    - **Group 24** · `GROUP` · 1440×80 · 2 children
+      - **navigation** · `GROUP` · 1440×80 · 3 children
+        - **Rectangle 2** · `RECTANGLE` · 1440×80
+        - **Rasakarya title** · `GROUP` · 154×40 · 3 children
+          - **ARTISANAL BAKERY** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+          - **Rasa Karya** · `TEXT` · 91×26 · “Rasa Karya”
+          - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Group 1** · `GROUP` · 560×48 · 4 children
+          - **Rectangle 3** · `RECTANGLE` · 560×48
+          - **Tentang Kami** · `TEXT` · 95×24 · “Tentang Kami”
+          - **Produk & Pemesanan** · `TEXT` · 150×24 · “Produk & Pemesanan”
+          - **Beranda** · `TEXT` · 60×24 · “Beranda”
+      - **Group 7** · `GROUP` · 204×44 · 5 children
+        - **Fikri 2025** · `TEXT` · 59×16 · “Fikri 2025”
+        - **Selamat Datang,** · `TEXT` · 95×14 · “Selamat Datang,”
+        - **Group 4** · `GROUP` · 46×44 · 2 children
+          - **Group 3** · `GROUP` · 40×40 · 2 children
+            - **Rectangle 5** · `RECTANGLE` · 40×40
+            - **Icon** · `VECTOR` · 13×17
+          - **Group 2** · `GROUP` · 20×20 · 2 children
+            - **Rectangle 6** · `RECTANGLE` · 20×20
+            - **3** · `TEXT` · 7×14 · “3”
+        - **Rectangle 7** · `RECTANGLE` · 1×30
+        - **nukukmizhuwd 1** · `RECTANGLE` · 32×32
+    - **Pemesanan Layanan** · `FRAME` · 1440×1024 · 1 children
+      - **Group 23** · `GROUP` · 1440×1024 · 1 children
+        - **Layanan Kunjungan** · `FRAME` · 1440×1024 · 7 children
+          - **Rectangle 13** · `RECTANGLE` · 1440×940
+          - **Pemesanan Layanan Kunjungan & Paket Khusus** · `TEXT` · 732×130 · “Pemesanan Layanan
+Kunjungan  & Paket Khusus”
+          - **Jadwalkan kunjungan edukatif Anda ke Teaching Factory Polije atau rencanakan kegiatan khusus bersama rombongan. Jelajahi fasilitas, pelajari proses produksi, dan rasakan pengalaman belajar langsung di dunia industri.** · `TEXT` · 875×82 · “Jadwalkan kunjungan edukatif Anda ke Teaching Factory Polije atau rencanakan keg”
+          - **famicons:chevron-back** · `COMPONENT` · 14×14 · 1 children
+            - **Group 61** · `GROUP` · 232×30 · 3 children
+              - **Rectangle 43** · `RECTANGLE` · 156×30
+              - **Kembali ke Beranda** · `TEXT` · 208×13 · “Kembali ke Beranda”
+              - **Vector** · `VECTOR` · 4×8
+          - **Group 22** · `GROUP` · 348×549 · 14 children
+            - **Rectangle 21** · `RECTANGLE` · 348×549
+            - **Mask group** · `GROUP` · 348×549 · 2 children
+              - **Rectangle 15** · `RECTANGLE` · 348×549
+              - **image 1** · `RECTANGLE` · 732×732
+            - **Rectangle 19** · `VECTOR` · 348×372
+            - **Rectangle 24** · `RECTANGLE` · 348×286
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Tur komprehensif HACCP & rantai pasok** · `TEXT` · 251×44 · “Tur komprehensif HACCP & rantai
+pasok”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Sensory tasting viennoiserie artisan** · `TEXT` · 212×44 · “Sensory tasting viennoiserie
+artisan”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Modul formulasi & konsultasi unit bisnis** · `TEXT` · 245×44 · “Modul formulasi & konsultasi unit
+bisnis”
+            - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+            - **Rectangle 25** · `RECTANGLE` · 169×38
+            - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+            - **Studi Tiru dan Kunjungan Institusi** · `TEXT` · 255×20 · “Studi Tiru dan Kunjungan Institusi”
+          - **Group 23** · `GROUP` · 348×549 · 14 children
+            - **Rectangle 21** · `RECTANGLE` · 348×549
+            - **Mask group** · `GROUP` · 348×549 · 2 children
+              - **Rectangle 15** · `RECTANGLE` · 348×549
+              - **image 2** · `RECTANGLE` · 357×476
+            - **Rectangle 19** · `VECTOR` · 348×372
+            - **Rectangle 24** · `RECTANGLE` · 348×286
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Praktek dough kneading, proofing & baking** · `TEXT` · 258×44 · “Praktek dough kneading, proofing
+& baking”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Apron & baker toque resmi TeFa Polije** · `TEXT` · 238×44 · “Apron & baker toque resmi TeFa
+Polije”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Bawa pulang 6 pcs roti hasil olahan sendiri** · `TEXT` · 206×44 · “Bawa pulang 6 pcs roti hasil
+olahan sendiri”
+            - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+            - **Rectangle 25** · `RECTANGLE` · 169×38
+            - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+            - **Kunjungan Praktik dan Workshop** · `TEXT` · 255×20 · “Kunjungan Praktik dan Workshop”
+          - **Group 24** · `GROUP` · 348×549 · 14 children
+            - **Rectangle 21** · `RECTANGLE` · 348×549
+            - **Mask group** · `GROUP` · 348×549 · 2 children
+              - **Rectangle 15** · `RECTANGLE` · 348×549
+              - **image 3** · `RECTANGLE` · 348×457
+            - **Rectangle 19** · `VECTOR` · 348×372
+            - **Rectangle 24** · `RECTANGLE` · 348×286
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Menghias 3 donut glaze & cetak cookie lucu** · `TEXT` · 238×44 · “Menghias 3 donut glaze & cetak
+cookie lucu”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Topi chef cilik & sertifikat 'Junior Baker'** · `TEXT` · 236×44 · “Topi chef cilik & sertifikat 'Junior
+Baker'”
+            - **Margin** · `FRAME` · 13×15 · vertical stack, padding 2/0/0/0px · 1 children
+              - **Icon** · `VECTOR` · 13×13
+            - **Foto dokumentasi kelompok & susu segar** · `TEXT` · 233×44 · “Foto dokumentasi kelompok &
+susu segar”
+            - **TERMASUK FASILITAS:** · `TEXT` · 248×14 · “TERMASUK FASILITAS:”
+            - **Rectangle 25** · `RECTANGLE` · 169×38
+            - **Ajukan Kunjungan** · `TEXT` · 255×20 · “Ajukan Kunjungan”
+            - **Kunjungan Edukasi (Educational Visit)** · `TEXT` · 277×20 · “Kunjungan Edukasi (Educational Visit)”
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 289×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+- **Koleksi Roti RasaKarya** · `FRAME` · 1440×1875 · 18 children
+  - **Koleksi Roti RasaKarya** · `TEXT` · 732×57 · “Koleksi Roti RasaKarya”
+  - **Rectangle 28** · `RECTANGLE` · 1440×1501
+  - **Frame 3** · `FRAME` · 150×40 · horizontal row, gap 10px, padding 8/36/8/35px
+  - **Frame 4** · `FRAME` · 150×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Semua Produk** · `TEXT` · 104×24 · “Semua Produk”
+  - **Frame 5** · `FRAME` · 73×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Roti** · `TEXT` · 29×24 · “Roti”
+  - **Frame 6** · `FRAME` · 159×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Minuman Hangat** · `TEXT` · 119×24 · “Minuman Hangat”
+  - **Frame 7** · `FRAME` · 159×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Minuman Dingin** · `TEXT` · 112×24 · “Minuman Dingin”
+  - **Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan tekstur yang menggugah selera. Pilih roti sesuai seleramu dan nikmati kelezatannya hari ini!** · `TEXT` · 875×56 · “Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan tekstur ”
+  - **Roti Boy** · `GROUP` · 384×496 · 1 children
+    - **Roti Boy** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Boy** · `TEXT` · 73×26 · “Roti Boy”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah, cocok untuk menemani waktu santai.** · `TEXT` · 335×60 · “Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah,”
+          - **Container** · `FRAME` · 98×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **250 kkal/piece** · `TEXT` · 86×14 · “250 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 4** · `RECTANGLE` · 384×270
+  - **Roti Pisang Coklat** · `GROUP` · 384×496 · 1 children
+    - **Roti Pisang Coklat** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Pisang Cokelat** · `TEXT` · 169×26 · “Roti Pisang Cokelat”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Perpaduan pisang yang manis dan cokelat yang lezat dalam balutan roti lembut, menciptakan rasa nikmat di setiap gigitan.** · `TEXT` · 335×60 · “Perpaduan pisang yang manis dan cokelat yang lezat dalam balutan roti lembut, me”
+          - **Container** · `FRAME` · 100×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **200 kkal/piece** · `TEXT` · 88×14 · “200 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Roti Abon** · `GROUP` · 384×496 · 1 children
+    - **Roti Abon** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Abon** · `TEXT` · 86×26 · “Roti Abon”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Roti lembut dengan taburan abon gurih yang kaya rasa, pilihan tepat bagi kamu yang menyukai camilan bercita rasa savory.** · `TEXT` · 335×60 · “Roti lembut dengan taburan abon gurih yang kaya rasa, pilihan tepat bagi kamu ya”
+          - **Container** · `FRAME` · 98×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **270 kkal/piece** · `TEXT` · 86×14 · “270 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 34** · `GROUP` · 384×496 · 1 children
+    - **Roti Abon Gulung** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Abon Gulung** · `TEXT` · 152×26 · “Roti Abon Gulung”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Roti gulung lembut dengan isian abon yang gurih, menghadirkan perpaduan tekstur dan rasa yang pas untuk camilan sehari-hari.** · `TEXT` · 335×60 · “Roti gulung lembut dengan isian abon yang gurih, menghadirkan perpaduan tekstur ”
+          - **Container** · `FRAME` · 98×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **270 kkal/piece** · `TEXT` · 86×14 · “270 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 4** · `RECTANGLE` · 384×270
+  - **Group 35** · `GROUP` · 384×496 · 1 children
+    - **Roti Isi Daging** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Isi Daging** · `TEXT` · 123×26 · “Roti Isi Daging”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Roti lembut dengan isian daging yang gurih dan kaya rasa, cocok untuk mengganjal lapar di sela-sela aktivitas.** · `TEXT` · 335×60 · “Roti lembut dengan isian daging yang gurih dan kaya rasa, cocok untuk mengganjal”
+          - **Container** · `FRAME` · 98×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **250 kkal/piece** · `TEXT` · 86×14 · “250 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 36** · `GROUP` · 384×496 · 1 children
+    - **Roti Kacang** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Roti Kacang** · `TEXT` · 105×26 · “Roti Kacang”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa gurih dan aroma kacang yang menggugah selera.** · `TEXT` · 335×60 · “Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa g”
+          - **Container** · `FRAME` · 99×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **280 kkal/piece** · `TEXT` · 87×14 · “280 kkal/piece”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 290×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **Group 51** · `GROUP` · 230×36 · 6 children
+    - **Group 44** · `GROUP` · 36×36 · 2 children
+      - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **Vector 1** · `VECTOR` · 9×14
+    - **Group 50** · `GROUP` · 36×36 · 2 children
+      - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **Vector 1** · `VECTOR` · 9×14
+    - **Group 47** · `GROUP` · 36×36 · 2 children
+      - **Group 45** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **1** · `TEXT` · 9×27 · “1”
+    - **Group 48** · `GROUP` · 36×36 · 2 children
+      - **Group 46** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **2** · `TEXT` · 9×19 · “2”
+    - **Group 49** · `GROUP` · 36×36 · 2 children
+      - **Group 46** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **5** · `TEXT` · 9×19 · “5”
+    - **...** · `TEXT` · 13×18 · “...”
+  - **Group 61** · `GROUP` · 230×30 · 2 children
+    - **Rectangle 43** · `RECTANGLE` · 156×30
+    - **Group 63** · `GROUP` · 223×14 · 2 children
+      - **Kembali ke Beranda** · `TEXT` · 208×14 · “Kembali ke Beranda”
+      - **Vector** · `VECTOR` · 4×8
+  - **Kehangatan Roti Segar Setiap Hari Kelembutan Sempurna di Setiap Gigitan.** · `TEXT` · 861×130 · “Kehangatan Roti Segar Setiap Hari
+Kelembutan Sempurna di Setiap Gigitan.”
+- **Tentang Kami** · `FRAME` · 1440×4140 · 10 children
+  - **Rectangle 8** · `RECTANGLE` · 1440×478
+  - **Container** · `FRAME` · 700×398 · vertical stack · 4 children
+    - **Overlay:align-flex-start** · `FRAME` · 700×22 · vertical stack · 1 children
+      - **Overlay** · `FRAME` · 226×22 · horizontal row, gap 8px, padding 4/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×9 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×9
+        - **Container** · `FRAME` · 171×14 · vertical stack · 1 children
+          - **Text** · `TEXT` · 171×14 · “KISAH KAMI & WARISAN RASA”
+    - **Heading 1:margin** · `FRAME` · 700×208 · vertical stack, padding 16/0/0/0px · 1 children
+      - **Heading 1** · `FRAME` · 700×192 · vertical stack · 1 children
+        - **Mendedikasikan Cinta pada Seni Roti Tradisional & Presisi Modern.** · `TEXT` · 700×192 · “Mendedikasikan Cinta
+pada Seni Roti Tradisional
+& Presisi Modern.”
+    - **Margin** · `FRAME` · 672×104 · vertical stack, padding 16/0/0/0px · 1 children
+      - **Container** · `FRAME` · 672×88 · vertical stack, padding 4/0/0/0px · 1 children
+        - **Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti artisan di Nusantara. Kami memadukan presisi fermentasi klasik Prancis dengan kekayaan rempah serta biji-bijian organik dari tanah Indonesia.** · `TEXT` · 672×84 · “Rasa Karya lahir dari hasrat murni untuk menghidupkan kembali esensi sejati roti”
+    - **Margin** · `FRAME` · 700×64 · vertical stack, padding 16/0/0/0px · 1 children
+      - **Container** · `FRAME` · 700×48 · horizontal row, gap 24px, padding 16/0/0/0px · 2 children
+        - **Background** · `FRAME` · 196×32 · horizontal row, gap 12px, padding 8/16/8/16px · 2 children
+          - **Background** · `RECTANGLE` · 12×12
+          - **Container** · `FRAME` · 140×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 140×16 · “100% Fermentasi Alami”
+        - **Background** · `FRAME` · 210×32 · horizontal row, gap 12px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 17×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 17×16
+          - **Container** · `FRAME` · 149×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 149×16 · “Bebas Pengawet Sintetis”
+  - **Highlight Metric Display** · `FRAME` · 400×282 · vertical stack, gap 16px, padding 24px · 4 children
+    - **Paragraph** · `FRAME` · 352×16 · horizontal row, gap 201.16000366210938px · 2 children
+      - **Text** · `TEXT` · 87×14 · “DEDIKASI RAGI”
+      - **Text** · `TEXT` · 64×16 · “Sejak 2018”
+    - **Horizontal Divider** · `RECTANGLE` · 352×1
+    - **Container** · `FRAME` · 352×104 · horizontal row, gap 16px · 2 children
+      - **Container** · `FRAME` · 168×104 · vertical stack, padding 0/0/20/0px · 2 children
+        - **Paragraph** · `FRAME` · 168×44 · 2 children
+          - **Text** · `TEXT` · 40×44 · “72”
+          - **Text** · `TEXT` · 29×26 · “jam”
+        - **Container** · `FRAME` · 168×40 · vertical stack · 1 children
+          - **Durasi fermentasi lambat untuk tekstur lembut alami** · `TEXT` · 168×40 · “Durasi fermentasi lambat
+untuk tekstur lembut alami”
+      - **Container** · `FRAME` · 168×104 · vertical stack · 2 children
+        - **Paragraph** · `FRAME` · 168×44 · 2 children
+          - **Text** · `TEXT` · 59×44 · “18+”
+          - **Text** · `TEXT` · 42×26 · “mitra”
+        - **Container** · `FRAME` · 168×60 · vertical stack · 1 children
+          - **Hotel bintang lima & specialty café percaya pada kami** · `TEXT` · 168×60 · “Hotel bintang lima &
+specialty café percaya
+pada kami”
+    - **Background** · `FRAME` · 352×65 · horizontal row, gap 8px, padding 16px · 2 children
+      - **Container** · `FRAME` · 16×21 · vertical stack · 1 children
+        - **Icon** · `VECTOR` · 16×21
+      - **Container** · `FRAME` · 288×33 · vertical stack, padding 0/27.190000534057617/0/0px · 1 children
+        - **Text** · `TEXT` · 261×33 · “Standar higienitas HACCP dan pengolahan
+artisan bersertifikat resmi.”
+  - **Group 37** · `GROUP` · 1440×580 · 5 children
+    - **Rectangle 26** · `RECTANGLE` · 1440×580
+    - **image 6** · `RECTANGLE` · 588×450
+    - **Overlapping Card** · `FRAME` · 320×94 · vertical stack, gap 4px, padding 16px · 3 children
+      - **Overlapping Card:shadow** · `RECTANGLE` · 320×94
+      - **Container** · `FRAME` · 288×17 · horizontal row, gap 8px · 2 children
+        - **Container** · `FRAME` · 17×17 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 17×17
+        - **Container** · `FRAME` · 84×14 · vertical stack · 1 children
+          - **Text** · `TEXT` · 84×14 · “BAHAN MURNI”
+      - **Container** · `FRAME` · 288×40 · vertical stack · 1 children
+        - **Tepung gandum batu giling, garam laut Bali, dan mata air pegunungan murni.** · `TEXT` · 288×40 · “Tepung gandum batu giling, garam laut Bali,
+dan mata air pegunungan murni.”
+    - **Narrative Content** · `FRAME` · 588×357 · vertical stack, padding 0/0/0/16px · 3 children
+      - **Container** · `FRAME` · 572×16 · vertical stack · 1 children
+        - **WARISAN & FILOSOFI** · `TEXT` · 572×16 · “WARISAN & FILOSOFI”
+      - **Heading 2:margin** · `FRAME` · 572×116 · vertical stack, padding 16/0/0/0px · 1 children
+        - **Heading 2** · `FRAME` · 572×100 · vertical stack · 1 children
+          - **Perjalanan Menghormati Tradisi Ragi Liar** · `TEXT` · 572×100 · “Perjalanan Menghormati
+Tradisi Ragi Liar”
+      - **Margin** · `FRAME` · 572×218 · vertical stack, padding 15.0649995803833/0/0/0px · 1 children
+        - **Container** · `FRAME` · 572×203 · vertical stack, gap 7.065000057220459px · 2 children
+          - **Container** · `FRAME` · 572×98 · vertical stack · 1 children
+            - **Di Rasa Karya, roti bukan sekadar komoditas santapan pagi, melainkan kanvas tempat sains, kesabaran, dan cita rasa bertemu. Perjalanan kami dimulai dari ketertarikan mendalam terhadap biologi ragi alami dan fermentasi lambat yang sering kali dikesampingkan dalam produksi massal industri modern.** · `TEXT` · 572×98 · “Di Rasa Karya, roti bukan sekadar komoditas santapan pagi, melainkan kanvas
+temp”
+          - **Container** · `FRAME` · 572×98 · vertical stack · 1 children
+            - **Dengan mengambil inspirasi dari resep pedesaan Prancis dan menenunnya bersama rempah lokal seperti kayu manis Kerinci, gula aren organik, dan biji wijen Nusantara, kami menghadirkan profil roti yang tidak hanya kaya tekstur dan aroma, tetapi juga jauh lebih ramah terhadap pencernaan tubuh.** · `TEXT` · 572×98 · “Dengan mengambil inspirasi dari resep pedesaan Prancis dan menenunnya
+bersama re”
+    - **Micro Quote Box** · `FRAME` · 572×106 · horizontal row, gap 16px, padding 16px · 2 children
+      - **Icon** · `VECTOR` · 23×16
+      - **Container** · `FRAME` · 492×72 · vertical stack, padding 0/13.979999542236328/0/0px · 1 children
+        - **Text** · `TEXT` · 478×72 · “"Kami tidak pernah memburu waktu. Setiap gelembung udara dalam
+remah roti adalah”
+  - **Group 38** · `GROUP` · 1440×336 · 2 children
+    - **Rectangle 27** · `RECTANGLE` · 1440×336
+    - **Background+Shadow** · `FRAME` · 1378×276 · horizontal row, gap 117.02999877929688px, padding 40px · 3 children
+      - **Subtle Decorative Background Shape** · `RECTANGLE` · 256×256
+      - **Container** · `FRAME` · 570×176 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+        - **Text** · `TEXT` · 286×16 · “INGIN MERASAKAN KEHANGATAN ROTI KAMI?”
+        - **Heading 3** · `FRAME` · 570×99 · vertical stack, padding 2.5/0/0/0px · 1 children
+          - **Kunjungi Outlet Kami atau Pesan Batch Pagi Ini.** · `TEXT` · 480×96 · “Kunjungi Outlet Kami atau
+Pesan Batch Pagi Ini.”
+        - **Container** · `FRAME` · 570×48 · vertical stack · 1 children
+          - **Text** · `TEXT` · 570×48 · “Setiap fajar kami memanggang batch terbatas agar Anda selalu menikmati aroma
+dan”
+      - **Container** · `FRAME` · 213×36 · horizontal row, gap 8px · 1 children
+        - **Link** · `FRAME` · 213×36 · vertical stack, padding 8/24/8/24px · 1 children
+          - **Text** · `TEXT` · 165×20 · “Lihat Menu & Pre-Order”
+  - **Group 41** · `GROUP` · 1440×1385 · 2 children
+    - **Group 40** · `GROUP` · 1440×1385 · 1 children
+      - **Rectangle 30** · `RECTANGLE` · 1440×1385
+    - **Container** · `FRAME` · 1280×1305 · vertical stack, gap 40px · 1 children
+      - **Group 40** · `GROUP` · 1280×1305 · 3 children
+        - **Container** · `FRAME` · 1280×72 · horizontal row, gap 193.5500030517578px · 2 children
+          - **Paragraph** · `FRAME` · 498×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+            - **Text** · `TEXT` · 136×16 · “DAPUR & TEKNOLOGI”
+            - **Fasilitas Modern & Higienis** · `TEXT` · 498×48 · “Fasilitas Modern & Higienis”
+          - **Container** · `FRAME` · 512×48 · vertical stack, padding 0/45.15999984741211/0/0px · 1 children
+            - **Text** · `TEXT` · 467×48 · “Perpaduan instrumen dapur berteknologi tinggi dari Eropa dengan
+kehangatan keram”
+        - **Facility Grid** · `FRAME` · 1280×1059 · vertical stack · 4 children
+          - **Card 1** · `FRAME` · 628×518 · vertical stack · 2 children
+            - **Container** · `FRAME` · 628×368 · vertical stack · 2 children
+              - **AB6AXuCMKJITHmvz_Y0wOu_Rl1Du9uxC7v1G77-23cF5yM_pO5DQIJR-nhgfJxTZE4XujXn5n8GmJtWQ7-0VlfiixHAcr0DbctagAjL9OZ77q2QP4f9UN9dFO6FjKD75W10T0Ramsufkb-d_I9hrMcZkRgYBxgiM0cU-hh63eawD1GyZTv-BG0HePSEWpg4mCliUsl41WONW32OqjAHHNkjkpluq8TuaWGCTwVUUA1-JBzMp_5Beq0lIvMmF** · `FRAME` · 628×368
+              - **Overlay+OverlayBlur** · `FRAME` · 84×22 · vertical stack, padding 4/8/4/8px · 1 children
+                - **Text** · `TEXT` · 68×14 · “Presisi Iklim”
+            - **Container** · `FRAME` · 628×150 · vertical stack, padding 24px · 2 children
+              - **Heading 3** · `FRAME` · 580×26 · vertical stack · 1 children
+                - **Dapur Fermentasi Terkontrol** · `TEXT` · 580×26 · “Dapur Fermentasi Terkontrol”
+              - **Margin** · `FRAME` · 580×76 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Container** · `FRAME` · 580×72 · vertical stack
+                  - _…and 1 more_
+          - **Card 2** · `FRAME` · 628×518 · vertical stack · 2 children
+            - **Container** · `FRAME` · 628×368 · vertical stack · 2 children
+              - **AB6AXuDnewbvmwbjNFkf46tvEj3wxYXgFkCS8IuPxIkOV14BZ93ruSV5EcNF4HT1GBjIfy4lSJ-g0a8z3cdPUyTrN5JUcFrQlZwKHGIfde8iUcl7DpykDg4Cp-MHQLi6xzs5pUtLR3zpXduyyO_6PhM0jt-nBUNYJi98fR4KRaLjQIJZOumOWB7C9JUxf-I16xsyc3QJxnVRLeh4lzV1lLrlGzQX8XNxJLIFFasIrxDjabxj3jmwMw2HSsnk** · `FRAME` · 628×368
+              - **Overlay+OverlayBlur** · `FRAME` · 94×22 · vertical stack, padding 4/8/4/8px · 1 children
+                - **Text** · `TEXT` · 78×14 · “Batu Vulkanik”
+            - **Container** · `FRAME` · 628×150 · vertical stack, padding 24px · 2 children
+              - **Heading 3** · `FRAME` · 580×26 · vertical stack · 1 children
+                - **Stone Hearth Deck Oven** · `TEXT` · 580×26 · “Stone Hearth Deck Oven”
+              - **Margin** · `FRAME` · 580×76 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Container** · `FRAME` · 580×72 · vertical stack
+                  - _…and 1 more_
+          - **Card 3** · `FRAME` · 628×518 · vertical stack · 2 children
+            - **Container** · `FRAME` · 628×368 · vertical stack · 2 children
+              - **AB6AXuC76veOmGqtZBq7k9G0K4bk5zwJy7dzdt3W0sZrmW3EngDyPDhYRvjf4WdSciloKFHyk1r_0oombFQdsGnUqyxhA4dui5SBsQY4KhlVAq2cDxMCC8GAjaABZGtjmrWywbF1sdpK5DnBH-umWCPleWMn8ZI4Ho28Hw4UfJOXLHAk7j4ahFksa1kudMFL_1PFB5S3lNmAsXzPiTcozRecgxLHiCiZa0ZMsE0tb7HyIh-Bv-Ic9VLtBdy_** · `FRAME` · 628×368
+              - **Overlay+OverlayBlur** · `FRAME` · 133×22 · vertical stack, padding 4/8/4/8px · 1 children
+                - **Text** · `TEXT` · 117×14 · “Standar Bebas Debu”
+            - **Container** · `FRAME` · 628×150 · vertical stack, padding 24px · 2 children
+              - **Heading 3** · `FRAME` · 580×26 · vertical stack · 1 children
+                - **Area Pengemasan Steril & Cleanroom** · `TEXT` · 580×26 · “Area Pengemasan Steril & Cleanroom”
+              - **Margin** · `FRAME` · 580×76 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Container** · `FRAME` · 580×72 · vertical stack
+                  - _…and 1 more_
+          - **Card 4** · `FRAME` · 628×518 · vertical stack · 2 children
+            - **Container** · `FRAME` · 628×368 · vertical stack · 2 children
+              - **AB6AXuBbngLverwm__uiUGQCIOMjqv0upb9bT94p4aweVoJPqPVSteXKc-dHHJPgtKpv0toTAMYVNeZoxtNYO9Xv6Che5Fv3dJYpplz3PYf2CBmWR_Z1P_Z-sMXqZv4Yqa6Rr5vPvzQ7oQOEwgNWufdxNMORXG_R18i12oaK8QUMqYoFGXgEmMayG1ln2jtOmaN6t-7ASpk4faMBFXkI9kXYu43jw11LUlq29g6mjFpudO5wY5migWQHB8UA** · `FRAME` · 628×368
+              - **Overlay+OverlayBlur** · `FRAME` · 125×22 · vertical stack, padding 4/8/4/8px · 1 children
+                - **Text** · `TEXT` · 109×14 · “Interaktif & Hangat”
+            - **Container** · `FRAME` · 628×150 · vertical stack, padding 24px · 2 children
+              - **Heading 3** · `FRAME` · 580×26 · vertical stack · 1 children
+                - **Storefront & Open Tasting Bar** · `TEXT` · 580×26 · “Storefront & Open Tasting Bar”
+              - **Margin** · `FRAME` · 580×76 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Container** · `FRAME` · 580×72 · vertical stack
+                  - _…and 1 more_
+        - **Trust Badges & Formal Certifications Strip** · `FRAME` · 1280×94 · horizontal row, gap 100.66999816894531px, padding 24px · 2 children
+          - **Container** · `FRAME` · 492×40 · vertical stack · 2 children
+            - **Container** · `FRAME` · 492×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 207×16 · “JAMINAN KUALITAS & LEGALITAS”
+            - **Container** · `FRAME` · 492×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 492×24 · “Kepatuhan Penuh Terhadap Standar Higienitas Nasional & Global”
+          - **Container** · `FRAME` · 536×46 · horizontal row, gap 24px · 3 children
+            - **Halal Indonesia** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+              - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×20
+              - **Container** · `FRAME` · 105×30 · vertical stack · 2 children
+                - **Container** · `FRAME` · 105×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×14 · vertical stack
+                  - _…and 1 more_
+            - **BPOM RI** · `FRAME` · 165×46 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+              - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×20
+              - **Container** · `FRAME` · 109×30 · vertical stack · 2 children
+                - **Container** · `FRAME` · 109×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 109×14 · vertical stack
+                  - _…and 1 more_
+            - **ISO 22000** · `FRAME` · 161×46 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+              - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×20
+              - **Container** · `FRAME` · 105×30 · vertical stack · 2 children
+                - **Container** · `FRAME` · 105×16 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 105×14 · vertical stack
+                  - _…and 1 more_
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Syarat Pemesanan** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 295×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **Group 42** · `GROUP` · 1440×524 · 2 children
+    - **Rectangle 31** · `RECTANGLE` · 1440×524
+    - **Container** · `FRAME` · 1280×444 · vertical stack, gap 40px · 2 children
+      - **Container** · `FRAME` · 672×128 · vertical stack, gap 4px, padding 5.5/0/0/0px · 3 children
+        - **Text** · `TEXT` · 173×16 · “PRINSIP TANPA KOMPROMI”
+        - **Heading 2** · `FRAME` · 672×51 · vertical stack, padding 2.5/0/0/0px · 1 children
+          - **Nilai Utama Rasa Karya** · `TEXT` · 414×48 · “Nilai Utama Rasa Karya”
+        - **Container** · `FRAME` · 672×48 · vertical stack · 1 children
+          - **Text** · `TEXT` · 664×48 · “Pondasi moral dan etika kerja yang membimbing setiap sendok tepung dan setiap me”
+      - **Container** · `FRAME` · 1280×276 · horizontal row, gap 24px · 3 children
+        - **Value 1** · `FRAME` · 411×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+          - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+            - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 18×18
+          - **Heading 3:margin** · `FRAME` · 258×42 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Heading 3 → Bahan Baku Murni Tanpa Kimia** · `TEXT` · 258×26 · “Bahan Baku Murni Tanpa Kimia”
+          - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/8.479999542236328/0/0px · 1 children
+            - **Text** · `TEXT` · 328×98 · “Menolak keras penggunaan pengembang
+artifisial, pemutih tepung (bleaching agent)”
+        - **Value 2** · `FRAME` · 411×276 · vertical stack, padding 24px · 3 children
+          - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+            - **Container** · `FRAME` · 20×22 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×22
+          - **Heading 3:margin** · `FRAME` · 237×42 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Heading 3 → Kebersihan Standar HACCP** · `TEXT` · 237×26 · “Kebersihan Standar HACCP”
+          - **Margin** · `FRAME` · 336×138 · vertical stack, padding 16/35.52000045776367/0/0px · 1 children
+            - **Text** · `TEXT` · 300×122 · “Menerapkan disiplin ketat sanitasi dapur,
+monitoring rantai dingin bahan, dan ru”
+        - **Value 3** · `FRAME` · 411×276 · vertical stack, padding 24/24/48.380001068115234/24px · 3 children
+          - **Overlay** · `FRAME` · 48×48 · horizontal row · 1 children
+            - **Container** · `FRAME` · 24×17 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 24×17
+          - **Heading 3:margin** · `FRAME` · 240×42 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Heading 3 → Pemberdayaan Petani Lokal** · `TEXT` · 240×26 · “Pemberdayaan Petani Lokal”
+          - **Margin** · `FRAME` · 336×114 · vertical stack, padding 16/26.229999542236328/0/0px · 1 children
+            - **Text** · `TEXT` · 310×98 · “Bekerja sama langsung dengan petani lokal
+untuk pasokan rempah alami, kacang men”
+  - **Group 39** · `GROUP` · 1440×471 · 4 children
+    - **Rectangle 29** · `RECTANGLE` · 1440×471
+    - **Container** · `FRAME` · 487×72 · horizontal row, gap 290.2699890136719px · 1 children
+      - **Paragraph** · `FRAME` · 459×72 · vertical stack, gap 2.5px, padding 5.5/0/0/0px · 2 children
+        - **Text** · `TEXT` · 102×16 · “JEJAK LANGKAH”
+        - **Tonggak Perjalanan Kami** · `TEXT` · 459×48 · “Tonggak Perjalanan Kami”
+    - **Text** · `TEXT` · 441×48 · “Dari sebuah oven dapur rumahan sederhana berkapasitas 6 roti
+hingga menjadi pion”
+    - **Timeline Bento Track** · `FRAME` · 1318×279 · horizontal row, gap 24px · 3 children
+      - **2018 Card** · `FRAME` · 423×279 · vertical stack, padding 24px · 2 children
+        - **Container** · `FRAME` · 375×191 · vertical stack, gap -0.8999999761581421px · 3 children
+          - **Container** · `FRAME` · 375×64 · horizontal row, gap 156.17999267578125px, padding 0/0/16/0px · 2 children
+            - **Container** · `FRAME` · 90×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 90×48 · “2018”
+            - **Overlay** · `FRAME` · 89×22 · vertical stack, padding 4/8/4/8px · 1 children
+              - **Text** · `TEXT` · 73×14 · “TAHAP AWAL”
+          - **Heading 3** · `FRAME` · 375×31 · vertical stack, padding 0.8999999761581421/0/4/0px · 1 children
+            - **Awal Mula Home Bakery** · `TEXT` · 375×26 · “Awal Mula Home Bakery”
+          - **Container** · `FRAME` · 375×98 · vertical stack · 1 children
+            - **Memulai batch pertama sourdough leavening di dapur rumah Menteng. Mengembangkan starter ragi alami 'Cikini-01' yang sampai saat ini masih menjadi induk fermentasi kami.** · `TEXT` · 375×98 · “Memulai batch pertama sourdough leavening di
+dapur rumah Menteng. Mengembangkan
+”
+        - **Container** · `FRAME` · 375×40 · horizontal row, gap 8px, padding 24/0/0/0px · 2 children
+          - **Container** · `FRAME` · 17×15 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 17×15
+          - **Container** · `FRAME` · 217×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 217×16 · “Batch Eksperimental 20 Loaves/Hari”
+      - **2021 Card** · `FRAME` · 423×279 · vertical stack, padding 24px · 2 children
+        - **Container** · `FRAME` · 375×191 · vertical stack, gap -0.8999999761581421px · 3 children
+          - **Container** · `FRAME` · 375×64 · horizontal row, gap 115.52999877929688px, padding 0/0/16/0px · 2 children
+            - **Container** · `FRAME` · 89×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 89×48 · “2021”
+            - **Background** · `FRAME` · 131×22 · vertical stack, padding 4/8/4/8px · 1 children
+              - **Text** · `TEXT` · 115×14 · “EKSPANSI FASILITAS”
+          - **Heading 3** · `FRAME` · 375×31 · vertical stack, padding 0.8999999761581421/0/4/0px · 1 children
+            - **Dapur Higienis & Outlet Flagship** · `TEXT` · 375×26 · “Dapur Higienis & Outlet Flagship”
+          - **Container** · `FRAME` · 375×98 · vertical stack · 1 children
+            - **Membangun workshop terstandardisasi dengan cleanroom kemasan dan membuka pintu gerai pertama di Cikini Raya. Melayani komunitas pecinta sourdough perkotaan.** · `TEXT` · 375×98 · “Membangun workshop terstandardisasi
+dengan cleanroom kemasan dan membuka
+pintu g”
+        - **Container** · `FRAME` · 375×40 · horizontal row, gap 8px, padding 24/0/0/0px · 2 children
+          - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×14
+          - **Container** · `FRAME` · 183×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 183×16 · “Peresmian Flagship Rasa Karya”
+      - **2024 Card** · `FRAME` · 423×279 · vertical stack, padding 24px · 2 children
+        - **Container** · `FRAME` · 375×191 · vertical stack, gap -0.8999999761581421px · 3 children
+          - **Container** · `FRAME` · 375×64 · horizontal row, gap 130.16000366210938px, padding 0/0/16/0px · 2 children
+            - **Container** · `FRAME` · 99×48 · vertical stack · 1 children
+              - **Text** · `TEXT` · 99×48 · “2024”
+            - **Background** · `FRAME` · 107×22 · vertical stack, padding 4/8/4/8px · 1 children
+              - **Text** · `TEXT` · 91×14 · “JEJARING MITRA”
+          - **Heading 3** · `FRAME` · 375×31 · vertical stack, padding 0.8999999761581421/0/4/0px · 1 children
+            - **Mitra Horeca & Skala Harian** · `TEXT` · 375×26 · “Mitra Horeca & Skala Harian”
+          - **Container** · `FRAME` · 375×98 · vertical stack · 1 children
+            - **Menjadi mitra pasokan artisan bagi puluhan hotel bintang lima dan gerai kopi specialty. Mengirimkan ribuan potong croissant dan sourdough segar sebelum fajar menyingsing.** · `TEXT` · 375×98 · “Menjadi mitra pasokan artisan bagi puluhan
+hotel bintang lima dan gerai kopi spe”
+        - **Container** · `FRAME` · 375×40 · horizontal row, gap 8px, padding 24/0/0/0px · 2 children
+          - **Container** · `FRAME` · 17×15 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 17×15
+          - **Container** · `FRAME` · 164×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 164×16 · “50+ Mitra Bisnis Terpercaya”
+  - **navigation bar** · `INSTANCE` · 1347×48 · instance of navigation bar
+- **Produk & Pemesanan** · `FRAME` · 1440×1238 · 6 children
+  - **Rectangle 33** · `RECTANGLE` · 1440×645
+  - **Section 1: Page Header with Editorial Atmosphere** · `FRAME` · 1440×195 · vertical stack, padding 40px · 2 children
+    - **Container** · `FRAME` · 1280×115 · horizontal row, gap 209.77000427246094px · 1 children
+      - **Container** · `FRAME` · 625×115 · vertical stack, gap 8px, padding 3/0/0/0px · 2 children
+        - **Heading 1** · `FRAME` · 625×48 · vertical stack · 1 children
+          - **Produk & Pemesanan** · `TEXT` · 386×48 · “Produk & Pemesanan”
+        - **Container** · `FRAME` · 625×56 · vertical stack · 1 children
+          - **Pilih roti segar favorit Anda hari ini atau jadwalkan pemesanan khusus untuk acara istimewa. Dipanggang berkala dengan fermentasi lambat 36 jam.** · `TEXT` · 625×56 · “Pilih roti segar favorit Anda hari ini atau jadwalkan pemesanan khusus untuk
+aca”
+    - **Overlay+Blur** · `RECTANGLE` · 384×384
+  - **Group 56** · `GROUP` · 824×515 · 6 children
+    - **image 7** · `RECTANGLE` · 824×515
+    - **Gradient** · `RECTANGLE` · 824×515
+    - **Group 58** · `GROUP` · 169×38 · 2 children
+      - **Rectangle 34** · `RECTANGLE` · 169×38
+      - **Lihat Produk** · `TEXT` · 131×20 · “Lihat Produk”
+    - **FRESHLY BAKED & WARM DRINKS** · `TEXT` · 558×19 · “FRESHLY BAKED & WARM DRINKS”
+    - **Katalog Roti & Produk Segar** · `TEXT` · 791×32 · “Katalog Roti & Produk Segar”
+    - **Nikmati roti gandum utuh organik yang kaya rasa, croissant renyah berlapis mentega Prancis AOP, hingga brioche hangat yang lembut di setiap gigitan. Dipanggang dengan sepenuh hati, setiap sajian menghadirkan aroma dan cita rasa istimewa yang membuat Anda ingin kembali lagi.** · `TEXT` · 677×54 · “Nikmati roti gandum utuh organik yang kaya rasa, croissant renyah berlapis mente”
+  - **Group 57** · `GROUP` · 483×515 · 6 children
+    - **image 8** · `RECTANGLE` · 482×515
+    - **Gradient** · `RECTANGLE` · 483×515
+    - **Group 59** · `GROUP` · 169×33 · 2 children
+      - **Rectangle 25** · `RECTANGLE` · 169×33
+      - **Ajukan Kunjungan** · `TEXT` · 131×17 · “Ajukan Kunjungan”
+    - **INSTITUTIONAL VISIT & EDUCATIONAL PROGRAM** · `TEXT` · 319×16 · “INSTITUTIONAL VISIT & EDUCATIONAL PROGRAM”
+    - **Layanan Kunjungan & Program Edukasi** · `TEXT` · 452×26 · “Layanan Kunjungan & Program Edukasi”
+    - **Jelajahi proses produksi roti secara langsung melalui kunjungan institusi, praktik pembuatan roti, dan program edukasi yang interaktif.** · `TEXT` · 387×47 · “Jelajahi proses produksi roti secara langsung melalui kunjungan institusi, prakt”
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 296×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **navigation bar** · `INSTANCE` · 1347×48 · instance of navigation bar
+- **Login** · `FRAME` · 1440×1024 · 13 children
+  - **Rectangle 39** · `RECTANGLE` · 443×494
+  - **Group 60** · `GROUP` · 179×51 · 2 children
+    - **Rasakarya title** · `GROUP` · 125×48 · 2 children
+      - **ARTISANAL BAKERY** · `TEXT` · 125×24 · “ARTISANAL BAKERY”
+      - **Rasa Karya** · `TEXT` · 125×24 · “Rasa Karya”
+    - **Mask group** · `GROUP` · 48×48 · 2 children
+      - **Ellipse 2** · `ELLIPSE` · 48×48
+      - **image 10** · `RECTANGLE` · 48×48
+  - **Log in** · `TEXT` · 93×33 · “Log in”
+  - **Silahkan masuk ke akun anda** · `TEXT` · 256×31 · “Silahkan masuk ke akun anda”
+  - **Email** · `TEXT` · 256×31 · “Email”
+  - **Password** · `TEXT` · 256×31 · “Password”
+  - **Rectangle 40** · `RECTANGLE` · 363×46
+  - **Rectangle 41** · `RECTANGLE` · 363×46
+  - **Rectangle 42** · `RECTANGLE` · 363×46
+  - **no@example.com** · `TEXT` · 301×33 · “no@example.com”
+  - **Vector 2** · `VECTOR` · 0×19
+  - **Continue** · `TEXT` · 127×28 · “Continue”
+  - **IMG_2735 (1) 1** · `RECTANGLE` · 800×1024
+- **Koleksi Minuman RasaKarya** · `FRAME` · 1440×1875 · 18 children
+  - **Koleksi Roti RasaKarya** · `TEXT` · 732×57 · “Koleksi Roti RasaKarya”
+  - **Rectangle 28** · `RECTANGLE` · 1440×1495
+  - **Frame 3** · `FRAME` · 150×40 · horizontal row, gap 10px, padding 8/36/8/35px
+  - **Frame 4** · `FRAME` · 150×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Semua Produk** · `TEXT` · 104×24 · “Semua Produk”
+  - **Frame 5** · `FRAME` · 73×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Roti** · `TEXT` · 29×24 · “Roti”
+  - **Frame 6** · `FRAME` · 159×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Minuman Hangat** · `TEXT` · 119×24 · “Minuman Hangat”
+  - **Frame 7** · `FRAME` · 159×40 · horizontal row, gap 10px, padding 8/36/8/35px · 1 children
+    - **Minuman Dingin** · `TEXT` · 112×24 · “Minuman Dingin”
+  - **Group 19** · `GROUP` · 1440×318 · 2 children
+    - **Rectangle 17** · `RECTANGLE` · 1440×318
+    - **Group 18** · `GROUP` · 1299×225 · 9 children
+      - **HorizontalBorder** · `FRAME` · 1231×45 · horizontal row, gap 612.02001953125px, padding 24/0/0/0px · 2 children
+        - **Container** · `FRAME` · 348×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 348×20 · “© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.”
+        - **Container** · `FRAME` · 240×20 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 102×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×20 · “Kebijakan Privasi”
+          - **Link** · `FRAME` · 114×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 114×20 · “Syarat Pemesanan”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Lokasi & Kontak** · `TEXT` · 282×24 · “Lokasi & Kontak”
+      - **Container** · `FRAME` · 282×88 · vertical stack, gap 4px · 3 children
+        - **Paragraph** · `FRAME` · 282×40 · horizontal row, gap 8px · 2 children
+          - **Icon** · `VECTOR` · 12×15
+          - **Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat** · `TEXT` · 251×40 · “Jl. Cikini Raya No. 42, Menteng, Jakarta
+Pusat”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+          - **+62 21 3192 4890** · `TEXT` · 113×20 · “+62 21 3192 4890”
+        - **Container** · `FRAME` · 282×20 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **halo@rasakarya.id** · `TEXT` · 122×20 · “halo@rasakarya.id”
+      - **Group 17** · `GROUP` · 271×137 · 10 children
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 74.2699966430664px
+        - **Selasa - Jumat:** · `TEXT` · 103×20 · “Selasa - Jumat:”
+        - **07.00 - 18.00 WIB** · `TEXT` · 122×20 · “07.00 - 18.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 69.62999725341797px
+        - **Sabtu - Minggu:** · `TEXT` · 109×20 · “Sabtu - Minggu:”
+        - **06.30 - 16.00 WIB** · `TEXT` · 121×20 · “06.30 - 16.00 WIB”
+        - **Paragraph** · `FRAME` · 221×20 · horizontal row, gap 77.75px
+        - **Senin:** · `TEXT` · 43×20 · “Senin:”
+        - **Tutup Pemeliharaan Starter** · `TEXT` · 178×20 · “Tutup Pemeliharaan Starter”
+        - **Jadwal Panggang & Toko** · `TEXT` · 221×24 · “Jadwal Panggang & Toko”
+      - **Container** · `FRAME` · 282×24 · vertical stack · 1 children
+        - **Tautan Cepat** · `TEXT` · 282×24 · “Tautan Cepat”
+      - **List** · `FRAME` · 282×92 · vertical stack, gap 4px · 4 children
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Beranda Utama** · `TEXT` · 282×20 · “Beranda Utama”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kisah & Filosofi Ragi** · `TEXT` · 282×20 · “Kisah & Filosofi Ragi”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Katalog Roti & Pre-Order** · `TEXT` · 282×20 · “Katalog Roti & Pre-Order”
+        - **Item** · `FRAME` · 282×20 · vertical stack · 1 children
+          - **Kemitraan Hotel & Cafe** · `TEXT` · 282×20 · “Kemitraan Hotel & Cafe”
+      - **Container** · `FRAME` · 282×64 · vertical stack · 1 children
+        - **Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.** · `TEXT` · 290×64 · “Kelezatan murni dari ragi alami, tepung batu
+pilihan, dan tradisi memanggang art”
+      - **Background** · `FRAME` · 262×23 · horizontal row, gap 8px, padding 4.889999866485596/16/4/16px · 2 children
+        - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 15×14
+        - **Text** · `TEXT` · 207×14 · “Terverifikasi Halal ID0011000021345”
+      - **Container** · `FRAME` · 282×32 · horizontal row, gap 12px · 2 children
+        - **Logo Rasa Karya** · `FRAME` · 32×32
+        - **Container** · `FRAME` · 100×26 · vertical stack · 1 children
+          - **Rasa Karya** · `TEXT` · 100×26 · “Rasa Karya”
+  - **Group 51** · `GROUP` · 230×36 · 6 children
+    - **Group 44** · `GROUP` · 36×36 · 2 children
+      - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **Vector 1** · `VECTOR` · 9×14
+    - **Group 50** · `GROUP` · 36×36 · 2 children
+      - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **Vector 1** · `VECTOR` · 9×14
+    - **Group 47** · `GROUP` · 36×36 · 2 children
+      - **Group 45** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **2** · `TEXT` · 9×27 · “2”
+    - **Group 49** · `GROUP` · 36×36 · 2 children
+      - **Group 46** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **5** · `TEXT` · 9×19 · “5”
+    - **Group 51** · `GROUP` · 36×36 · 2 children
+      - **Group 46** · `GROUP` · 36×36 · 1 children
+        - **Ellipse 1** · `ELLIPSE` · 36×36
+      - **1** · `TEXT` · 9×19 · “1”
+    - **...** · `TEXT` · 13×18 · “...”
+  - **Roti Boy** · `GROUP` · 384×496 · 1 children
+    - **Roti Boy** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Americano** · `TEXT` · 96×26 · “Americano”
+            - **Rp 7.000** · `TEXT` · 82×26 · “Rp 7.000”
+          - **Container** · `FRAME` · 335×60 · vertical stack · 1 children
+            - **Kopi hitam hangat dengan aroma kopi yang khas dan cita rasa yang kuat, memberikan sensasi nikmat dan menenangkan untuk menemani waktu santai.** · `TEXT` · 335×60 · “Kopi hitam hangat dengan aroma kopi yang khas dan cita rasa yang kuat, memberika”
+          - **Container** · `FRAME` · 72×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **9 kkal/cup** · `TEXT` · 60×14 · “9 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 4** · `RECTANGLE` · 384×270
+  - **Roti Pisang Coklat** · `GROUP` · 384×496 · 1 children
+    - **Roti Pisang Coklat** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Susu Jahe** · `TEXT` · 85×26 · “Susu Jahe”
+            - **Rp 7.000** · `TEXT` · 82×26 · “Rp 7.000”
+          - **Container** · `FRAME` · 335×80 · vertical stack · 1 children
+            - **Susu jahe hangat dengan perpaduan susu yang lembut dan creamy serta aroma jahe yang khas, menghadirkan cita rasa manis dan sensasi hangat yang menenangkan, cocok untuk menemani waktu santai.** · `TEXT` · 335×80 · “Susu jahe hangat dengan perpaduan susu yang lembut dan creamy serta aroma jahe y”
+          - **Container** · `FRAME` · 86×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **150 kkal/cup** · `TEXT` · 74×14 · “150 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Roti Abon** · `GROUP` · 384×496 · 1 children
+    - **Roti Abon** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Temulawak** · `TEXT` · 99×26 · “Temulawak”
+            - **Rp 7.000** · `TEXT` · 82×26 · “Rp 7.000”
+          - **Container** · `FRAME` · 335×40 · vertical stack · 1 children
+            - **Temulawak hangat dengan aroma rempah khas dan rasa manis alami yang menenangkan.** · `TEXT` · 345×40 · “Temulawak hangat dengan aroma rempah khas dan rasa manis alami yang menenangkan.”
+          - **Container** · `FRAME` · 81×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **50 kkal/cup** · `TEXT` · 69×14 · “50 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 52** · `GROUP` · 384×496 · 1 children
+    - **Roti Abon Gulung** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Vanilla Latte** · `TEXT` · 107×26 · “Vanilla Latte”
+            - **Rp 10.000** · `TEXT` · 93×26 · “Rp 10.000”
+          - **Container** · `FRAME` · 335×80 · vertical stack · 1 children
+            - **Vanilla latte hangat dengan perpaduan espresso yang kaya, susu creamy yang lembut, dan sentuhan manis aroma vanilla, cocok untuk menemani waktu santai dengan cita rasa yang nikmat.** · `TEXT` · 335×80 · “Vanilla latte hangat dengan perpaduan espresso yang kaya, susu creamy yang lembu”
+          - **Container** · `FRAME` · 86×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **180 kkal/cup** · `TEXT` · 74×14 · “180 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 4** · `RECTANGLE` · 384×270
+  - **Group 53** · `GROUP` · 384×496 · 1 children
+    - **Roti Isi Daging** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Susu** · `TEXT` · 43×26 · “Susu ”
+            - **Rp 7.000** · `TEXT` · 82×26 · “Rp 7.000”
+          - **Container** · `FRAME` · 335×80 · vertical stack · 1 children
+            - **Susu hangat dengan tekstur lembut dan creamy, serta cita rasa manis alami yang menenangkan, cocok untuk menemani waktu santai dan memberikan kehangatan di setiap tegukan.** · `TEXT` · 335×80 · “Susu hangat dengan tekstur lembut dan creamy, serta cita rasa manis alami yang m”
+          - **Container** · `FRAME` · 86×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **150 kkal/cup** · `TEXT` · 74×14 · “150 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 62** · `GROUP` · 384×496 · 1 children
+    - **Roti Isi Daging** · `FRAME` · 384×496 · 2 children
+      - **Container** · `FRAME` · 384×208 · 2 children
+        - **Container** · `FRAME` · 369×115 · 3 children
+          - **Paragraph** · `FRAME` · 325×26 · horizontal row, gap 45.47999954223633px · 2 children
+            - **Teh** · `TEXT` · 31×26 · “Teh”
+            - **Rp 5.000** · `TEXT` · 84×26 · “Rp 5.000”
+          - **Container** · `FRAME` · 335×80 · vertical stack · 1 children
+            - **Teh hangat dengan aroma harum dan cita rasa khas yang lembut, menghadirkan sensasi menyegarkan dan menenangkan, cocok untuk menemani waktu santai dan memberikan kehangatan di setiap tegukan.** · `TEXT` · 335×80 · “Teh hangat dengan aroma harum dan cita rasa khas yang lembut, menghadirkan sensa”
+          - **Container** · `FRAME` · 85×14 · horizontal row, gap 4px · 2 children
+            - **Container** · `FRAME` · 8×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 8×11
+            - **170 kkal/cup** · `TEXT` · 73×14 · “170 kkal/cup”
+        - **Group 27** · `GROUP` · 219×40 · 1 children
+          - **Button** · `FRAME` · 219×40 · 2 children
+            - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×11
+            - **Tambah ke Keranjang** · `TEXT` · 147×16 · “Tambah ke Keranjang”
+      - **image 5** · `RECTANGLE` · 391×307
+  - **Group 61** · `GROUP` · 219×30 · 2 children
+    - **Rectangle 43** · `RECTANGLE` · 156×30
+    - **Group 64** · `GROUP` · 208×13 · 2 children
+      - **Kembali ke Beranda** · `TEXT` · 194×13 · “Kembali ke Beranda”
+      - **Vector** · `VECTOR` · 4×6
+  - **Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan tekstur yang menggugah selera. Pilih roti sesuai seleramu dan nikmati kelezatannya hari ini!** · `TEXT` · 875×56 · “Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan tekstur ”
+  - **Sempurnakan Setiap Gigitan dengan Hangatnya Tegukan** · `TEXT` · 596×130 · “Sempurnakan Setiap Gigitan 
+dengan Hangatnya Tegukan”
+- **navigation bar** · `COMPONENT_SET` · 1397×418 · 5 children
+  - **Property 1=Default** · `COMPONENT` · 1347×48 · 3 children
+    - **Group 1** · `GROUP` · 560×48 · 5 children
+      - **Rectangle 3** · `RECTANGLE` · 560×48
+      - **Beranda** · `GROUP` · 106×40 · 2 children
+        - **Rectangle 4** · `RECTANGLE` · 106×40
+        - **Tentang Kami** · `TEXT` · 95×24 · “Tentang Kami”
+      - **Beranda** · `TEXT` · 64×24 · “Beranda”
+      - **Produk & Pemesanan** · `TEXT` · 150×24 · “Produk & Pemesanan”
+      - **Kerja Sama Mitra** · `TEXT` · 119×24 · “Kerja Sama Mitra”
+    - **Rasakarya title** · `GROUP` · 154×40 · 3 children
+      - **ARTISANAL BAKERY** · `TEXT` · 114×14 · “ARTISANAL BAKERY”
+      - **Rasa Karya** · `TEXT` · 91×26 · “Rasa Karya”
+      - **Logo Rasa Karya** · `FRAME` · 32×32
+    - **Group 5** · `GROUP` · 204×44 · 5 children
+      - **Fikri 2025** · `TEXT` · 59×16 · “Fikri 2025”
+      - **Selamat Datang,** · `TEXT` · 95×14 · “Selamat Datang,”
+      - **Group 4** · `GROUP` · 46×44 · 2 children
+        - **Group 3** · `GROUP` · 40×40 · 2 children
+          - **Rectangle 5** · `RECTANGLE` · 40×40
+          - **Icon** · `VECTOR` · 13×17
+        - **Group 2** · `GROUP` · 20×20 · 2 children
+          - **Rectangle 6** · `RECTANGLE` · 20×20
+          - **3** · `TEXT` · 7×14 · “3”
+      - **Rectangle 7** · `RECTANGLE` · 1×30
+      - **nukukmizhuwd 1** · `RECTANGLE` · 32×32
+- **Koleksi Roti RasaKarya** · `FRAME` · 1440×1875
+- **image 14** · `RECTANGLE` · 2061×1157
