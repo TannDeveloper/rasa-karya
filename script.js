@@ -1,1 +1,33 @@
-const countEl=document.getElementById("cart-count"),toast=document.getElementById("toast"),menuBtn=document.querySelector(".menu");let c=0;function notify(e){toast.textContent=e,toast.classList.add("show"),setTimeout((()=>toast.classList.remove("show")),2e3)}document.querySelectorAll(".product button").forEach((t=>{t.addEventListener("click",(()=>{c+=1,countEl.textContent=c,notify(`Ditambahkan: ${t.dataset.product}`)}))})),menuBtn&&menuBtn.addEventListener("click",(()=>{const e="true"===menuBtn.getAttribute("aria-expanded");menuBtn.setAttribute("aria-expanded",!e)}));
+const cartCount = document.getElementById('cart-count');
+const menuButton = document.querySelector('.menu');
+const toast = document.getElementById('toast');
+const addButtons = document.querySelectorAll('.product button');
+
+let cartTotal = 0;
+let toastTimer;
+
+function showToast(message) {
+  window.clearTimeout(toastTimer);
+  toast.textContent = message;
+  toast.classList.add('show');
+
+  toastTimer = window.setTimeout(() => {
+    toast.classList.remove('show');
+  }, 2000);
+}
+
+function addToCart(event) {
+  const { product } = event.currentTarget.dataset;
+
+  cartTotal += 1;
+  cartCount.textContent = cartTotal;
+  showToast(`Ditambahkan: ${product}`);
+}
+
+function toggleMenu() {
+  const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+  menuButton.setAttribute('aria-expanded', String(!isOpen));
+}
+
+addButtons.forEach((button) => button.addEventListener('click', addToCart));
+menuButton?.addEventListener('click', toggleMenu);

@@ -1,1 +1,571 @@
-:root{--brown:#603d1a;--ink:#28180a;--orange:#d9822b;--cream:#fff8f5;--blush:#fff1e9;--gold:#e5a853;--text:#50453c;--line:#eadbd0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--text);font:15px/1.6 "Plus Jakarta Sans",sans-serif}.shell{max-width:1280px;margin:auto;padding-left:40px;padding-right:40px}.site-header{height:80px;max-width:1360px;margin:auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff;position:sticky;top:0;z-index:10;border-bottom:1px solid #f4ece6}.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;line-height:1}.brand b{font:700 24px "Playfair Display",serif}.brand small{display:block;font-size:8px;letter-spacing:1.4px;margin-top:5px}.brand-mark{width:34px;height:34px;display:grid;place-items:center;border:1px solid var(--brown);border-radius:50%;font:700 11px "Playfair Display";color:var(--brown)}nav{display:flex;gap:30px}nav a,.cart{color:var(--text);text-decoration:none;font-weight:600;font-size:13px}nav a:hover,.text-link:hover{color:var(--orange)}.cart{background:var(--blush);padding:9px 15px;border-radius:4px}.cart span{background:var(--brown);color:#fff;border-radius:50%;padding:1px 6px;margin-left:5px}.menu{display:none}.hero{min-height:524px;display:grid;grid-template-columns:1.25fr .9fr;gap:30px;align-items:center;padding-top:54px;padding-bottom:40px;background:radial-gradient(circle at 24% 20%,#ffeadc 0,transparent 36%)}.overline{font-size:11px;font-weight:800;letter-spacing:1.7px;color:#8f4e00;margin:0 0 12px}.hero h1,h2{color:var(--ink);font:700 clamp(38px,5vw,64px)/1.08 "Playfair Display",serif;letter-spacing:-1.5px;margin:0}.hero h1 em{color:var(--orange);font-style:italic}.lede{max-width:565px;font-size:16px;line-height:1.7;margin:20px 0 24px}.actions{display:flex;align-items:center;gap:24px}.button{display:inline-block;text-decoration:none;border:0;cursor:pointer;font:700 14px "Plus Jakarta Sans"}.primary{padding:14px 25px;border-radius:5px;background:var(--orange);color:white;box-shadow:0 4px 14px #d9822b55}.primary:hover{background:#b96112}.text-link{color:var(--brown);font-weight:700;text-decoration:none}.micro{font-size:12px;margin-top:24px;color:#82756a}.hero-visual{height:460px;position:relative}.hero-visual img{width:100%;height:100%;object-fit:cover;border-radius:2px;filter:saturate(.9)}.hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 50%,#28180a55)}.hero-visual aside{position:absolute;z-index:1;right:-18px;bottom:22px;width:188px;padding:15px;background:#fff;box-shadow:0 12px 32px #2c1a0e24}.hero-visual aside span{font-size:9px;letter-spacing:1px;color:#8f4e00}.hero-visual aside strong{display:block;font:700 30px "Playfair Display";color:var(--ink)}.hero-visual aside p{font-size:11px;line-height:1.4;margin:4px 0}.bake-bar{background:var(--brown);color:#fff}.bake-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:25px}.bake-inner small{display:block;font-size:11px;opacity:.72}.bake-times{display:flex;gap:12px;font-size:11px}.bake-times span{padding:6px 9px;background:#ffffff15;border:1px solid #ffffff1f}.bake-times i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:5px}.bake-times b{font-weight:500;margin-left:5px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:40px;padding-bottom:40px}.stats article{background:var(--cream);padding:20px;border-top:2px solid var(--gold)}.stats strong{display:block;color:var(--brown);font:700 34px/1 "Playfair Display"}.stats b{display:block;color:var(--ink);margin:9px 0 3px}.stats p{font-size:12px;line-height:1.5;margin:0}.collection{padding-top:55px;padding-bottom:72px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:26px}.section-head h2,.story h2,.partner h2{font-size:40px}.section-head p:not(.overline){max-width:555px;margin:9px 0 0}.products{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.product{border:1px solid var(--line);background:#fff;overflow:hidden}.product img{width:100%;height:270px;object-fit:cover;display:block}.product>div{padding:20px}.product span{font-size:10px;font-weight:800;letter-spacing:1px;color:#8f4e00}.product h3{font:700 24px/1.15 "Playfair Display";color:var(--ink);margin:6px 0}.product p{font-size:13px;min-height:43px;margin:0}.product footer{display:flex;align-items:center;justify-content:space-between;padding-top:18px;margin-top:16px;border-top:1px solid var(--line);color:var(--brown)}.product button{color:var(--brown);background:transparent;border:1px solid var(--brown);padding:7px 11px;font:700 12px "Plus Jakarta Sans";cursor:pointer}.product button:hover{background:var(--brown);color:#fff}.story{display:grid;grid-template-columns:1fr 1fr;padding-top:40px;padding-bottom:40px;background:var(--cream)}.story-copy{padding:54px 60px}.story-copy h2{margin-bottom:18px}.story ul{list-style:"✦  ";padding-left:19px;font-size:13px;color:var(--brown);margin:22px 0}.story img{width:100%;height:492px;object-fit:cover}.partner{background:var(--brown);color:#ffeadc}.partner-inner{min-height:373px;display:flex;align-items:center;justify-content:space-between;gap:40px;padding-top:45px;padding-bottom:45px}.partner h2{color:#fff;max-width:660px}.partner p{max-width:670px}.partner dl{display:flex;gap:28px}.partner dl div{border-left:1px solid #ffffff55;padding-left:16px;min-width:120px}.partner dt{font:700 34px "Playfair Display";color:var(--gold)}.partner dd{font-size:12px;margin:0}.footer{background:#28180a;color:#d4c3b7;padding:40px 0 15px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:35px}.footer .brand{color:#fff}.footer p{max-width:300px;font-size:13px}.footer-grid>div:not(:first-child){display:flex;flex-direction:column;gap:7px}.footer-grid>div>b{color:#fff;margin-bottom:5px}.footer a{color:#d4c3b7;text-decoration:none;font-size:13px}.copyright{border-top:1px solid #ffffff18;margin-top:28px;padding-top:14px;font-size:11px}#toast{position:fixed;right:20px;bottom:20px;padding:12px 16px;background:var(--ink);color:#fff;opacity:0;transform:translateY(10px);transition:.2s;pointer-events:none}#toast.show{opacity:1;transform:none}@media(max-width:800px){.shell{padding-left:20px;padding-right:20px}.site-header{height:64px;padding:0 20px}.brand b{font-size:20px}nav{display:none;position:absolute;top:64px;left:0;right:0;padding:18px 20px;background:#fff;border-bottom:1px solid var(--line);flex-direction:column}.menu{display:block;margin-left:auto;background:none;border:0;font:700 12px "Plus Jakarta Sans";color:var(--brown)}.menu[aria-expanded=true]+nav{display:flex}.cart{display:none}.hero{grid-template-columns:1fr;padding-top:48px}.hero h1{font-size:44px}.hero-visual{height:340px}.bake-inner{padding-top:15px;padding-bottom:15px;align-items:start;flex-direction:column}.bake-times{overflow:auto;width:100%}.bake-times span{white-space:nowrap}.stats,.products{grid-template-columns:1fr 1fr}.section-head{display:block}.section-head>a{display:inline-block;margin-top:16px}.story{grid-template-columns:1fr}.story-copy{padding:40px 25px}.story img{height:330px}.partner-inner{display:block}.partner dl{margin-top:30px}.footer-grid{grid-template-columns:1fr;gap:28px}}@media(max-width:500px){.stats,.products{grid-template-columns:1fr}.actions{align-items:flex-start;flex-direction:column;gap:13px}.hero-visual aside{right:10px}.section-head h2,.story h2,.partner h2{font-size:34px}.partner dl{gap:15px}}
+:root {
+  --brown:#603d1a;
+  --ink:#28180a;
+  --orange:#d9822b;
+  --cream:#fff8f5;
+  --blush:#fff1e9;
+  --gold:#e5a853;
+  --text:#50453c;
+  --line:#eadbd0
+}
+* {
+  box-sizing:border-box
+}
+html {
+  scroll-behavior:smooth
+}
+body {
+  margin:0;
+  background:#fff;
+  color:var(--text);
+  font:15px/1.6 "Plus Jakarta Sans",sans-serif
+}
+.shell {
+  max-width:1280px;
+  margin:auto;
+  padding-left:40px;
+  padding-right:40px
+}
+.site-header {
+  height:80px;
+  max-width:1360px;
+  margin:auto;
+  padding:0 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  background:#fff;
+  position:sticky;
+  top:0;
+  z-index:10;
+  border-bottom:1px solid #f4ece6
+}
+.brand {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--ink);
+  text-decoration:none;
+  line-height:1
+}
+.brand b {
+  font:700 24px "Playfair Display",serif
+}
+.brand small {
+  display:block;
+  font-size:8px;
+  letter-spacing:1.4px;
+  margin-top:5px
+}
+.brand-mark {
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--brown);
+  border-radius:50%;
+  font:700 11px "Playfair Display";
+  color:var(--brown)
+}
+nav {
+  display:flex;
+  gap:30px
+}
+nav a,.cart {
+  color:var(--text);
+  text-decoration:none;
+  font-weight:600;
+  font-size:13px
+}
+nav a:hover,.text-link:hover {
+  color:var(--orange)
+}
+.cart {
+  background:var(--blush);
+  padding:9px 15px;
+  border-radius:4px
+}
+.cart span {
+  background:var(--brown);
+  color:#fff;
+  border-radius:50%;
+  padding:1px 6px;
+  margin-left:5px
+}
+.menu {
+  display:none
+}
+.hero {
+  min-height:524px;
+  display:grid;
+  grid-template-columns:1.25fr .9fr;
+  gap:30px;
+  align-items:center;
+  padding-top:54px;
+  padding-bottom:40px;
+  background:radial-gradient(circle at 24% 20%,#ffeadc 0,transparent 36%)
+}
+.overline {
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:1.7px;
+  color:#8f4e00;
+  margin:0 0 12px
+}
+.hero h1,h2 {
+  color:var(--ink);
+  font:700 clamp(38px,5vw,64px)/1.08 "Playfair Display",serif;
+  letter-spacing:-1.5px;
+  margin:0
+}
+.hero h1 em {
+  color:var(--orange);
+  font-style:italic
+}
+.lede {
+  max-width:565px;
+  font-size:16px;
+  line-height:1.7;
+  margin:20px 0 24px
+}
+.actions {
+  display:flex;
+  align-items:center;
+  gap:24px
+}
+.button {
+  display:inline-block;
+  text-decoration:none;
+  border:0;
+  cursor:pointer;
+  font:700 14px "Plus Jakarta Sans"
+}
+.primary {
+  padding:14px 25px;
+  border-radius:5px;
+  background:var(--orange);
+  color:white;
+  box-shadow:0 4px 14px #d9822b55
+}
+.primary:hover {
+  background:#b96112
+}
+.text-link {
+  color:var(--brown);
+  font-weight:700;
+  text-decoration:none
+}
+.micro {
+  font-size:12px;
+  margin-top:24px;
+  color:#82756a
+}
+.hero-visual {
+  height:460px;
+  position:relative
+}
+.hero-visual img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:2px;
+  filter:saturate(.9)
+}
+.hero-visual:after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg,transparent 50%,#28180a55)
+}
+.hero-visual aside {
+  position:absolute;
+  z-index:1;
+  right:-18px;
+  bottom:22px;
+  width:188px;
+  padding:15px;
+  background:#fff;
+  box-shadow:0 12px 32px #2c1a0e24
+}
+.hero-visual aside span {
+  font-size:9px;
+  letter-spacing:1px;
+  color:#8f4e00
+}
+.hero-visual aside strong {
+  display:block;
+  font:700 30px "Playfair Display";
+  color:var(--ink)
+}
+.hero-visual aside p {
+  font-size:11px;
+  line-height:1.4;
+  margin:4px 0
+}
+.bake-bar {
+  background:var(--brown);
+  color:#fff
+}
+.bake-inner {
+  min-height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:25px
+}
+.bake-inner small {
+  display:block;
+  font-size:11px;
+  opacity:.72
+}
+.bake-times {
+  display:flex;
+  gap:12px;
+  font-size:11px
+}
+.bake-times span {
+  padding:6px 9px;
+  background:#ffffff15;
+  border:1px solid #ffffff1f
+}
+.bake-times i {
+  display:inline-block;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--gold);
+  margin-right:5px
+}
+.bake-times b {
+  font-weight:500;
+  margin-left:5px
+}
+.stats {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  padding-top:40px;
+  padding-bottom:40px
+}
+.stats article {
+  background:var(--cream);
+  padding:20px;
+  border-top:2px solid var(--gold)
+}
+.stats strong {
+  display:block;
+  color:var(--brown);
+  font:700 34px/1 "Playfair Display"
+}
+.stats b {
+  display:block;
+  color:var(--ink);
+  margin:9px 0 3px
+}
+.stats p {
+  font-size:12px;
+  line-height:1.5;
+  margin:0
+}
+.collection {
+  padding-top:55px;
+  padding-bottom:72px
+}
+.section-head {
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:30px;
+  margin-bottom:26px
+}
+.section-head h2,.story h2,.partner h2 {
+  font-size:40px
+}
+.section-head p:not(.overline) {
+  max-width:555px;
+  margin:9px 0 0
+}
+.products {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px
+}
+.product {
+  border:1px solid var(--line);
+  background:#fff;
+  overflow:hidden
+}
+.product img {
+  width:100%;
+  height:270px;
+  object-fit:cover;
+  display:block
+}
+.product>div {
+  padding:20px
+}
+.product span {
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:1px;
+  color:#8f4e00
+}
+.product h3 {
+  font:700 24px/1.15 "Playfair Display";
+  color:var(--ink);
+  margin:6px 0
+}
+.product p {
+  font-size:13px;
+  min-height:43px;
+  margin:0
+}
+.product footer {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:18px;
+  margin-top:16px;
+  border-top:1px solid var(--line);
+  color:var(--brown)
+}
+.product button {
+  min-height:44px;
+  color:var(--brown);
+  background:transparent;
+  border:1px solid var(--brown);
+  padding:7px 11px;
+  font:700 12px "Plus Jakarta Sans";
+  cursor:pointer
+}
+.product button:hover {
+  background:var(--brown);
+  color:#fff
+}
+.story {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding-top:40px;
+  padding-bottom:40px;
+  background:var(--cream)
+}
+.story-copy {
+  padding:54px 60px
+}
+.story-copy h2 {
+  margin-bottom:18px
+}
+.story ul {
+  list-style:"✦  ";
+  padding-left:19px;
+  font-size:13px;
+  color:var(--brown);
+  margin:22px 0
+}
+.story img {
+  width:100%;
+  height:492px;
+  object-fit:cover
+}
+.partner {
+  background:var(--brown);
+  color:#ffeadc
+}
+.partner-inner {
+  min-height:373px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+  padding-top:45px;
+  padding-bottom:45px
+}
+.partner h2 {
+  color:#fff;
+  max-width:660px
+}
+.partner p {
+  max-width:670px
+}
+.partner dl {
+  display:flex;
+  gap:28px
+}
+.partner dl div {
+  border-left:1px solid #ffffff55;
+  padding-left:16px;
+  min-width:120px
+}
+.partner dt {
+  font:700 34px "Playfair Display";
+  color:var(--gold)
+}
+.partner dd {
+  font-size:12px;
+  margin:0
+}
+.footer {
+  background:#28180a;
+  color:#d4c3b7;
+  padding:40px 0 15px
+}
+.footer-grid {
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:35px
+}
+.footer .brand {
+  color:#fff
+}
+.footer p {
+  max-width:300px;
+  font-size:13px
+}
+.footer-grid>div:not(:first-child) {
+  display:flex;
+  flex-direction:column;
+  gap:7px
+}
+.footer-grid>div>b {
+  color:#fff;
+  margin-bottom:5px
+}
+.footer a {
+  color:#d4c3b7;
+  text-decoration:none;
+  font-size:13px
+}
+.copyright {
+  border-top:1px solid #ffffff18;
+  margin-top:28px;
+  padding-top:14px;
+  font-size:11px
+}
+#toast {
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  padding:12px 16px;
+  background:var(--ink);
+  color:#fff;
+  opacity:0;
+  transform:translateY(10px);
+  transition:.2s;
+  pointer-events:none
+}
+#toast.show {
+  opacity:1;
+  transform:none
+}
+@media(max-width:800px) {
+  .shell {
+    padding-left:20px;
+    padding-right:20px
+  }
+  .site-header {
+    height:64px;
+    padding:0 20px
+  }
+  .brand b {
+    font-size:20px
+  }
+  nav {
+    display:none;
+    position:absolute;
+    top:64px;
+    left:0;
+    right:0;
+    padding:18px 20px;
+    background:#fff;
+    border-bottom:1px solid var(--line);
+    flex-direction:column
+  }
+  .menu {
+    display:block;
+    min-width:44px;
+    min-height:44px;
+    margin-left:auto;
+    background:none;
+    border:0;
+    font:700 12px "Plus Jakarta Sans";
+    color:var(--brown)
+  }
+  .menu[aria-expanded=true]+nav {
+    display:flex
+  }
+  .cart {
+    display:none
+  }
+  .hero {
+    grid-template-columns:1fr;
+    padding-top:48px
+  }
+  .hero h1 {
+    font-size:44px
+  }
+  .hero-visual {
+    height:340px
+  }
+  .bake-inner {
+    padding-top:15px;
+    padding-bottom:15px;
+    align-items:start;
+    flex-direction:column
+  }
+  .bake-times {
+    overflow:auto;
+    width:100%
+  }
+  .bake-times span {
+    white-space:nowrap
+  }
+  .stats,.products {
+    grid-template-columns:1fr 1fr
+  }
+  .section-head {
+    display:block
+  }
+  .section-head>a {
+    display:inline-block;
+    margin-top:16px
+  }
+  .story {
+    grid-template-columns:1fr
+  }
+  .story-copy {
+    padding:40px 25px
+  }
+  .story img {
+    height:330px
+  }
+  .partner-inner {
+    display:block
+  }
+  .partner dl {
+    margin-top:30px
+  }
+  .footer-grid {
+    grid-template-columns:1fr;
+    gap:28px
+  }
+}
+@media(max-width:500px) {
+  .stats,.products {
+    grid-template-columns:1fr
+  }
+  .actions {
+    align-items:flex-start;
+    flex-direction:column;
+    gap:13px
+  }
+  .hero-visual aside {
+    right:10px
+  }
+  .section-head h2,.story h2,.partner h2 {
+    font-size:34px
+  }
+  .partner dl {
+    gap:15px
+  }
+}
