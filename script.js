@@ -29,5 +29,18 @@ function toggleMenu() {
   menuButton.setAttribute('aria-expanded', String(!isOpen));
 }
 
+function setActiveNavigation(event) {
+  const selectedLink = event.currentTarget;
+
+  document.querySelectorAll('nav a').forEach((link) => {
+    link.removeAttribute('aria-current');
+  });
+
+  selectedLink.setAttribute('aria-current', 'page');
+}
+
 addButtons.forEach((button) => button.addEventListener('click', addToCart));
+document.querySelectorAll('nav a').forEach((link) => {
+  link.addEventListener('click', setActiveNavigation);
+});
 menuButton?.addEventListener('click', toggleMenu);

@@ -1,12 +1,13 @@
 :root {
-  --brown:#603d1a;
+  --brown:#7B542F;
   --ink:#28180a;
   --orange:#d9822b;
   --cream:#fff8f5;
   --blush:#fff1e9;
-  --gold:#e5a853;
+  --gold:#E5A853;
   --text:#50453c;
-  --line:#eadbd0
+  --line:#eadbd0;
+  --text-nav:#50453C
 }
 * {
   box-sizing:border-box
@@ -28,14 +29,13 @@ body {
 }
 .site-header {
   height:80px;
-  max-width:1360px;
   margin:auto;
   padding:0 40px;
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:24px;
-  background:#fff;
+  background:var(--gold);
   position:sticky;
   top:0;
   z-index:10;
@@ -70,7 +70,8 @@ body {
 }
 nav {
   display:flex;
-  gap:30px
+  gap:30px;
+  background:var(--gold);
 }
 nav a,.cart {
   color:var(--text);
@@ -78,8 +79,22 @@ nav a,.cart {
   font-weight:600;
   font-size:13px
 }
-nav a:hover,.text-link:hover {
+nav a:hover,
+nav a[aria-current="page"],
+.text-link:hover {
   color:var(--orange)
+}
+nav a[aria-current="page"] {
+  background:var(--brown);
+  color:#fff !important;
+  padding:6px 10px;
+  border-radius:4px
+}
+#navigation{
+  background:var(--cream);
+  color:var(--text-nav);
+  padding:15px 28px;
+  border-radius:60px;
 }
 .cart {
   background:var(--blush);
