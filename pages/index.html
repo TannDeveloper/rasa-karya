@@ -9,16 +9,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <header class="site-header">
     <a class="brand" href="#beranda" aria-label="Rasa Karya beranda">
-      <span class="brand-mark">RK</span>
+      <span class="brand-mark">
+        <img src="../assets/images/mini-logo.svg" alt="Logo Rasa Karya">
+      </span>
       <span>
         <b>Rasa Karya</b>
-        <small>ARTISANAL BAKERY</small>
+        <small>TEFA BAKERY</small>
       </span>
     </a>
 
@@ -31,9 +34,17 @@
       <a href="#mitra">Kerja Sama Mitra</a>
     </nav>
 
-    <a class="cart" href="#koleksi" aria-label="Lihat koleksi roti">
-      Keranjang <span id="cart-count">0</span>
-    </a>
+    <div class="header-actions">
+      <a class="cart" href="#koleksi" aria-label="Keranjang belanja">
+        <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
+        <span id="cart-count">0</span>
+      </a>
+
+      <div class="account">
+        <span>Halo, selamat datang</span>
+        <a href="#beranda">Fahmi</a>  
+      </div>
+    </div>
   </header>
 
   <main id="beranda">
@@ -50,27 +61,13 @@
       </div>
 
       <div class="hero-visual">
-        <img src="assets/images/hero-roti.png" alt="Roti artisan segar di atas meja kayu">
+        <img src="../assets/images/hero-roti.png" alt="Roti artisan segar di atas meja kayu">
         <div class="flour"></div>
         <aside>
           <span>ROTI TERSEGAR HARI INI</span>
           <strong>06:00 WIB</strong>
           <p>Keluar oven, siap dinikmati.</p>
         </aside>
-      </div>
-    </section>
-
-    <section class="bake-bar">
-      <div class="shell bake-inner">
-        <div>
-          <b>Jadwal Keluar Oven Hari Ini</b>
-          <small>Pesan hangat tepat saat aroma terbaik tercium</small>
-        </div>
-        <div class="bake-times">
-          <span><i></i>06:00 <b>Pastry &amp; Croissant</b></span>
-          <span><i></i>10:30 <b>Sourdough &amp; Baguette</b></span>
-          <span><i></i>14:00 <b>Roti Sobek &amp; Sweet Buns</b></span>
-        </div>
       </div>
     </section>
 
