@@ -1,7 +1,7 @@
 const cartCount = document.getElementById('cart-count');
 const menuButton = document.querySelector('.menu');
 const toast = document.getElementById('toast');
-const addButtons = document.querySelectorAll('.product button');
+const addButtons = document.querySelectorAll('.product button, .product-info button');
 
 let cartTotal = 0;
 let toastTimer;
