@@ -27,20 +27,21 @@
         ><a href="partnership.html">Kerja Sama Mitra</a>
       </nav>
       <div class="header-actions">
-        <a class="cart" href="product.html#cart" aria-label="Keranjang belanja"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><span>0</span></a>
+        <a class="cart" href="product.html#cart" aria-label="Keranjang belanja"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span        ><span id="cart-count">0</span></a>
         <div class="account"><span>Halo, selamat datang</span><a>Fahmi</a></div>
       </div>
     </header>
     <main>
       <section class="collection-hero">
-        <p class="eyebrow">RASA KARYA</p>
-        <h1>Koleksi Roti Rasa Karya</h1>
+        <a class="back-link" href="home.html">&#x2190; Kembali ke Beranda</a>
+        <h1>Kehangatan Roti Segar Setiap Hari<br />Kelembutan Sempurna di Setiap Gigitan.</h1>
         <p>
-          Temukan berbagai pilihan roti favoritmu dengan cita rasa lezat dan
-          tekstur yang menggugah selera.
+          Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan
+          tekstur yang menggugah selera. Pilih roti sesuai seleramu dan nikmati
+          kelezatannya hari ini!
         </p>
-        <nav class="filter-nav">
-          <a href="#roti">Semua Produk</a><a href="#roti">Roti</a
+        <nav class="filter-nav" aria-label="Filter koleksi produk">
+          <a href="#roti" aria-current="page">Semua Produk</a><a href="#roti">Roti</a
           ><a href="drink-collection.html#hangat">Minuman Hangat</a
           ><a href="drink-collection.html#dingin">Minuman Dingin</a>
         </nav>
@@ -48,57 +49,95 @@
       <section id="roti" class="collection-section">
         <h2>Roti</h2>
         <div class="collection-grid">
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Roti Boy</h3>
-            <strong>Rp 5.000</strong>
-            <p>Roti lembut dengan aroma kopi khas dan lapisan luar renyah.</p>
-            <small>250 kkal/piece</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Boy</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 250 kkal/piece</small>
+              <p>Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah, cocok untuk menemani waktu santai.</p>
+              <button type="button" data-product="Roti Boy">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Roti Pisang Cokelat</h3>
-            <strong>Rp 5.000</strong>
-            <p>Perpaduan pisang manis dan cokelat dalam roti lembut.</p>
-            <small>200 kkal/piece</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Pisang Cokelat</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 200 kkal/piece</small>
+              <p>Perpaduan pisang manis dan cokelat yang lezat dalam balutan roti lembut, menciptakan rasa nikmat di setiap gigitan.</p>
+              <button type="button" data-product="Roti Pisang Cokelat">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Roti Abon</h3>
-            <strong>Rp 5.000</strong>
-            <p>Roti lembut dengan taburan abon gurih yang kaya rasa.</p>
-            <small>270 kkal/piece</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Abon</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 270 kkal/piece</small>
+              <p>Roti lembut dengan taburan abon gurih yang kaya rasa, pilihan tepat bagi kamu yang menyukai camilan bercita rasa savory.</p>
+              <button type="button" data-product="Roti Abon">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Roti Abon Gulung</h3>
-            <strong>Rp 5.000</strong>
-            <p>Roti gulung lembut dengan isian abon yang gurih.</p>
-            <small>260 kkal/piece</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Abon Gulung</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 270 kkal/piece</small>
+              <p>Roti gulung lembut dengan isian abon yang gurih, menghadirkan perpaduan tekstur dan rasa yang pas untuk camilan sehari-hari.</p>
+              <button type="button" data-product="Roti Abon Gulung">Tambah ke Keranjang</button>
+            </div>
+          </article>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Isi Daging</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 250 kkal/piece</small>
+              <p>Roti lembut dengan isian daging yang gurih dan kaya rasa, cocok untuk mengganjal lapar di sela-sela aktivitas.</p>
+              <button type="button" data-product="Roti Isi Daging">Tambah ke Keranjang</button>
+            </div>
+          </article>
+          <article class="collection-card product">
+            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Roti Kacang</h3><strong>Rp 5.000</strong></div>
+              <small>♧ 280 kkal/piece</small>
+              <p>Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa gurih dan aroma kacang yang menggugah selera.</p>
+              <button type="button" data-product="Roti Kacang">Tambah ke Keranjang</button>
+            </div>
           </article>
         </div>
       </section>
+      <nav class="pagination" aria-label="Navigasi halaman koleksi">
+        <a href="#roti" aria-label="Halaman sebelumnya">&lsaquo;</a>
+        <a href="#roti" aria-current="page">1</a>
+        <a href="#roti">2</a>
+        <span aria-hidden="true">...</span>
+        <a href="#roti">5</a>
+        <a href="#roti" aria-label="Halaman berikutnya">&rsaquo;</a>
+      </nav>
     </main>
-    <footer class="footer">
-      <div class="shell footer-grid">
-        <div>
+      <footer class="footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand" href="#beranda">
+          <span class="brand-mark">RK</span>
           <b>Rasa Karya</b>
-          <p>
-            Kelezatan murni dari ragi alami, tepung pilihan, dan tradisi
-            memanggang artisan.
-          </p>
-        </div>
-        <div>
-          <b>Tautan Cepat</b><a href="home.html">Beranda</a
-          ><a href="about.html">Tentang Kami</a
-          ><a href="drink-collection.html">Koleksi Minuman</a>
-        </div>
-        <div>
-          <b>Hubungi Kami</b
-          ><a href="mailto:halo@rasakarya.id">halo@rasakarya.id</a>
-        </div>
+        </a>
+        <p>Kelezatan murni dari ragi alami, tepung pilihan, dan tradisi memanggang artisan.</p>
       </div>
-    </footer>
+      <div>
+        <b>Tautan Cepat</b>
+        <a href="#beranda">Beranda Utama</a>
+        <a href="#cerita">Kisah &amp; Filosofi Ragi</a>
+        <a href="#koleksi">Katalog &amp; Pre-Order</a>
+      </div>
+      <div>
+        <b>Hubungi Kami</b>
+        <a href="mailto:halo@rasakarya.id">halo@rasakarya.id</a>
+        <a href="tel:+622112345678">+62 21 1234 5678</a>
+      </div>
+    </div>
+    <div class="shell copyright">© 2026 Rasa Karya. Dibuat hangat setiap hari.</div>
+  </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
     <script src="../js/script.js"></script>
   </body>
 </html>

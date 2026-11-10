@@ -27,79 +27,111 @@
         ><a href="partnership.html">Kerja Sama Mitra</a>
       </nav>
       <div class="header-actions">
-        <a class="cart" href="product.html#cart" aria-label="Keranjang belanja"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><span>0</span></a>
+        <a class="cart" href="product.html#cart" aria-label="Keranjang belanja"><span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span><span id="cart-count">0</span></a>
         <div class="account"><span>Halo, selamat datang</span><a>Fahmi</a></div>
       </div>
     </header>
     <main>
       <section class="collection-hero">
-        <p class="eyebrow">RASA KARYA</p>
-        <h1>Koleksi Minuman Rasa Karya</h1>
+        <a class="back-link" href="home.html">&#x2190; Kembali ke Beranda</a>
+        <h1>Kesegaran Minuman Setiap Hari<br />Teman Sempurna di Setiap Momen.</h1>
         <p>
           Temukan minuman hangat dan dingin yang diracik untuk menemani setiap
-          momen bersama roti artisan.
+          momen bersama roti artisan. Pilih minuman favoritmu dan nikmati
+          kesegarannya hari ini!
         </p>
-        <nav class="filter-nav">
-          <a href="#roti">Semua Produk</a
+        <nav class="filter-nav" aria-label="Filter koleksi produk">
+          <a href="#hangat" aria-current="page">Semua Produk</a
           ><a href="bread-collection.html#roti">Roti</a
-          ><a href="drink-collection.html#hangat">Minuman Hangat</a
-          ><a href="drink-collection.html#dingin">Minuman Dingin</a>
+          ><a href="#hangat">Minuman Hangat</a
+          ><a href="#dingin">Minuman Dingin</a>
         </nav>
       </section>
       <section id="hangat" class="collection-section">
         <h2>Minuman Hangat</h2>
         <div class="collection-grid">
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Americano</h3>
-            <strong>Rp 7.000</strong>
-            <p>Roti lembut dengan aroma kopi khas dan lapisan luar renyah.</p>
-            <small>9 kkal/cup</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <div class="collection-card__image collection-card__image--drink" aria-hidden="true"><span class="material-symbols-outlined">coffee</span></div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Americano</h3><strong>Rp 7.000</strong></div>
+              <small>9 kkal/cup</small>
+              <p>Kopi hitam dengan cita rasa kuat dan aroma khas, pilihan pas untuk menemani harimu.</p>
+              <button type="button" data-product="Americano">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Susu Jahe</h3>
-            <strong>Rp 7.000</strong>
-            <p>Perpaduan pisang manis dan cokelat dalam roti lembut.</p>
-            <small>150 kkal/cup</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card product">
+            <div class="collection-card__image collection-card__image--drink" aria-hidden="true"><span class="material-symbols-outlined">local_cafe</span></div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Susu Jahe</h3><strong>Rp 7.000</strong></div>
+              <small>150 kkal/cup</small>
+              <p>Perpaduan susu hangat yang lembut dan jahe aromatik untuk menemani waktu santai.</p>
+              <button type="button" data-product="Susu Jahe">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Es Kopi Susu</h3>
-            <strong>Rp 7.000</strong>
-            <p>Roti lembut dengan taburan abon gurih yang kaya rasa.</p>
-            <small>120 kkal/cup</small><button>Tambah ke Keranjang</button>
+          <article id="dingin" class="collection-card collection-card--cold product">
+            <div class="collection-card__image collection-card__image--drink" aria-hidden="true"><span class="material-symbols-outlined">iced_coffee</span></div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Es Kopi Susu</h3><strong>Rp 7.000</strong></div>
+              <small>120 kkal/cup</small>
+              <p>Espresso, susu, dan es berpadu dalam minuman yang creamy dan menyegarkan.</p>
+              <button type="button" data-product="Es Kopi Susu">Tambah ke Keranjang</button>
+            </div>
           </article>
-          <article class="collection-card">
-            <span>✦</span>
-            <h3>Es Kopi Susu Gulung</h3>
-            <strong>Rp 7.000</strong>
-            <p>Roti gulung lembut dengan isian abon yang gurih.</p>
-            <small>80 kkal/cup</small><button>Tambah ke Keranjang</button>
+          <article class="collection-card collection-card--cold product">
+            <div class="collection-card__image collection-card__image--drink" aria-hidden="true"><span class="material-symbols-outlined">local_drink</span></div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading"><h3>Es Kopi Susu Gula Aren</h3><strong>Rp 7.000</strong></div>
+              <small>130 kkal/cup</small>
+              <p>Kopi susu dingin dengan manis legit gula aren, nikmat disajikan bersama roti artisan.</p>
+              <button type="button" data-product="Es Kopi Susu Gula Aren">Tambah ke Keranjang</button>
+            </div>
           </article>
         </div>
       </section>
+      <nav class="pagination" aria-label="Navigasi halaman koleksi">
+        <a href="#hangat" aria-label="Halaman sebelumnya">&lsaquo;</a>
+        <a href="#hangat" aria-current="page">1</a>
+        <a href="#hangat">2</a>
+        <span aria-hidden="true">...</span>
+        <a href="#hangat">5</a>
+        <a href="#hangat" aria-label="Halaman berikutnya">&rsaquo;</a>
+      </nav>
     </main>
     <footer class="footer">
       <div class="shell footer-grid">
         <div>
-          <b>Rasa Karya</b>
+          <b class="footer-brand">Rasa Karya</b>
           <p>
             Kelezatan murni dari ragi alami, tepung pilihan, dan tradisi
             memanggang artisan.
           </p>
+          <span class="footer-badge">✦ Terverifikasi Halal</span>
         </div>
         <div>
-          <b>Tautan Cepat</b><a href="home.html">Beranda</a
-          ><a href="about.html">Tentang Kami</a
-          ><a href="drink-collection.html">Koleksi Minuman</a>
+          <b>Tautan Cepat</b><a href="home.html">Beranda Utama</a
+          ><a href="about.html">Kisah &amp; Filosofi Ragi</a
+          ><a href="product.html">Katalog &amp; Pre-Order</a
+          ><a href="partnership.html">Kemitraan Hotel &amp; Cafe</a>
         </div>
         <div>
-          <b>Hubungi Kami</b
-          ><a href="mailto:halo@rasakarya.id">halo@rasakarya.id</a>
+          <b>Jadwal Panggang &amp; Toko</b>
+          <span><strong>Selasa – Jumat:</strong> 07.00 – 18.00 WIB</span>
+          <span><strong>Sabtu – Minggu:</strong> 06.30 – 16.00 WIB</span>
+          <span><strong>Senin:</strong> Tutup Pemeliharaan Starter</span>
+        </div>
+        <div>
+          <b>Lokasi &amp; Kontak</b>
+          <span>⌖ Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat</span>
+          <a href="tel:+622131924890">⌕ +62 21 3192 4890</a>
+          <a href="mailto:halo@rasakarya.id">✉ halo@rasakarya.id</a>
         </div>
       </div>
+      <div class="shell copyright">
+        <span>© 2025 Rasa Karya Artisanal Bakery. Hak Cipta Dilindungi.</span>
+        <span class="copyright-links"><a href="#privasi">Kebijakan Privasi</a><a href="#syarat">Syarat Pemesanan</a></span>
+      </div>
     </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
     <script src="../js/script.js"></script>
   </body>
 </html>
