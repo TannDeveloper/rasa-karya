@@ -1,266 +1,239 @@
+/* Layout & Container Utama */
 .partnership-page {
-  background: var(--cream);
-  color: var(--text);
+  background-color: #faf4ed; /* Warna latar cream murni */
 }
 
-.partnership-page .partner-hero,
-.partnership-page .partner-packages,
-.partnership-page .partner-benefits,
-.partnership-page .partner-form-section {
-  max-width: 1200px;
-  margin: auto;
-  padding-right: 40px;
-  padding-left: 40px;
+.partnership-page main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
 }
 
-.partnership-page .partner-hero {
-  display: grid;
-  grid-template-columns: 1.25fr .75fr;
-  align-items: center;
-  gap: 80px;
-  min-height: 520px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+/* 1. Centered Hero Header */
+.partner-hero-center {
+  text-align: center;
+  max-width: 650px;
+  margin: 40px auto 50px;
 }
 
-.partnership-page .eyebrow {
-  color: var(--orange);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 1.8px;
-}
-
-.partnership-page h1,
-.partnership-page h2,
-.partnership-page h3 {
-  color: var(--ink);
+.partner-hero-center h1 {
   font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: #2b1a10;
+  margin-bottom: 12px;
 }
 
-.partnership-page h1 {
-  max-width: 680px;
-  margin: 12px 0 22px;
-  font-size: clamp(42px, 5vw, 70px);
-  line-height: 1.04;
-  letter-spacing: -.04em;
+.partner-hero-center p {
+  color: #6b5c53;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
-.partner-hero > div:first-child > p:not(.eyebrow) {
-  max-width: 570px;
-  font-size: 17px;
+/* 2. Grid Logo Mitra */
+.partner-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
 }
 
-.partnership-page .button {
-  display: inline-flex;
+.logo-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 46px;
-  padding: 12px 18px;
-  border: 0;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
 }
 
-.partnership-page .button.primary {
-  color: #fff;
-  background: var(--orange);
+.logo-card img {
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 16px;
 }
 
-.partner-hero-note {
-  padding: 34px;
-  color: #fff0e2;
-  background: var(--brown);
-  box-shadow: 14px 14px 0 var(--gold);
-}
-
-.partner-hero-note span {
-  font-size: 10px;
-  letter-spacing: 1.5px;
-}
-
-.partner-hero-note strong {
-  display: block;
-  margin: 16px 0 4px;
-  color: #fff;
-  font: 700 42px 'Playfair Display', serif;
-}
-
-.partner-hero-note p {
-  margin: 0;
+.logo-card p {
   font-size: 13px;
-}
-
-.partner-packages {
-  padding-top: 78px;
-  padding-bottom: 90px;
-}
-
-.section-heading {
-  margin-bottom: 30px;
-}
-
-.section-heading h2,
-.partner-benefits h2,
-.form-copy h2 {
-  margin: 8px 0 12px;
-  font-size: clamp(34px, 4vw, 52px);
-  line-height: 1.08;
-}
-
-.section-heading > p:last-child {
+  font-weight: 700;
+  color: #2b1a10;
   margin: 0;
 }
 
-.package-grid {
+/* 3. Layout Main Content (Form + Sidebar) */
+.partner-content-layout {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  align-items: start;
 }
 
-.package-card {
-  padding: 28px 24px;
-  background: #fff;
-  border-top: 3px solid var(--gold);
+/* Container Form (Kiri) */
+.form-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 36px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
 }
 
-.package-card > span {
-  color: var(--orange);
-  font-weight: 800;
-}
-
-.package-card h3 {
-  margin: 32px 0 10px;
-  font-size: 25px;
-}
-
-.package-card p {
-  min-height: 52px;
-  font-size: 13px;
-}
-
-.package-card a {
-  color: var(--brown);
-  font-size: 13px;
+.form-container h2 {
+  font-size: 22px;
   font-weight: 700;
-  text-decoration: none;
+  color: #2b1a10;
+  margin-bottom: 6px;
 }
 
-.partner-benefits {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background: var(--blush);
-}
-
-.partner-benefits ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 24px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.partner-benefits li {
-  padding: 18px 0;
-  color: var(--brown);
-  font-weight: 700;
-  border-bottom: 1px solid var(--line);
-}
-
-.partner-benefits li::before {
-  margin-right: 12px;
-  color: var(--gold);
-  content: '✦';
-}
-
-.partner-form-section {
-  display: grid;
-  grid-template-columns: .9fr 1.1fr;
-  gap: 50px;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.form-copy p:last-child {
-  max-width: 420px;
+.form-subtext {
+  font-size: 12px;
+  color: #8c7e75;
+  margin-bottom: 24px;
 }
 
 .partner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
 
 .partner-form label {
-  display: grid;
-  gap: 7px;
-  color: var(--ink);
   font-size: 12px;
   font-weight: 700;
+  color: #2b1a10;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .partner-form input,
 .partner-form textarea {
-  width: 100%;
+  background: #faf7f5;
+  border: 1px solid #f0e8e1;
+  border-radius: 8px;
   padding: 12px 14px;
-  color: var(--ink);
-  font: inherit;
-  border: 1px solid var(--line);
-  background: #fff;
-}
-
-.partner-form textarea {
-  resize: vertical;
-}
-
-.partner-form input:focus,
-.partner-form textarea:focus {
-  outline: 2px solid var(--gold);
-  outline-offset: 2px;
-}
-
-.tasting-note {
-  grid-column: 2;
-  padding: 22px;
-  background: #fff;
-  border-left: 3px solid var(--orange);
-}
-
-.tasting-note h3 {
-  margin: 0 0 6px;
-  font-size: 22px;
-}
-
-.tasting-note p {
-  margin: 0;
   font-size: 13px;
+  color: #2b1a10;
+  outline: none;
 }
 
-@media (max-width: 800px) {
-  .partnership-page .partner-hero,
-  .partnership-page .partner-packages,
-  .partnership-page .partner-benefits,
-  .partnership-page .partner-form-section {
-    padding-right: 24px;
-    padding-left: 24px;
+.partner-form input::placeholder,
+.partner-form textarea::placeholder {
+  color: #bdae9e;
+}
+
+.submit-btn {
+  background: #734d26; /* Warna cokelat pill khas tombol di gambar */
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 28px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #5c3d1e;
+}
+
+/* Sidebar Kontak (Kanan) */
+.sidebar-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card, .map-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.info-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2b1a10;
+  margin-bottom: 16px;
+}
+
+.info-item {
+  background: #fff6ee;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.icon-box {
+  color: #a67c52;
+  font-size: 20px;
+}
+
+.info-item small {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #a67c52;
+  display: block;
+}
+
+.info-item strong, .info-item p {
+  font-size: 12px;
+  color: #2b1a10;
+  margin: 2px 0 0;
+  line-height: 1.4;
+}
+
+.map-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2b1a10;
+  margin-bottom: 12px;
+}
+
+.sub-location {
+  margin-left: auto;
+  font-size: 9px;
+  font-weight: 700;
+  color: #a67c52;
+}
+
+.map-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Responsif Mobile */
+@media (max-width: 850px) {
+  .partner-logos-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .partnership-page .partner-hero,
-  .partnership-page .partner-benefits,
-  .partnership-page .partner-form-section {
+  .partner-content-layout {
     grid-template-columns: 1fr;
-    gap: 35px;
   }
 
-  .package-grid,
-  .partner-benefits ul {
+  .form-row {
     grid-template-columns: 1fr;
-  }
-
-  .tasting-note {
-    grid-column: auto;
   }
 }
