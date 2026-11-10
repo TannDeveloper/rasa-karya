@@ -1,34 +1,36 @@
 .service-order-page {
-  background: #fff9f1;
+  background: #fff8f5;
   color: #50453c;
 }
 .service-intro {
   max-width: 1200px;
   margin: auto;
-  padding: 70px 40px 50px;
+  padding: 8px 40px 18px;
 }
 .back-link {
   display: inline-block;
-  margin-bottom: 34px;
+  margin: 16px;
   padding: 10px 16px;
-  color: #28180a;
+  color: #765233;
   background: #fff;
-  border-radius: 9px;
-  box-shadow: 0 3px 12px #28180a14;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px #28180a1a;
   text-decoration: none;
   font-size: 13px;
+  line-height: 1.4;
 }
 .service-intro h1 {
-  margin: 0 0 22px;
-  color: #28180a;
-  font:
-    700 clamp(42px, 5vw, 72px)/1.05 "Playfair Display",
-    serif;
-  letter-spacing: -0.04em;
+  max-width: 850px;
+  margin: 0 0 12px;
+  color: var(--brown);
+  font: 700 clamp(26px, 3.2vw, 42px)/1.2 "Playfair Display", serif;
+  letter-spacing: -0.5px;
 }
 .service-intro > p {
-  max-width: 875px;
-  font-size: 16px;
+  max-width: 660px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .service-cards {
   display: grid;
@@ -36,7 +38,7 @@
   gap: 24px;
   max-width: 1200px;
   margin: auto;
-  padding: 20px 40px 90px;
+  padding: 0 40px 90px;
 }
 .service-card {
   overflow: hidden;
@@ -169,12 +171,10 @@
 @media (max-width: 900px) {
   .service-cards {
     grid-template-columns: 1fr;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 0 24px 90px;
   }
   .service-intro {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 8px 24px 18px;
   }
   .service-request {
     margin-right: 24px;
