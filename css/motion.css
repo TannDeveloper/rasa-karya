@@ -1,0 +1,193 @@
+/*
+  Rasa Karya — motion layer.
+  Only transform/opacity animate. Reduced motion keeps fades, drops movement.
+  Scroll reveals use one IntersectionObserver (js/reveal.js); everything else
+  is CSS. No animation library, no build step.
+*/
+
+/* ---------- tokens ---------- */
+:root {
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-snap: cubic-bezier(0.16, 1, 0.3, 1);
+  --rise: 20px;
+  --stagger: 70ms;
+}
+
+/* ---------- scroll reveal (class applied by reveal.js) ---------- */
+@keyframes rise-in {
+  from { opacity: 0; transform: translate3d(0, var(--rise), 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Transition, not keyframes, so rapid state changes stay interruptible and
+   the stagger is a plain transition-delay. */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, var(--rise), 0);
+  transition:
+    opacity 400ms var(--ease-out-soft),
+    transform 400ms var(--ease-out-soft);
+  transition-delay: var(--delay, 0ms);
+}
+.reveal--right { transform: translate3d(28px, 0, 0); }
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- entrance (above the fold, runs once on load) ---------- */
+.site-header > .brand,
+.site-header > nav,
+.site-header > .header-actions {
+  animation: rise-in 320ms var(--ease-out-soft) both;
+}
+.site-header > .brand { animation-delay: 0ms; }
+.site-header > nav { animation-delay: 60ms; }
+.site-header > .header-actions { animation-delay: 120ms; }
+
+.hero-copy > *,
+.about-intro-copy > *,
+.page-header > div > *,
+.collection-hero > *,
+.service-intro > *,
+.partner-hero-center > * {
+  animation: rise-in 380ms var(--ease-out-soft) both;
+}
+.hero-copy > :nth-child(1), .about-intro-copy > :nth-child(1),
+.page-header > div > :nth-child(1), .collection-hero > :nth-child(1),
+.service-intro > :nth-child(1), .partner-hero-center > :nth-child(1) { animation-delay: 80ms; }
+.hero-copy > :nth-child(2), .about-intro-copy > :nth-child(2),
+.page-header > div > :nth-child(2), .collection-hero > :nth-child(2),
+.service-intro > :nth-child(2), .partner-hero-center > :nth-child(2) { animation-delay: 150ms; }
+.hero-copy > :nth-child(3), .about-intro-copy > :nth-child(3),
+.collection-hero > :nth-child(3), .service-intro > :nth-child(3),
+.partner-hero-center > :nth-child(3) { animation-delay: 220ms; }
+.hero-copy > :nth-child(n + 4), .about-intro-copy > :nth-child(n + 4),
+.collection-hero > :nth-child(n + 4), .service-intro > :nth-child(n + 4) { animation-delay: 290ms; }
+
+.hero-visual,
+.about-highlight,
+.gateway-card {
+  animation: rise-in 420ms var(--ease-out-soft) both;
+  animation-delay: 140ms;
+}
+
+/* ---------- hover depth (pointer devices only) ---------- */
+@media (hover: hover) and (pointer: fine) {
+  .product,
+  .stats article,
+  .collection-card,
+  .value-card,
+  .logo-card,
+  .gateway-card,
+  .service-card,
+  .text-link,
+  .about-text-link,
+  .primary,
+  .service-button {
+    transition:
+      transform 180ms var(--ease-out-snap),
+      box-shadow 180ms var(--ease-out-snap),
+      background-color 160ms linear,
+      color 160ms linear,
+      border-color 160ms linear;
+  }
+  .product:hover,
+  .stats article:hover,
+  .collection-card:hover,
+  .value-card:hover,
+  .logo-card:hover,
+  .gateway-card:hover,
+  .service-card:hover {
+    transform: translate3d(0, -4px, 0);
+    box-shadow: 0 14px 34px #28180a1f;
+  }
+  .product img,
+  .collection-card__image {
+    transition: transform 260ms var(--ease-out-snap);
+  }
+  .product:hover img,
+  .collection-card:hover .collection-card__image {
+    transform: scale(1.04);
+  }
+  .primary:hover,
+  .service-button:hover,
+  .about-cta-link:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 8px 20px #d9822b4d;
+  }
+  .text-link:hover,
+  .about-text-link:hover { transform: translate3d(3px, 0, 0); }
+  .cart { transition: transform 160ms var(--ease-out-snap), background-color 160ms linear; }
+  .cart:hover { transform: scale(1.04); }
+  nav a { transition: color 160ms linear, background-color 160ms linear; }
+}
+
+/* ---------- interactive feedback ---------- */
+.product button,
+.collection-card button,
+.primary,
+.submit-btn,
+.service-button,
+.about-cta-link {
+  transition: transform 120ms var(--ease-out-snap), background-color 200ms linear,
+    color 200ms linear, box-shadow 200ms var(--ease-out-snap);
+}
+.product button:active,
+.collection-card button:active,
+.primary:active,
+.submit-btn:active,
+.service-button:active,
+.about-cta-link:active {
+  transform: scale(0.97);
+}
+
+/* cart badge pulses when the count changes (script toggles .bump) */
+@keyframes cart-bump {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+#cart-count.bump { animation: cart-bump 300ms var(--ease-out-snap); }
+
+/* freshly added item gets a soft acknowledgement glow */
+@keyframes added-flash {
+  from { box-shadow: 0 0 0 0 #d9822b80; }
+  to   { box-shadow: 0 0 0 10px #d9822b00; }
+}
+[data-added] { animation: added-flash 420ms var(--ease-out-soft); }
+
+/* ---------- reduced motion: keep the fade, drop all movement ---------- */
+@media (prefers-reduced-motion: reduce) {
+  :root { --rise: 0px; --stagger: 0ms; }
+  .reveal { transform: none !important; transition-duration: 150ms; }
+  .site-header > *,
+  .hero-copy > *,
+  .about-intro-copy > *,
+  .page-header > div > *,
+  .collection-hero > *,
+  .service-intro > *,
+  .partner-hero-center > *,
+  .hero-visual,
+  .about-highlight,
+  .gateway-card {
+    animation-duration: 150ms;
+    animation-delay: 0ms;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .product:hover,
+    .stats article:hover,
+    .collection-card:hover,
+    .value-card:hover,
+    .logo-card:hover,
+    .gateway-card:hover,
+    .service-card:hover,
+    .primary:hover,
+    .service-button:hover,
+    .about-cta-link:hover,
+    .text-link:hover,
+    .about-text-link:hover { transform: none; }
+    .product:hover img,
+    .collection-card:hover .collection-card__image { transform: none; }
+  }
+}

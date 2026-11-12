@@ -48,10 +48,25 @@ function showToast(message) {
 }
 
 function addToCart(event) {
-  const { product } = event.currentTarget.dataset;
+  const button = event.currentTarget;
+  const { product } = button.dataset;
 
   cartTotal += 1;
   cartCount.textContent = cartTotal;
+
+  // Restart the CSS acknowledgement: remove the class, force a reflow, re-add.
+  cartCount.classList.remove('bump');
+  void cartCount.offsetWidth;
+  cartCount.classList.add('bump');
+
+  const card = button.closest('.product');
+  if (card) {
+    delete card.dataset.added;
+    void card.offsetWidth;
+    card.dataset.added = '';
+    window.setTimeout(() => delete card.dataset.added, 500);
+  }
+
   showToast(`Ditambahkan: ${product}`);
 }
 

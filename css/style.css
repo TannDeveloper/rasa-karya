@@ -620,23 +620,6 @@ nav a[aria-current="page"] {
 .home-page {
   background:var(--cream)
 }
-.home-page .site-header {
-  height:72px;
-  background:var(--gold)
-}
-.home-page .brand b {
-  font-size:20px
-}
-.home-page .brand-mark img {
-  width:32px;
-  height:32px
-}
-.home-page #navigation {
-  padding:6px 12px
-}
-.home-page nav a {
-  font-size:12px
-}
 .home-page .hero {
   min-height:360px;
   grid-template-columns:1.15fr .85fr;
@@ -934,45 +917,45 @@ nav a[aria-current="page"] {
   position:relative;
   z-index:1
 }
-.home-page .footer {
+.footer.home-footer {
   padding:38px 0 14px;
   background:#fff1e9;
   color:var(--text)
 }
-.home-page .footer-grid {
+.footer.home-footer .footer-grid {
   grid-template-columns:1.7fr 1.1fr 1.35fr 1.3fr;
   gap:28px
 }
-.home-page .footer .brand {
+.footer.home-footer .brand {
   color:var(--ink)
 }
-.home-page .footer .brand b {
+.footer.home-footer .brand b {
   font-size:20px
 }
-.home-page .footer .brand-mark img {
+.footer.home-footer .brand-mark img {
   width:24px;
   height:24px
 }
-.home-page .footer p,
-.home-page .footer a,
-.home-page .footer-grid span {
+.footer.home-footer p,
+.footer.home-footer a,
+.footer.home-footer .footer-grid span {
   font-size:11px;
   line-height:1.6
 }
-.home-page .footer-grid > div:not(:first-child) {
+.footer.home-footer .footer-grid > div:not(:first-child) {
   gap:5px
 }
-.home-page .footer-grid > div > b {
+.footer.home-footer .footer-grid > div > b {
   color:var(--ink)
 }
-.home-page .footer a {
+.footer.home-footer a {
   color:var(--text)
 }
 .halal-note,
 .closed-note {
   color:#8f4e00
 }
-.home-page .copyright {
+.footer.home-footer .copyright {
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -980,51 +963,12 @@ nav a[aria-current="page"] {
   border-color:#28180a18;
   color:var(--text-tertiary)
 }
-.home-page .copyright > span:last-child {
+.footer.home-footer .copyright > span:last-child {
   display:flex;
   gap:20px
 }
 
 @media(max-width:900px) {
-  .home-page .site-header {
-    height:64px;
-    display:flex;
-    padding:0 24px
-  }
-  .home-page .site-header > nav {
-    display:none;
-    position:absolute;
-    top:64px;
-    right:0;
-    left:0;
-    padding:18px 24px;
-    flex-direction:column;
-    align-items:flex-start;
-    background:#fff;
-    border-bottom:1px solid var(--line)
-  }
-  .home-page .menu[aria-expanded="true"] + nav {
-    display:flex
-  }
-  .home-page .menu {
-    display:block;
-    min-width:44px;
-    min-height:44px;
-    margin-left:auto;
-    background:none;
-    border:0;
-    color:var(--brown);
-    font:700 12px "Plus Jakarta Sans"
-  }
-  .home-page .header-actions {
-    margin-left:8px
-  }
-  .home-page .account {
-    display:none
-  }
-  .home-page .cart {
-    padding:8px
-  }
   .home-page .hero {
     min-height:0;
     padding-top:32px;
@@ -1057,7 +1001,7 @@ nav a[aria-current="page"] {
     padding-right:24px;
     padding-left:24px
   }
-  .home-page .footer-grid {
+  .footer.home-footer .footer-grid {
     grid-template-columns:repeat(2,minmax(0,1fr))
   }
 }
@@ -1119,10 +1063,10 @@ nav a[aria-current="page"] {
   .home-page .partner h2 {
     font-size:27px
   }
-  .home-page .footer-grid {
+  .footer.home-footer .footer-grid {
     grid-template-columns:1fr
   }
-  .home-page .copyright {
+  .footer.home-footer .copyright {
     align-items:flex-start;
     flex-direction:column
   }
