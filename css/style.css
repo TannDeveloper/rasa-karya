@@ -661,7 +661,9 @@ nav a[aria-current="page"] {
   max-width:570px;
   margin:16px 0 0;
   font-size:14px;
-  line-height:1.65
+  line-height:1.65;
+  text-align:justify;
+  text-align-last:left
 }
 .home-page .hero-visual {
   display:grid;
@@ -847,7 +849,9 @@ nav a[aria-current="page"] {
 }
 .home-page .story-copy > p:not(.overline) {
   font-size:12px;
-  line-height:1.6
+  line-height:1.6;
+  text-align:justify;
+  text-align-last:left
 }
 .home-page .story ul {
   list-style:none;
