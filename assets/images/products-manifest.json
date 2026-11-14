@@ -1,0 +1,288 @@
+[
+  {
+    "file": "assets\\images\\products\\americano-milk-tea.webp",
+    "width": 672,
+    "height": 1000,
+    "bytes": 24190
+  },
+  {
+    "file": "assets\\images\\products\\bagelen-keju.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 62602
+  },
+  {
+    "file": "assets\\images\\products\\bagelen.webp",
+    "width": 554,
+    "height": 554,
+    "bytes": 33020
+  },
+  {
+    "file": "assets\\images\\products\\es-cappucino.webp",
+    "width": 563,
+    "height": 1000,
+    "bytes": 39570
+  },
+  {
+    "file": "assets\\images\\products\\es-chocolate.webp",
+    "width": 640,
+    "height": 960,
+    "bytes": 24152
+  },
+  {
+    "file": "assets\\images\\products\\es-japanese-coffee.webp",
+    "width": 600,
+    "height": 900,
+    "bytes": 50830
+  },
+  {
+    "file": "assets\\images\\products\\es-kopi-soda.webp",
+    "width": 667,
+    "height": 1000,
+    "bytes": 36626
+  },
+  {
+    "file": "assets\\images\\products\\es-kopi-susu.webp",
+    "width": 684,
+    "height": 1000,
+    "bytes": 28304
+  },
+  {
+    "file": "assets\\images\\products\\es-lemon-tea.webp",
+    "width": 600,
+    "height": 800,
+    "bytes": 44536
+  },
+  {
+    "file": "assets\\images\\products\\es-matchacino.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 51494
+  },
+  {
+    "file": "assets\\images\\products\\es-milk-tea.webp",
+    "width": 672,
+    "height": 1000,
+    "bytes": 24190
+  },
+  {
+    "file": "assets\\images\\products\\es-susu.webp",
+    "width": 564,
+    "height": 1000,
+    "bytes": 9390
+  },
+  {
+    "file": "assets\\images\\products\\es-teh.webp",
+    "width": 420,
+    "height": 537,
+    "bytes": 38116
+  },
+  {
+    "file": "assets\\images\\products\\es-thai-tea.webp",
+    "width": 736,
+    "height": 981,
+    "bytes": 41604
+  },
+  {
+    "file": "assets\\images\\products\\espresso-double.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 22074
+  },
+  {
+    "file": "assets\\images\\products\\espresso-single.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 39220
+  },
+  {
+    "file": "assets\\images\\products\\hot-cappucino.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 48906
+  },
+  {
+    "file": "assets\\images\\products\\hot-chocolate.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 45714
+  },
+  {
+    "file": "assets\\images\\products\\kopi-filter.webp",
+    "width": 667,
+    "height": 1000,
+    "bytes": 76554
+  },
+  {
+    "file": "assets\\images\\products\\kopi-susu-panas.webp",
+    "width": 486,
+    "height": 648,
+    "bytes": 15192
+  },
+  {
+    "file": "assets\\images\\products\\kopi-tubruk.webp",
+    "width": 563,
+    "height": 1000,
+    "bytes": 27834
+  },
+  {
+    "file": "assets\\images\\products\\roti-abon-gulung.webp",
+    "width": 736,
+    "height": 736,
+    "bytes": 73602
+  },
+  {
+    "file": "assets\\images\\products\\roti-abon.webp",
+    "width": 736,
+    "height": 981,
+    "bytes": 74790
+  },
+  {
+    "file": "assets\\images\\products\\roti-bagelen.webp",
+    "width": 399,
+    "height": 501,
+    "bytes": 36180
+  },
+  {
+    "file": "assets\\images\\products\\roti-boy.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 75348
+  },
+  {
+    "file": "assets\\images\\products\\roti-coklat-topping-kacang.webp",
+    "width": 1000,
+    "height": 797,
+    "bytes": 97178
+  },
+  {
+    "file": "assets\\images\\products\\roti-coklat-topping-yupi.webp",
+    "width": 1000,
+    "height": 667,
+    "bytes": 110932
+  },
+  {
+    "file": "roti-cream-meses-keju",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "file": "assets\\images\\products\\roti-gembul.webp",
+    "width": 554,
+    "height": 554,
+    "bytes": 36254
+  },
+  {
+    "file": "assets\\images\\products\\roti-isi-daging.webp",
+    "width": 667,
+    "height": 1000,
+    "bytes": 64156
+  },
+  {
+    "file": "assets\\images\\products\\roti-kacang-ijo.webp",
+    "width": 735,
+    "height": 386,
+    "bytes": 23696
+  },
+  {
+    "file": "assets\\images\\products\\roti-kacang-tanah.webp",
+    "width": 915,
+    "height": 1000,
+    "bytes": 141394
+  },
+  {
+    "file": "assets\\images\\products\\roti-kasur.webp",
+    "width": 1000,
+    "height": 750,
+    "bytes": 107558
+  },
+  {
+    "file": "assets\\images\\products\\roti-keju.webp",
+    "width": 736,
+    "height": 920,
+    "bytes": 54176
+  },
+  {
+    "file": "assets\\images\\products\\roti-kenong.webp",
+    "width": 1000,
+    "height": 800,
+    "bytes": 124118
+  },
+  {
+    "file": "assets\\images\\products\\roti-kering.webp",
+    "width": 300,
+    "height": 300,
+    "bytes": 16212
+  },
+  {
+    "file": "assets\\images\\products\\roti-milk.webp",
+    "width": 667,
+    "height": 1000,
+    "bytes": 44834
+  },
+  {
+    "file": "assets\\images\\products\\roti-pisang-coklat.webp",
+    "width": 511,
+    "height": 640,
+    "bytes": 65720
+  },
+  {
+    "file": "assets\\images\\products\\roti-pizza.webp",
+    "width": 1000,
+    "height": 563,
+    "bytes": 89710
+  },
+  {
+    "file": "assets\\images\\products\\roti-selai-srikaya.webp",
+    "width": 1000,
+    "height": 667,
+    "bytes": 67264
+  },
+  {
+    "file": "assets\\images\\products\\roti-sisir.webp",
+    "width": 236,
+    "height": 157,
+    "bytes": 7190
+  },
+  {
+    "file": "assets\\images\\products\\roti-sobek.webp",
+    "width": 500,
+    "height": 500,
+    "bytes": 36746
+  },
+  {
+    "file": "assets\\images\\products\\roti-sosis-1.webp",
+    "width": 388,
+    "height": 388,
+    "bytes": 34900
+  },
+  {
+    "file": "assets\\images\\products\\roti-sosis-2.webp",
+    "width": 480,
+    "height": 640,
+    "bytes": 75164
+  },
+  {
+    "file": "assets\\images\\products\\roti-tawar.webp",
+    "width": 550,
+    "height": 365,
+    "bytes": 17174
+  },
+  {
+    "file": "assets\\images\\products\\susu-hangat.webp",
+    "width": 512,
+    "height": 683,
+    "bytes": 14370
+  },
+  {
+    "file": "assets\\images\\products\\teh-hangat.webp",
+    "width": 500,
+    "height": 467,
+    "bytes": 31172
+  },
+  {
+    "file": "assets\\images\\products\\thai-tea.webp",
+    "width": 640,
+    "height": 960,
+    "bytes": 23208
+  }
+]

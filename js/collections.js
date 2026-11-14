@@ -1,108 +1,56 @@
-/*
-  Rasa Karya - koleksi roti & minuman (satu halaman, filter sebagai tab).
-
-  Data masih dummy: tiap kategori berisi 48 item, nama di-cycle dari produk
-  yang sudah ada (6 roti, 2 minuman hangat, 2 minuman dingin). Ganti
-  BREADS / WARM_DRINKS / COLD_DRINKS atau PER_CATEGORY kalau data asli sudah siap.
-
-  Alur: filter (semua / roti / hangat / dingin) -> grid 6 per halaman -> pager.
-  Filter disimpan di URL hash (#roti, #hangat, #dingin) supaya bisa di-bookmark,
-  di-share, dan tombol back browser tetap jalan.
-*/
+/* Rasa Karya — koleksi 48 produk dengan foto lokal hasil optimasi WebP. */
 (function () {
   'use strict';
 
   var PER_PAGE = 6;
-  var PER_CATEGORY = 48;
-  var IMAGE = '../assets/images/hero-roti.png';
-  var IMAGE_ALT = 'Aneka roti segar';
   var FILTERS = ['roti', 'hangat', 'dingin'];
+  var IMAGE_PATH = '../assets/images/products/';
+  var bread = 'Roti lembut yang disiapkan segar untuk menemani aktivitas harian.';
+  var warm = 'Minuman hangat dengan rasa yang pas untuk menemani roti pilihanmu.';
+  var cold = 'Minuman dingin yang menyegarkan untuk menemani waktu santai.';
+  var product = function (category, name, image, description) {
+    return {
+      category: category,
+      name: name,
+      image: IMAGE_PATH + image + '.webp',
+      description: description,
+      price: category === 'roti' ? 'Rp 5.000' : 'Rp 7.000'
+    };
+  };
 
-  var BREADS = [
-    {
-      name: 'Roti Boy',
-      price: 'Rp 5.000',
-      energy: '♧ 250 kkal/piece',
-      description:
-        'Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah, cocok untuk menemani waktu santai.'
-    },
-    {
-      name: 'Roti Pisang Cokelat',
-      price: 'Rp 5.000',
-      energy: '♧ 200 kkal/piece',
-      description:
-        'Perpaduan pisang manis dan cokelat yang lezat dalam balutan roti lembut, menciptakan rasa nikmat di setiap gigitan.'
-    },
-    {
-      name: 'Roti Abon',
-      price: 'Rp 5.000',
-      energy: '♧ 270 kkal/piece',
-      description:
-        'Roti lembut dengan taburan abon gurih yang kaya rasa, pilihan tepat bagi kamu yang menyukai camilan bercita rasa savory.'
-    },
-    {
-      name: 'Roti Abon Gulung',
-      price: 'Rp 5.000',
-      energy: '♧ 270 kkal/piece',
-      description:
-        'Roti gulung lembut dengan isian abon yang gurih, menghadirkan perpaduan tekstur dan rasa yang pas untuk camilan sehari-hari.'
-    },
-    {
-      name: 'Roti Isi Daging',
-      price: 'Rp 5.000',
-      energy: '♧ 250 kkal/piece',
-      description:
-        'Roti lembut dengan isian daging yang gurih dan kaya rasa, cocok untuk mengganjal lapar di sela-sela aktivitas.'
-    },
-    {
-      name: 'Roti Kacang',
-      price: 'Rp 5.000',
-      energy: '♧ 280 kkal/piece',
-      description:
-        'Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa gurih dan aroma kacang yang menggugah selera.'
-    }
-  ];
+  var products = [
+    product('roti', 'Bagelen Keju', 'bagelen-keju', bread), product('roti', 'Roti Bagelen', 'bagelen', bread),
+    product('roti', 'Roti Abon Gulung', 'roti-abon-gulung', bread), product('roti', 'Roti Abon', 'roti-abon', bread),
+    product('roti', 'Roti Bagelen', 'roti-bagelen', bread), product('roti', 'Roti Boy', 'roti-boy', bread),
+    product('roti', 'Roti Cokelat Topping Kacang', 'roti-coklat-topping-kacang', bread), product('roti', 'Roti Cokelat Topping Yupi', 'roti-coklat-topping-yupi', bread),
+    product('roti', 'Roti Cream Meses Keju', 'roti-cream-meses-keju', bread), product('roti', 'Roti Gembul', 'roti-gembul', bread),
+    product('roti', 'Roti Isi Daging', 'roti-isi-daging', bread), product('roti', 'Roti Kacang Ijo', 'roti-kacang-ijo', bread),
+    product('roti', 'Roti Kacang Tanah', 'roti-kacang-tanah', bread), product('roti', 'Roti Kasur', 'roti-kasur', bread),
+    product('roti', 'Roti Keju', 'roti-keju', bread), product('roti', 'Roti Kenong', 'roti-kenong', bread),
+    product('roti', 'Roti Kering', 'roti-kering', bread), product('roti', 'Roti Milk', 'roti-milk', bread),
+    product('roti', 'Roti Pisang Cokelat', 'roti-pisang-coklat', bread), product('roti', 'Roti Pizza', 'roti-pizza', bread),
+    product('roti', 'Roti Selai Srikaya', 'roti-selai-srikaya', bread), product('roti', 'Roti Sisir', 'roti-sisir', bread),
+    product('roti', 'Roti Sobek', 'roti-sobek', bread), product('roti', 'Roti Sosis', 'roti-sosis-1', bread),
+    product('roti', 'Roti Sosis Spesial', 'roti-sosis-2', bread), product('roti', 'Roti Tawar', 'roti-tawar', bread),
 
-  var WARM_DRINKS = [
-    {
-      name: 'Americano',
-      price: 'Rp 7.000',
-      energy: '9 kkal/cup',
-      description: 'Kopi hitam dengan cita rasa kuat dan aroma khas, pilihan pas untuk menemani harimu.',
-      icon: 'coffee'
-    },
-    {
-      name: 'Susu Jahe',
-      price: 'Rp 7.000',
-      energy: '150 kkal/cup',
-      description: 'Perpaduan susu hangat yang lembut dan jahe aromatik untuk menemani waktu santai.',
-      icon: 'local_cafe'
-    }
-  ];
+    product('hangat', 'Espresso Double', 'espresso-double', warm), product('hangat', 'Espresso Single', 'espresso-single', warm),
+    product('hangat', 'Hot Cappucino', 'hot-cappucino', warm), product('hangat', 'Hot Chocolate', 'hot-chocolate', warm),
+    product('hangat', 'Kopi Filter', 'kopi-filter', warm), product('hangat', 'Kopi Susu Panas', 'kopi-susu-panas', warm),
+    product('hangat', 'Kopi Tubruk', 'kopi-tubruk', warm), product('hangat', 'Susu Hangat', 'susu-hangat', warm),
+    product('hangat', 'Teh Hangat', 'teh-hangat', warm), product('hangat', 'Thai Tea Hangat', 'thai-tea', warm),
 
-  var COLD_DRINKS = [
-    {
-      name: 'Es Kopi Susu',
-      price: 'Rp 7.000',
-      energy: '120 kkal/cup',
-      description: 'Espresso, susu, dan es berpadu dalam minuman yang creamy dan menyegarkan.',
-      icon: 'glass_cup',
-      cold: true
-    },
-    {
-      name: 'Es Kopi Susu Gula Aren',
-      price: 'Rp 7.000',
-      energy: '130 kkal/cup',
-      description: 'Kopi susu dingin dengan manis legit gula aren, nikmat disajikan bersama roti artisan.',
-      icon: 'local_drink',
-      cold: true
-    }
+    product('dingin', 'Americano Milk Tea', 'americano-milk-tea', cold), product('dingin', 'Es Cappucino', 'es-cappucino', cold),
+    product('dingin', 'Es Chocolate', 'es-chocolate', cold), product('dingin', 'Es Japanese Coffee', 'es-japanese-coffee', cold),
+    product('dingin', 'Es Kopi Soda', 'es-kopi-soda', cold), product('dingin', 'Es Kopi Susu', 'es-kopi-susu', cold),
+    product('dingin', 'Es Lemon Tea', 'es-lemon-tea', cold), product('dingin', 'Es Matchacino', 'es-matchacino', cold),
+    product('dingin', 'Es Milk Tea', 'es-milk-tea', cold), product('dingin', 'Es Susu', 'es-susu', cold),
+    product('dingin', 'Es Teh', 'es-teh', cold), product('dingin', 'Es Thai Tea', 'es-thai-tea', cold)
   ];
 
   var CATEGORIES = {
-    roti: { label: 'Roti', templates: BREADS },
-    hangat: { label: 'Minuman Hangat', templates: WARM_DRINKS },
-    dingin: { label: 'Minuman Dingin', templates: COLD_DRINKS }
+    roti: { label: 'Roti' },
+    hangat: { label: 'Minuman Hangat' },
+    dingin: { label: 'Minuman Dingin' }
   };
 
   var grid = document.getElementById('collection-grid');
@@ -110,23 +58,6 @@
   var status = document.getElementById('collection-status');
   var filters = document.querySelectorAll('.filter-nav [data-filter]');
   if (!grid || !pagination) return;
-
-  var products = [];
-  Object.keys(CATEGORIES).forEach(function (key) {
-    var templates = CATEGORIES[key].templates;
-    for (var index = 0; index < PER_CATEGORY; index += 1) {
-      var template = templates[index % templates.length];
-      products.push({
-        category: key,
-        name: template.name,
-        price: template.price,
-        energy: template.energy,
-        description: template.description,
-        icon: template.icon || null,
-        cold: Boolean(template.cold)
-      });
-    }
-  });
 
   var state = { filter: 'semua', page: 1 };
 
@@ -145,26 +76,15 @@
   function buildCard(product) {
     var card = document.createElement('article');
     card.className = 'collection-card product';
-    if (product.cold) card.classList.add('collection-card--cold');
+    if (product.category === 'dingin') card.classList.add('collection-card--cold');
 
-    if (product.icon) {
-      var thumb = document.createElement('div');
-      thumb.className = 'collection-card__image collection-card__image--drink';
-      thumb.setAttribute('aria-hidden', 'true');
-      var glyph = document.createElement('span');
-      glyph.className = 'material-symbols-outlined';
-      glyph.textContent = product.icon;
-      thumb.append(glyph);
-      card.append(thumb);
-    } else {
-      var image = document.createElement('img');
-      image.className = 'collection-card__image';
-      image.src = IMAGE;
-      image.alt = IMAGE_ALT;
-      image.loading = 'lazy';
-      image.decoding = 'async';
-      card.append(image);
-    }
+    var image = document.createElement('img');
+    image.className = 'collection-card__image';
+    image.src = product.image;
+    image.alt = product.name;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    card.append(image);
 
     var content = document.createElement('div');
     content.className = 'collection-card__content';
