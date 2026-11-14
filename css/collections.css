@@ -92,6 +92,26 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
 }
+@keyframes collection-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.collection-grid--enter {
+  animation: collection-enter 0.28s ease-out both;
+}
+.collection-status {
+  margin: 0 0 18px;
+  color: #8d837a;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
 .collection-card {
   display: flex;
   min-width: 0;
@@ -201,6 +221,7 @@
   padding: 30px 0 30px;
 }
 .pagination a,
+.pagination button,
 .pagination span {
   display: grid;
   place-items: center;
@@ -212,13 +233,40 @@
   font-size: 16px;
   text-decoration: none;
 }
-.pagination a[aria-current="page"] {
+.pagination button {
+  padding: 0;
+  background: transparent;
+  font-family: inherit;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+.pagination button:hover:not(:disabled):not([aria-current="page"]) {
+  border-color: var(--brown);
+  background: #f3e6da;
+}
+.pagination a[aria-current="page"],
+.pagination button[aria-current="page"] {
   color: #fff;
   background: var(--brown);
   border-color: var(--brown);
+  cursor: default;
+}
+.pagination button:disabled {
+  color: #cbb9aa;
+  border-color: #e6dad0;
+  cursor: default;
 }
 .pagination span {
   border: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .collection-grid--enter {
+    animation: none;
+  }
 }
 .footer {
   background:#28180a;
@@ -263,6 +311,18 @@
 }
 .collection-page #toast {
   z-index: 20;
+}
+/* style.css menyembunyikan semua <nav> pada layar <=800px (menu header mobile),
+   jadi pagination koleksi perlu dikembalikan agar tetap tampil mendatar. */
+@media (max-width: 800px) {
+  .collection-page .pagination {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0 30px;
+    background: transparent;
+    border-bottom: 0;
+  }
 }
 @media (max-width: 800px) {
   .collection-page .collection-hero,

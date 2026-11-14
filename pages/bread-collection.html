@@ -14,9 +14,31 @@
   <link rel="stylesheet" href="../css/motion.css" />
   </head>
   <body class="collection-page">
-    <header class="site-header">
-      
-    </header>
+   <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Rasa Karya beranda">
+      <span class="brand-mark">
+        <img src="../assets/images/mini-logo.svg" alt="Logo Rasa Karya">
+      </span>
+      <span>
+        <b>Rasa Karya</b>
+        <small>TEFA BAKERY</small>
+      </span>
+    </a>
+
+    <button class="menu" type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
+
+    <div class="header-actions">
+      <a class="cart" href="#koleksi" aria-label="Keranjang belanja">
+        <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
+        <span id="cart-count">0</span>
+      </a>
+
+      <div class="account">
+        <span>Halo, selamat datang</span>
+        <a href="#beranda">Fahmi</a>  
+      </div>
+    </div>
+  </header>
     <main>
       <section class="collection-hero">
         <a class="back-link" href="product.html">&#x2190; Kembali</a>
@@ -34,71 +56,13 @@
       </section>
       <section id="roti" class="collection-section">
         <h2>Roti</h2>
-        <div class="collection-grid">
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Boy</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 250 kkal/piece</small>
-              <p>Roti bertekstur lembut dengan aroma kopi yang khas dan lapisan luar yang renyah, cocok untuk menemani waktu santai.</p>
-              <button type="button" data-product="Roti Boy">Tambah ke Keranjang</button>
-            </div>
-          </article>
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Pisang Cokelat</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 200 kkal/piece</small>
-              <p>Perpaduan pisang manis dan cokelat yang lezat dalam balutan roti lembut, menciptakan rasa nikmat di setiap gigitan.</p>
-              <button type="button" data-product="Roti Pisang Cokelat">Tambah ke Keranjang</button>
-            </div>
-          </article>
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Abon</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 270 kkal/piece</small>
-              <p>Roti lembut dengan taburan abon gurih yang kaya rasa, pilihan tepat bagi kamu yang menyukai camilan bercita rasa savory.</p>
-              <button type="button" data-product="Roti Abon">Tambah ke Keranjang</button>
-            </div>
-          </article>
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Abon Gulung</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 270 kkal/piece</small>
-              <p>Roti gulung lembut dengan isian abon yang gurih, menghadirkan perpaduan tekstur dan rasa yang pas untuk camilan sehari-hari.</p>
-              <button type="button" data-product="Roti Abon Gulung">Tambah ke Keranjang</button>
-            </div>
-          </article>
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Isi Daging</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 250 kkal/piece</small>
-              <p>Roti lembut dengan isian daging yang gurih dan kaya rasa, cocok untuk mengganjal lapar di sela-sela aktivitas.</p>
-              <button type="button" data-product="Roti Isi Daging">Tambah ke Keranjang</button>
-            </div>
-          </article>
-          <article class="collection-card product">
-            <img class="collection-card__image" src="../assets/images/hero-roti.png" alt="Aneka roti segar" />
-            <div class="collection-card__content">
-              <div class="collection-card__heading"><h3>Roti Kacang</h3><strong>Rp 5.000</strong></div>
-              <small>♧ 280 kkal/piece</small>
-              <p>Roti lembut dengan topping kacang tanah yang renyah, memberikan perpaduan rasa gurih dan aroma kacang yang menggugah selera.</p>
-              <button type="button" data-product="Roti Kacang">Tambah ke Keranjang</button>
-            </div>
-          </article>
-        </div>
+        <p id="collection-status" class="collection-status" role="status" aria-live="polite"></p>
+        <div id="collection-grid" class="collection-grid" aria-label="Daftar produk roti"></div>
+        <noscript>
+          <p class="collection-status">Aktifkan JavaScript untuk melihat daftar produk roti.</p>
+        </noscript>
       </section>
-      <nav class="pagination" aria-label="Navigasi halaman koleksi">
-        <a href="#roti" aria-label="Halaman sebelumnya">&lsaquo;</a>
-        <a href="#roti" aria-current="page">1</a>
-        <a href="#roti">2</a>
-        <span aria-hidden="true">...</span>
-        <a href="#roti">5</a>
-        <a href="#roti" aria-label="Halaman berikutnya">&rsaquo;</a>
-      </nav>
+      <nav id="pagination" class="pagination" aria-label="Navigasi halaman koleksi"></nav>
     </main>
 <footer class="footer home-footer">
     <div class="shell footer-grid">
@@ -136,6 +100,7 @@
     </div>
   </footer>
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="../js/bread-collection.js"></script>
     <script src="../js/reveal.js"></script>
   <script src="../js/script.js"></script>
   </body>

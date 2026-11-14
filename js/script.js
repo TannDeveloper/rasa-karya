@@ -1,7 +1,7 @@
 const cartCount = document.getElementById('cart-count');
 const menuButton = document.querySelector('.menu');
 const toast = document.getElementById('toast');
-const addButtons = document.querySelectorAll('.product button, .product-info button');
+const addSelector = '.product button, .product-info button';
 const forms = document.querySelectorAll('form');
 
 function setFormMessage(form, message, type = 'success') {
@@ -47,8 +47,7 @@ function showToast(message) {
   }, 2000);
 }
 
-function addToCart(event) {
-  const button = event.currentTarget;
+function addToCart(button) {
   const { product } = button.dataset;
 
   cartTotal += 1;
@@ -86,7 +85,13 @@ function setActiveNavigation(event) {
   selectedLink.setAttribute('aria-current', 'page');
 }
 
-addButtons.forEach((button) => button.addEventListener('click', addToCart));
+// Delegasi: kartu produk yang dirender belakangan (mis. pagination koleksi)
+// tetap mendapat perilaku tambah-ke-keranjang tanpa listener ulang.
+document.addEventListener('click', (event) => {
+  if (!(event.target instanceof Element)) return;
+  const button = event.target.closest(addSelector);
+  if (button) addToCart(button);
+});
 document.querySelectorAll('nav a').forEach((link) => {
   link.addEventListener('click', setActiveNavigation);
 });
