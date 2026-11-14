@@ -3,105 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Koleksi Roti - Rasa Karya</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <title>🐴 Koleksi Roti &amp; Minuman - Rasa Karya</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="collection.html" />
+    <meta http-equiv="refresh" content="0; url=collection.html#roti" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/collections.css" />
-  <link rel="stylesheet" href="../css/motion.css" />
+    <link rel="icon" href="../assets/images/favicon.svg"/>
   </head>
   <body class="collection-page">
-   <header class="site-header">
-    <a class="brand" href="#beranda" aria-label="Rasa Karya beranda">
-      <span class="brand-mark">
-        <img src="../assets/images/mini-logo.svg" alt="Logo Rasa Karya">
-      </span>
-      <span>
-        <b>Rasa Karya</b>
-        <small>TEFA BAKERY</small>
-      </span>
-    </a>
-
-    <button class="menu" type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
-
-    <div class="header-actions">
-      <a class="cart" href="#koleksi" aria-label="Keranjang belanja">
-        <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
-        <span id="cart-count">0</span>
-      </a>
-
-      <div class="account">
-        <span>Halo, selamat datang</span>
-        <a href="#beranda">Fahmi</a>  
-      </div>
-    </div>
-  </header>
     <main>
       <section class="collection-hero">
-        <a class="back-link" href="product.html">&#x2190; Kembali</a>
-        <h1>Kehangatan Roti Segar Setiap Hari<br />Kelembutan Sempurna di Setiap Gigitan.</h1>
+        <h1>Halaman ini sudah pindah</h1>
         <p>
-          Temukan berbagai pilihan roti favoritmu dengan cita rasa yang lezat dan
-          tekstur yang menggugah selera. Pilih roti sesuai seleramu dan nikmati
-          kelezatannya hari ini!
+          Koleksi roti sekarang digabung dengan minuman di satu halaman:
+          <a href="collection.html#roti">Koleksi Roti &amp; Minuman</a>.
         </p>
-        <nav class="filter-nav" aria-label="Filter koleksi produk">
-          <a href="#roti" aria-current="page">Semua Produk</a><a href="#roti">Roti</a
-          ><a href="drink-collection.html#hangat">Minuman Hangat</a
-          ><a href="drink-collection.html#dingin">Minuman Dingin</a>
-        </nav>
       </section>
-      <section id="roti" class="collection-section">
-        <h2>Roti</h2>
-        <p id="collection-status" class="collection-status" role="status" aria-live="polite"></p>
-        <div id="collection-grid" class="collection-grid" aria-label="Daftar produk roti"></div>
-        <noscript>
-          <p class="collection-status">Aktifkan JavaScript untuk melihat daftar produk roti.</p>
-        </noscript>
-      </section>
-      <nav id="pagination" class="pagination" aria-label="Navigasi halaman koleksi"></nav>
     </main>
-<footer class="footer home-footer">
-    <div class="shell footer-grid">
-      <div>
-        <a class="brand" href="#beranda">
-          <span class="brand-mark"><img src="../assets/images/mini-logo.svg" alt=""></span>
-          <b>Rasa Karya</b>
-        </a>
-        <p>Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.</p>
-        <span class="halal-note">◉ Terverifikasi Halal ID0011000021345</span>
-      </div>
-      <div>
-        <b>Tautan Cepat</b>
-        <a href="#beranda">Beranda Utama</a>
-        <a href="about.html">Kisah &amp; Filosofi Ragi</a>
-        <a href="product.html">Katalog Roti &amp; Pre-Order</a>
-        <a href="partnership.html">Kemitraan Hotel &amp; Cafe</a>
-      </div>
-      <div>
-        <b>Jadwal Panggang &amp; Toko</b>
-        <span>Selasa - Jumat: 07.00 - 18.00 WIB</span>
-        <span>Sabtu - Minggu: 06.30 - 16.00 WIB</span>
-        <span class="closed-note">Senin: Tutup Pemeliharaan Starter</span>
-      </div>
-      <div>
-        <b>Lokasi &amp; Kontak</b>
-        <span>Jl. Cikini Raya No. 42, Menteng, Jakarta Pusat</span>
-        <a href="tel:+622131924890">+62 21 3192 4890</a>
-        <a href="mailto:halo@rasakarya.id">halo@rasakarya.id</a>
-      </div>
-    </div>
-    <div class="shell copyright">
-      <span>© 2025 Rasa Karya Artisan Bakery. Hak Cipta Dilindungi.</span>
-      <span><a href="#privasi">Kebijakan Privasi</a><a href="#syarat">Syarat Pemesanan</a></span>
-    </div>
-  </footer>
-    <div id="toast" role="status" aria-live="polite"></div>
-    <script src="../js/bread-collection.js"></script>
-    <script src="../js/reveal.js"></script>
-  <script src="../js/script.js"></script>
+    <script>
+      // Deep link lama (#roti) diteruskan ke halaman baru; meta refresh di atas
+      // jadi fallback kalau JavaScript mati.
+      var hash = window.location.hash.replace('#', '');
+      window.location.replace('collection.html' + (hash ? '#' + hash : '#roti'));
+    </script>
   </body>
 </html>

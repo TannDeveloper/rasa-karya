@@ -313,8 +313,18 @@
   z-index: 20;
 }
 /* style.css menyembunyikan semua <nav> pada layar <=800px (menu header mobile),
-   jadi pagination koleksi perlu dikembalikan agar tetap tampil mendatar. */
+   jadi nav filter & pagination koleksi perlu dikembalikan agar tetap tampil mendatar. */
 @media (max-width: 800px) {
+  .collection-page .filter-nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 0;
+    background: transparent;
+    border-bottom: 0;
+  }
   .collection-page .pagination {
     position: static;
     display: flex;
