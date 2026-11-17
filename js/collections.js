@@ -8,44 +8,46 @@
   var bread = 'Roti lembut yang disiapkan segar untuk menemani aktivitas harian.';
   var warm = 'Minuman hangat dengan rasa yang pas untuk menemani roti pilihanmu.';
   var cold = 'Minuman dingin yang menyegarkan untuk menemani waktu santai.';
-  var product = function (category, name, image, description) {
+  var energy = '🔥 Kalori: ';
+  var product = function (category, name, image, description, energy) {
     return {
       category: category,
       name: name,
       image: IMAGE_PATH + image + '.webp',
       description: description,
+      energy, energy,
       price: category === 'roti' ? 'Rp 5.000' : 'Rp 7.000'
     };
   };
 
   var products = [
-    product('roti', 'Bagelen Keju', 'bagelen-keju', bread), product('roti', 'Roti Bagelen', 'bagelen', bread),
-    product('roti', 'Roti Abon Gulung', 'roti-abon-gulung', bread), product('roti', 'Roti Abon', 'roti-abon', bread),
-    product('roti', 'Roti Bagelen', 'roti-bagelen', bread), product('roti', 'Roti Boy', 'roti-boy', bread),
-    product('roti', 'Roti Cokelat Topping Kacang', 'roti-coklat-topping-kacang', bread), product('roti', 'Roti Cokelat Topping Yupi', 'roti-coklat-topping-yupi', bread),
-    product('roti', 'Roti Cream Meses Keju', 'roti-cream-meses-keju', bread), product('roti', 'Roti Gembul', 'roti-gembul', bread),
-    product('roti', 'Roti Isi Daging', 'roti-isi-daging', bread), product('roti', 'Roti Kacang Ijo', 'roti-kacang-ijo', bread),
-    product('roti', 'Roti Kacang Tanah', 'roti-kacang-tanah', bread), product('roti', 'Roti Kasur', 'roti-kasur', bread),
-    product('roti', 'Roti Keju', 'roti-keju', bread), product('roti', 'Roti Kenong', 'roti-kenong', bread),
-    product('roti', 'Roti Kering', 'roti-kering', bread), product('roti', 'Roti Milk', 'roti-milk', bread),
-    product('roti', 'Roti Pisang Cokelat', 'roti-pisang-coklat', bread), product('roti', 'Roti Pizza', 'roti-pizza', bread),
-    product('roti', 'Roti Selai Srikaya', 'roti-selai-srikaya', bread), product('roti', 'Roti Sisir', 'roti-sisir', bread),
-    product('roti', 'Roti Sobek', 'roti-sobek', bread), product('roti', 'Roti Sosis', 'roti-sosis-1', bread),
-    product('roti', 'Roti Sosis Spesial', 'roti-sosis-2', bread), product('roti', 'Roti Tawar', 'roti-tawar', bread),
+    product('roti', 'Bagelen Keju', 'bagelen-keju', 'Makanan lembut yang disiapkan segar untuk menemani aktivitas harian.', energy + '200'), product('roti', 'Roti Bagelen', 'bagelen', bread, energy + '180'),
+    product('roti', 'Roti Abon Gulung', 'roti-abon-gulung', bread, energy + '260'), product('roti', 'Roti Abon', 'roti-abon', bread, energy + '240'),
+    product('roti', 'Roti Bagelen', 'roti-bagelen', bread, energy + '180'), product('roti', 'Roti Boy', 'roti-boy', bread, energy + '280'),
+    product('roti', 'Roti Cokelat Topping Kacang', 'roti-coklat-topping-kacang', bread, energy + '310'), product('roti', 'Roti Cokelat Topping Yupi', 'roti-coklat-topping-yupi', bread, energy + '290'),
+    product('roti', 'Roti Cream Meses Keju', 'roti-cream-meses-keju', bread, energy + '320'), product('roti', 'Roti Gembul', 'roti-gembul', bread, energy + '230'),
+    product('roti', 'Roti Isi Daging', 'roti-isi-daging', bread, energy + '290'), product('roti', 'Roti Kacang Ijo', 'roti-kacang-ijo', bread, energy + '240'),
+    product('roti', 'Roti Kacang Tanah', 'roti-kacang-tanah', bread, energy + '270'), product('roti', 'Roti Kasur', 'roti-kasur', bread, energy + '220'),
+    product('roti', 'Roti Keju', 'roti-keju', bread, energy + '250'), product('roti', 'Roti Kenong', 'roti-kenong', bread, energy + '210'),
+    product('roti', 'Roti Kering', 'roti-kering', bread, energy + '170'), product('roti', 'Roti Milk', 'roti-milk', bread, energy + '230'),
+    product('roti', 'Roti Pisang Cokelat', 'roti-pisang-coklat', bread, energy + '300'), product('roti', 'Roti Pizza', 'roti-pizza', bread, energy + '310'),
+    product('roti', 'Roti Selai Srikaya', 'roti-selai-srikaya', bread, energy + '240'), product('roti', 'Roti Sisir', 'roti-sisir', bread, energy + '210'),
+    product('roti', 'Roti Sobek', 'roti-sobek', bread, energy + '250'), product('roti', 'Roti Sosis', 'roti-sosis-1', bread, energy + '270'),
+    product('roti', 'Roti Sosis Spesial', 'roti-sosis-2', bread, energy + '320'), product('roti', 'Roti Tawar', 'roti-tawar', bread, energy + '150'),
 
-    product('hangat', 'Espresso Double', 'espresso-double', warm), product('hangat', 'Espresso Single', 'espresso-single', warm),
-    product('hangat', 'Hot Cappucino', 'hot-cappucino', warm), product('hangat', 'Hot Chocolate', 'hot-chocolate', warm),
-    product('hangat', 'Kopi Filter', 'kopi-filter', warm), product('hangat', 'Kopi Susu Panas', 'kopi-susu-panas', warm),
-    product('hangat', 'Kopi Tubruk', 'kopi-tubruk', warm), product('hangat', 'Susu Hangat', 'susu-hangat', warm),
-    product('hangat', 'Teh Hangat', 'teh-hangat', warm), product('hangat', 'Thai Tea Hangat', 'thai-tea', warm),
+    product('hangat', 'Espresso Double', 'espresso-double', warm, energy + '10'), product('hangat', 'Espresso Single', 'espresso-single', warm, energy + '5'),
+    product('hangat', 'Hot Cappucino', 'hot-cappucino', warm, energy + '120'), product('hangat', 'Hot Chocolate', 'hot-chocolate', warm, energy + '210'),
+    product('hangat', 'Kopi Filter', 'kopi-filter', warm, energy + '5'), product('hangat', 'Kopi Susu Panas', 'kopi-susu-panas', warm, energy + '140'),
+    product('hangat', 'Kopi Tubruk', 'kopi-tubruk', warm, energy + '15'), product('hangat', 'Susu Hangat', 'susu-hangat', warm, energy + '150'),
+    product('hangat', 'Teh Hangat', 'teh-hangat', warm, energy + '40'), product('hangat', 'Thai Tea Hangat', 'thai-tea', warm, energy + '180'),
 
-    product('dingin', 'Americano Milk Tea', 'americano-milk-tea', cold), product('dingin', 'Es Cappucino', 'es-cappucino', cold),
-    product('dingin', 'Es Chocolate', 'es-chocolate', cold), product('dingin', 'Es Japanese Coffee', 'es-japanese-coffee', cold),
-    product('dingin', 'Es Kopi Soda', 'es-kopi-soda', cold), product('dingin', 'Es Kopi Susu', 'es-kopi-susu', cold),
-    product('dingin', 'Es Lemon Tea', 'es-lemon-tea', cold), product('dingin', 'Es Matchacino', 'es-matchacino', cold),
-    product('dingin', 'Es Milk Tea', 'es-milk-tea', cold), product('dingin', 'Es Susu', 'es-susu', cold),
-    product('dingin', 'Es Teh', 'es-teh', cold), product('dingin', 'Es Thai Tea', 'es-thai-tea', cold)
-  ];
+    product('dingin', 'Americano Milk Tea', 'americano-milk-tea', cold, energy + '110'), product('dingin', 'Es Cappucino', 'es-cappucino', cold, energy + '150'),
+    product('dingin', 'Es Chocolate', 'es-chocolate', cold, energy + '240'), product('dingin', 'Es Japanese Coffee', 'es-japanese-coffee', cold, energy + '10'),
+    product('dingin', 'Es Kopi Soda', 'es-kopi-soda', cold, energy + '90'), product('dingin', 'Es Kopi Susu', 'es-kopi-susu', cold, energy + '160'),
+    product('dingin', 'Es Lemon Tea', 'es-lemon-tea', cold, energy + '95'), product('dingin', 'Es Matchacino', 'es-matchacino', cold, energy + '220'),
+    product('dingin', 'Es Milk Tea', 'es-milk-tea', cold, energy + '190'), product('dingin', 'Es Susu', 'es-susu', cold, energy + '160'),
+    product('dingin', 'Es Teh', 'es-teh', cold, energy + '70'), product('dingin', 'Es Thai Tea', 'es-thai-tea', cold, energy + '210')
+];
 
   var CATEGORIES = {
     roti: { label: 'Roti' },
