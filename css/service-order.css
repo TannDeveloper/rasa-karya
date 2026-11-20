@@ -7,18 +7,6 @@
   margin: auto;
   padding: 8px 40px 18px;
 }
-.back-link {
-  display: inline-block;
-  margin: 16px;
-  padding: 10px 16px;
-  color: #765233;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 2px 6px #28180a1a;
-  text-decoration: none;
-  font-size: 13px;
-  line-height: 1.4;
-}
 .service-intro h1 {
   max-width: 850px;
   margin: 0 0 12px;
@@ -59,7 +47,8 @@
 .service-image::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 35%, #28180acc);
+  /* Scrim lebih pekat: judul putih harus lolos 3:1 di atas foto paling terang. */
+  background: linear-gradient(transparent 28%, #28180ae6);
   content: "";
 }
 .service-image h2 {

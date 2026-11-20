@@ -1075,3 +1075,64 @@ nav a[aria-current="page"] {
     flex-direction:column
   }
 }
+
+/* ---------- halaman sub tanpa header (koleksi & pemesanan layanan) ----------
+   Halaman ini dibuka dari Produk & Pemesanan, jadi header penuh dilepas agar
+   tidak ada pintu keluar di tengah proses memilih produk. Yang tersisa:
+   tombol kembali (jalan pulang) dan keranjang mengapung (status keranjang). */
+/* Tombol kembali ke halaman induk (Produk & Pemesanan). Halaman sub ini
+   tidak memakai header penuh, jadi tombol ini jalan pulangnya. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  padding: 10px 18px;
+  color: #6d3a00;
+  background: #fff;
+  border: 1px solid #efe2d8;
+  border-radius: 22px;
+  box-shadow: 0 2px 6px #28180a1a;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+}
+.back-link:hover {
+  border-color: #cbb8a7;
+  color: var(--orange);
+}
+.back-link:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+
+/* Keranjang mengapung di pojok kanan atas. Bayangan dipakai supaya tombol ini
+   terpisah dari kartu produk yang lewat di bawahnya saat halaman digulir. */
+.cart--floating {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 30;
+  min-height: 44px;
+  padding: 0 14px;
+  background: #fff;
+  border: 1px solid #efe2d8;
+  box-shadow: 0 4px 12px #28180a24;
+}
+.cart--floating:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+@media (max-width: 520px) {
+  .cart--floating {
+    top: 12px;
+    right: 12px;
+  }
+  /* Beri ruang agar tombol kembali tidak tertimpa keranjang: lebarnya dibatasi
+     supaya teks turun ke baris kedua, bukan menabrak tombol keranjang. */
+  .back-link {
+    max-width: calc(100% - 84px);
+  }
+}

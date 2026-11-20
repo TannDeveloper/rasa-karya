@@ -17,17 +17,73 @@
   padding-top: 8px;
   padding-bottom: 18px;
 }
-.back-link {
-  display: inline-block;
-  margin: 16px;
-  padding: 10px 16px;
-  color: #765233;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 2px 6px #28180a1a;
-  text-decoration: none;
+.collection-hero h1 {
+  max-width: 850px;
+  margin: 0 0 12px;
+  color: var(--brown);
+  font: 700 clamp(26px, 3.2vw, 42px)/1.2 "Playfair Display", serif;
+  letter-spacing: -0.5px;
+}
+.collection-hero > p:not(.eyebrow) {
+  max-width: 660px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.eyebrow {
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+.filter-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+/* ---------- tombol filter kategori ----------
+   Tombolnya <button> biasa; js/collection.js menambahkan kelas "is-active"
+   pada tombol yang sedang dipakai. */
+.filter-nav button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 24px;
+  color: #7a6a5c;
+  background: transparent;
+  border: 1px solid #cbb8a7;
+  border-radius: 30px;
+  font-family: inherit;
   font-size: 13px;
-  line-height: 1.4;
+  line-height: 1.2;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+.filter-nav button:hover {
+  border-color: var(--brown);
+}
+.filter-nav button:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+.filter-nav button.is-active {
+  color: #fff;
+  background: var(--brown);
+  border-color: var(--brown);
+}
+.collection-section {
+  margin: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.collection-hero {
+  padding-top: 8px;
+  padding-bottom: 18px;
 }
 .collection-hero h1 {
   max-width: 850px;
@@ -55,25 +111,41 @@
   gap: 12px;
   margin-top: 25px;
 }
-.filter-nav a {
+/* ---------- filter & pagination tanpa JavaScript ----------
+   Tombol filter dan nomor halaman ditulis sebagai <label> untuk sebuah
+   <input type="radio"> yang disembunyikan. Semua radio memakai
+   name="tampilan", jadi hanya satu pilihan yang aktif dalam satu waktu.
+   CSS lalu menyembunyikan kartu yang bukan milik halaman terpilih. */
+.pagination input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.filter-nav label {
   padding: 10px 24px;
-  color: #9a8b7e;
+  color: #7a6a5c;
   background: transparent;
   border: 1px solid #cbb8a7;
   border-radius: 30px;
   font-size: 13px;
   line-height: 1.2;
-  text-decoration: none;
+  cursor: pointer;
   transition:
     background-color 0.2s,
-    color 0.2s;
+    color 0.2s,
+    border-color 0.2s;
 }
-.filter-nav a:hover,
-.filter-nav a[aria-current="page"] {
-  color: #fff;
-  background: var(--brown);
+.filter-nav label:hover {
   border-color: var(--brown);
 }
+/* Cincin fokus untuk pengguna keyboard. */
+.pagination input:focus-visible + label {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+/* Tab aktif menyala kalau salah satu halaman milik filter itu terpilih. */
 .collection-section {
   padding-top: 0;
   padding-bottom: 0;
@@ -92,22 +164,14 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
 }
-@keyframes collection-enter {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 8px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-.collection-grid--enter {
-  animation: collection-enter 0.28s ease-out both;
+/* Kartu yang tidak termasuk halaman aktif diberi kelas "is-hidden" oleh
+   js/collection.js, jadi CSS cukup menyembunyikannya. */
+.collection-card.is-hidden {
+  display: none;
 }
 .collection-status {
   margin: 0 0 18px;
-  color: #8d837a;
+  color: #746555;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.2px;
@@ -147,18 +211,24 @@
 .collection-card:nth-child(6n) .collection-card__image {
   object-position: 75% 75%;
 }
-.collection-card__image--drink {
-  display: grid;
-  place-items: center;
-  color: #fff7ec;
-  background: radial-gradient(circle at 50% 40%, #d89d55, #77502f 68%);
+.collection-card__media {
+  position: relative;
+  flex: 0 0 auto;
 }
-.collection-card__image--drink .material-symbols-outlined {
-  font-size: 54px;
-}
-.collection-card--cold .collection-card__image--drink {
-  color: #fff;
-  background: radial-gradient(circle at 50% 40%, #c1e1dc, #537d7b 68%);
+/* Label kategori kecil di pojok foto produk. */
+.collection-card__tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 5px 12px;
+  color: #6b4a2a;
+  background: #fffaf3e6;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px #28180a1f;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
 .collection-card__content {
   display: flex;
@@ -183,7 +253,7 @@
   white-space: nowrap;
 }
 .collection-card small {
-  color: #8d837a;
+  color: #746555;
   font-size: 10px;
   line-height: 1.35;
 }
@@ -213,6 +283,7 @@
 .collection-card button:hover {
   background: #5f3d20;
 }
+/* Tombol ‹ 1 2 3 … › di bawah grid. Dibuat oleh js/collection.js. */
 .pagination {
   display: flex;
   justify-content: center;
@@ -220,23 +291,18 @@
   gap: 4px;
   padding: 30px 0 30px;
 }
-.pagination a,
-.pagination button,
-.pagination span {
+.pagination button {
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
   color: var(--brown);
+  background: transparent;
   border: 1px solid #bca58f;
   border-radius: 50%;
-  font-size: 16px;
-  text-decoration: none;
-}
-.pagination button {
-  padding: 0;
-  background: transparent;
   font-family: inherit;
+  font-size: 16px;
   line-height: 1;
   cursor: pointer;
   transition:
@@ -244,29 +310,26 @@
     color 0.2s,
     border-color 0.2s;
 }
-.pagination button:hover:not(:disabled):not([aria-current="page"]) {
+.pagination button:hover:not(:disabled):not(.is-active) {
   border-color: var(--brown);
   background: #f3e6da;
 }
-.pagination a[aria-current="page"],
-.pagination button[aria-current="page"] {
+.pagination button:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+/* Nomor halaman yang sedang dibuka. */
+.pagination button.is-active {
   color: #fff;
   background: var(--brown);
   border-color: var(--brown);
   cursor: default;
 }
+/* Tombol ‹ dan › saat sudah di halaman pertama / terakhir. */
 .pagination button:disabled {
-  color: #cbb9aa;
+  color: #a99b8b;
   border-color: #e6dad0;
   cursor: default;
-}
-.pagination span {
-  border: 0;
-}
-@media (prefers-reduced-motion: reduce) {
-  .collection-grid--enter {
-    animation: none;
-  }
 }
 .footer {
   background:#28180a;
@@ -327,7 +390,6 @@
   }
   .collection-page .pagination {
     position: static;
-    display: flex;
     flex-direction: row;
     padding: 24px 0 30px;
     background: transparent;
