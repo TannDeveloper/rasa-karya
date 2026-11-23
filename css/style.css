@@ -344,7 +344,6 @@ nav a[aria-current="page"] {
 }
 .product img {
   width:100%;
-  height:270px;
   object-fit:cover;
   display:block
 }

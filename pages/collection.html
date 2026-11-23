@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Koleksi Roti &amp; Minuman - Rasa Karya</title>
+    <title>Koleksi Roti & Minuman - Rasa Karya</title>
     <meta
       name="description"
-      content="Koleksi roti artisan, minuman hangat, dan minuman dingin Rasa Karya dalam satu halaman."
+      content="Koleksi roti artisan Rasa Karya dalam satu halaman dengan visual terbaru."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,1054 +20,552 @@
   </head>
   <body class="collection-page">
     <main>
-      <!-- Halaman ini sub-menu dari Produk & Pemesanan, jadi header penuh
-           tidak dipakai. Keranjang tetap ada (mengapung di pojok kanan) karena
-           badge-nya satu-satunya bukti produk masuk keranjang. -->
       <a class="cart cart--floating" href="product.html" aria-label="Keranjang belanja">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <span id="cart-count">0</span>
       </a>
 
       <section class="collection-hero">
-        <a class="back-link" href="product.html">&#x2190; Kembali ke Produk &amp; Pemesanan</a>
-        <h1>Roti Hangat &amp; Minuman Segar Setiap Hari<br />Kelembutan dan Kesegaran di Setiap Momen.</h1>
+        <a class="back-link" href="product.html">&#x2190; Kembali ke Produk & Pemesanan</a>
+        <h1>Roti Hangat & Segar Setiap Hari<br />Kelembutan dan Kualitas di Setiap Momen.</h1>
         <p>
-          Semua pilihan roti artisan, minuman hangat, dan minuman dingin Rasa Karya
-          ada di halaman ini. Pilih kategori favoritmu, tambahkan ke keranjang,
-          dan nikmati hari ini!
+          Semua pilihan roti artisan Rasa Karya dengan koleksi gambar terbaru.
+          Pilih favoritmu, tambahkan ke keranjang, dan nikmati harimu!
         </p>
 
-        <!-- Tombol filter. Nilai data-kategori dibaca oleh js/collection.js. -->
         <nav class="filter-nav" aria-label="Filter koleksi produk">
           <button type="button" data-kategori="semua" class="is-active">Semua Produk</button>
-          <button type="button" data-kategori="roti">Roti</button>
-          <button type="button" data-kategori="hangat">Minuman Hangat</button>
-          <button type="button" data-kategori="dingin">Minuman Dingin</button>
+          <button type="button" data-kategori="roti">Roti Artisan</button>
+          <button type="button" data-kategori="toples">Kue / Toples</button>
+          <button type="button" data-kategori="donat">Donat</button>
         </nav>
       </section>
+
       <section class="collection-section">
-        <h2>Koleksi roti &amp; minuman</h2>
+        <h2>Koleksi Roti & Kue</h2>
         <p id="collection-status" class="collection-status" role="status" aria-live="polite"></p>
 
-        <!-- 48 kartu produk, ditulis langsung di HTML.
-             data-kategori dipakai untuk filter: roti / hangat / dingin.
-             Kartu yang tidak masuk halaman aktif disembunyikan oleh JS. -->
-        <div id="collection-grid" class="collection-grid" aria-label="Daftar produk roti dan minuman">
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/bagelen-keju.webp"
-              alt="Bagelen Keju"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Bagelen Keju</h3>
-              <strong>Rp 5.000</strong>
+        <div id="collection-grid" class="collection-grid" aria-label="Daftar produk roti">
+          
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_abon.png" alt="Roti Abon" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 200</small>
-            <p>Roti panggang kering dengan tekstur renyah dan rasa manis gurih yang nikmat sebagai teman bersantai.</p>
-            <button type="button" data-product="Bagelen Keju">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/bagelen.webp"
-              alt="Roti Bagelen"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Bagelen</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Abon</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 240</small>
+              <p>Roti lembut dengan isian dan taburan abon gurih khas Rasa Karya.</p>
+              <button type="button" data-product="Roti Abon">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 180</small>
-            <p>Roti panggang kering dengan tekstur renyah dan rasa manis gurih yang nikmat sebagai teman bersantai</p>
-            <button type="button" data-product="Roti Bagelen">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-abon-gulung.webp"
-              alt="Roti Abon Gulung"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Abon Gulung</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_abon_gulung.png" alt="Roti Abon Gulung" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 260</small>
-            <p>Roti lembut berbentuk gulungan dengan isian dan taburan abon gurih.</p>
-            <button type="button" data-product="Roti Abon Gulung">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-abon.webp"
-              alt="Roti Abon"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Abon</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Abon Gulung</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 260</small>
+              <p>Roti gulung lembut berpadu dengan abon sapi melimpah.</p>
+              <button type="button" data-product="Roti Abon Gulung">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 240</small>
-            <p>Roti lembut berbentuk gulungan dengan isian dan taburan abon gurih.</p>
-            <button type="button" data-product="Roti Abon">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-bagelen.webp"
-              alt="Roti Bagelen"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Bagelen</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_bagelan.png" alt="Roti Bagelan" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 180</small>
-            <p>Roti panggang kering dengan tekstur renyah dan rasa manis gurih yang nikmat sebagai teman bersantai.</p>
-            <button type="button" data-product="Roti Bagelen">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-boy.webp"
-              alt="Roti Boy"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Boy</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Bagelan</h3>
+                <strong>Rp 15.000</strong>
+              </div>
+              <small>&#128293; Kalori: 180</small>
+              <p>Roti panggang kering renyah dengan olesan mentega manis.</p>
+              <button type="button" data-product="Roti Bagelan">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 280</small>
-            <p>Roti lembut dengan lapisan topping kopi yang harum dan renyah di bagian luar.</p>
-            <button type="button" data-product="Roti Boy">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-coklat-topping-kacang.webp"
-              alt="Roti Cokelat Topping Kacang"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Cokelat Topping Kacang</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_bagelan_toples.png" alt="Bagelan Toples" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 310</small>
-            <p>Roti lembut dengan isian kacang tanah yang memberikan perpaduan rasa gurih dan manis.</p>
-            <button type="button" data-product="Roti Cokelat Topping Kacang">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-coklat-topping-yupi.webp"
-              alt="Roti Cokelat Topping Yupi"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Cokelat Topping Yupi</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Bagelan Toples</h3>
+                <strong>Rp 25.000</strong>
+              </div>
+              <small>&#128293; Kalori: 200</small>
+              <p>Roti bagelan renyah dalam kemasan toples praktis untuk oleh-oleh.</p>
+              <button type="button" data-product="Bagelan Toples">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 290</small>
-            <p>Roti lembut dengan topping cokelat manis dan Yupi yang kenyal serta manis.</p>
-            <button type="button" data-product="Roti Cokelat Topping Yupi">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-cream-meses-keju.webp"
-              alt="Roti Cream Meses Keju"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Cream Meses Keju</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_bluder_coklat.png" alt="Roti Bluder Coklat" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 320</small>
-            <p>Roti lembut dengan perpaduan cream, meses cokelat, dan keju yang manis serta gurih.</p>
-            <button type="button" data-product="Roti Cream Meses Keju">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-gembul.webp"
-              alt="Roti Gembul"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Gembul</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Bluder Coklat</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 230</small>
+              <p>Roti bluder klasik bertekstur serated lembut dengan isian cokelat lumer.</p>
+              <button type="button" data-product="Roti Bluder Coklat">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 230</small>
-            <p>Roti berukuran besar dengan tekstur empuk dan lembut, cocok untuk camilan yang mengenyangkan.</p>
-            <button type="button" data-product="Roti Gembul">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-isi-daging.webp"
-              alt="Roti Isi Daging"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Isi Daging</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_bluder_keju.png" alt="Roti Bluder Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 290</small>
-            <p>Roti empuk dengan isian daging berbumbu yang gurih dan lezat.</p>
-            <button type="button" data-product="Roti Isi Daging">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-kacang-ijo.webp"
-              alt="Roti Kacang Ijo"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Kacang Ijo</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Bluder Keju</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 235</small>
+              <p>Roti bluder lembut berpadu gurihnya keju parut di dalam dan luar.</p>
+              <button type="button" data-product="Roti Bluder Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 240</small>
-            <p>Roti lembut dengan isian kacang ijo yang memberikan perpaduan rasa gurih dan manis.</p>
-            <button type="button" data-product="Roti Kacang Ijo">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-kacang-tanah.webp"
-              alt="Roti Kacang Tanah"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Kacang Tanah</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_boy_mocca.png" alt="Roti Boy Mocca" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 270</small>
-            <p>Roti lembut dengan isian kacang tanah yang memberikan perpaduan rasa gurih dan manis.</p>
-            <button type="button" data-product="Roti Kacang Tanah">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-kasur.webp"
-              alt="Roti Kasur"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Kasur</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Boy Mocca</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 280</small>
+              <p>Roti Mexican bun dengan aroma moka harum dan topping renyah.</p>
+              <button type="button" data-product="Roti Boy Mocca">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 220</small>
-            <p>Roti panggang kering dengan tekstur renyah dan rasa manis gurih yang nikmat sebagai teman bersantai.</p>
-            <button type="button" data-product="Roti Kasur">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-keju.webp"
-              alt="Roti Keju"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Keju</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_boy_putih.png" alt="Roti Boy Classic" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 250</small>
-            <p>Roti lembut dengan perpaduan keju yang manis serta gurih.</p>
-            <button type="button" data-product="Roti Keju">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-kenong.webp"
-              alt="Roti Kenong"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Kenong</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Boy Classic</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 275</small>
+              <p>Roti lembut berIRecipient topping kopi klasik yang meleleh di mulut.</p>
+              <button type="button" data-product="Roti Boy Classic">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 210</small>
-            <p>Roti dengan bentuk khas dan tekstur empuk serta permukaan berwarna keemasan yang menggugah selera.</p>
-            <button type="button" data-product="Roti Kenong">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-kering.webp"
-              alt="Roti Kering"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Kering</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_coklat_topping.png" alt="Roti Coklat Topping" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 170</small>
-            <p>Roti kering dengan tekstur renyah dan rasa manis gurih.</p>
-            <button type="button" data-product="Roti Kering">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-milk.webp"
-              alt="Roti Milk"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Milk</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Coklat Topping</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 250</small>
+              <p>Roti manis dengan isian cokelat dan aneka hiasan menarik di atasnya.</p>
+              <button type="button" data-product="Roti Coklat Topping">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 230</small>
-            <p>Roti lembut dengan cita rasa susu yang manis dan creamy.</p>
-            <button type="button" data-product="Roti Milk">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-pisang-coklat.webp"
-              alt="Roti Pisang Cokelat"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Pisang Cokelat</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_coklat_topping2.png" alt="Roti Coklat Spesial" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 300</small>
-            <p>Roti empuk dengan perpaduan pisang manis dan cokelat yang lezat.</p>
-            <button type="button" data-product="Roti Pisang Cokelat">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-pizza.webp"
-              alt="Roti Pizza"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Pizza</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Coklat Spesial</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 255</small>
+              <p>Varian roti cokelat ekstra mesi dengan cita rasa manis yang pas.</p>
+              <button type="button" data-product="Roti Coklat Spesial">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 310</small>
-            <p>Roti lembut dengan topping ala pizza, dilengkapi saus, sosis, dan keju yang lezat.</p>
-            <button type="button" data-product="Roti Pizza">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-selai-srikaya.webp"
-              alt="Roti Selai Srikaya"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Selai Srikaya</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_cream_coklatkeju.png" alt="Roti Cream Coklat Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 240</small>
-            <p>Roti empuk dengan isian selai srikaya yang manis, lembut, dan memiliki aroma khas.</p>
-            <button type="button" data-product="Roti Selai Srikaya">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-sisir.webp"
-              alt="Roti Sisir"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Sisir</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Cream Coklat Keju</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 310</small>
+              <p>Kombinasi krim lembut, cokelat, dan keju parut dalam satu gigitan.</p>
+              <button type="button" data-product="Roti Cream Coklat Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 210</small>
-            <p>Roti lembut dengan lapisan rasa manis dan aroma mentega yang nikmat di setiap sisirannya.</p>
-            <button type="button" data-product="Roti Sisir">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-sobek.webp"
-              alt="Roti Sobek"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Sobek</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="donat">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_donat_coklat.png" alt="Donat Coklat" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Donat</span>
             </div>
-            <small>&#128293; Kalori: 250</small>
-            <p>Roti lembut dengan potongan yang mudah disobek, cocok dinikmati bersama keluarga.</p>
-            <button type="button" data-product="Roti Sobek">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-sosis-1.webp"
-              alt="Roti Sosis"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Sosis</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Donat Coklat</h3>
+                <strong>Rp 6.000</strong>
+              </div>
+              <small>&#128293; Kalori: 220</small>
+              <p>Donat empuk berbalut glaze cokelat pekat yang manis menggugah selera.</p>
+              <button type="button" data-product="Donat Coklat">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 270</small>
-            <p>Roti empuk dengan sosis gurih yang memberikan perpaduan rasa lezat dalam setiap gigitan.</p>
-            <button type="button" data-product="Roti Sosis">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-sosis-2.webp"
-              alt="Roti Sosis Spesial"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Sosis Spesial</h3>
-              <strong>Rp 5.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="donat">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_donat_coklatkeju.png" alt="Donat Coklat Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Donat</span>
             </div>
-            <small>&#128293; Kalori: 320</small>
-            <p>Roti empuk dengan sosis gurih yang memberikan perpaduan rasa lezat dalam setiap gigitan.</p>
-            <button type="button" data-product="Roti Sosis Spesial">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="roti">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/roti-tawar.webp"
-              alt="Roti Tawar"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Roti</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Roti Tawar</h3>
-              <strong>Rp 5.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Donat Coklat Keju</h3>
+                <strong>Rp 6.500</strong>
+              </div>
+              <small>&#128293; Kalori: 240</small>
+              <p>Donat empuk dengan topping cokelat leleh dan taburan keju cheddar.</p>
+              <button type="button" data-product="Donat Coklat Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 150</small>
-            <p>Roti dengan tekstur lembut dan rasa ringan, cocok untuk sarapan maupun berbagai kreasi makanan.</p>
-            <button type="button" data-product="Roti Tawar">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/espresso-double.webp"
-              alt="Espresso Double"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Espresso Double</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="donat">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_donat_creamcoklat.png" alt="Donat Cream Coklat" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Donat</span>
             </div>
-            <small>&#128293; Kalori: 10</small>
-            <p>Kopi espresso dengan dua takaran sajian, memiliki rasa kuat dan aroma kopi yang khas.</p>
-            <button type="button" data-product="Espresso Double">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/espresso-single.webp"
-              alt="Espresso Single"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Espresso Single</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Donat Cream Coklat</h3>
+                <strong>Rp 6.500</strong>
+              </div>
+              <small>&#128293; Kalori: 250</small>
+              <p>Donat isi/topping krim coklat lembut yang lumer di mulut.</p>
+              <button type="button" data-product="Donat Cream Coklat">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 5</small>
-            <p>Sajian espresso dengan cita rasa kopi pekat dan aroma harum dalam porsi praktis.</p>
-            <button type="button" data-product="Espresso Single">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/hot-cappucino.webp"
-              alt="Hot Cappucino"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Hot Cappucino</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="donat">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_donat_creamkeju.png" alt="Donat Cream Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Donat</span>
             </div>
-            <small>&#128293; Kalori: 120</small>
-            <p>Minuman kopi hangat dengan perpaduan espresso, susu, dan foam lembut yang nikmat</p>
-            <button type="button" data-product="Hot Cappucino">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/hot-chocolate.webp"
-              alt="Hot Chocolate"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Hot Chocolate</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Donat Cream Keju</h3>
+                <strong>Rp 6.500</strong>
+              </div>
+              <small>&#128293; Kalori: 245</small>
+              <p>Donat lembut dengan lapisan cream keju gurih manis.</p>
+              <button type="button" data-product="Donat Cream Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 210</small>
-            <p>Minuman cokelat hangat dengan rasa manis dan creamy, cocok dinikmati saat bersantai.</p>
-            <button type="button" data-product="Hot Chocolate">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/kopi-filter.webp"
-              alt="Kopi Filter"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Kopi Filter</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="donat">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_donat_keju.png" alt="Donat Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Donat</span>
             </div>
-            <small>&#128293; Kalori: 5</small>
-            <p>Kopi yang diseduh menggunakan metode penyaringan untuk menghasilkan rasa bersih dengan aroma kopi yang nikmat.</p>
-            <button type="button" data-product="Kopi Filter">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/kopi-susu-panas.webp"
-              alt="Kopi Susu Panas"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Kopi Susu Panas</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Donat Keju</h3>
+                <strong>Rp 6.000</strong>
+              </div>
+              <small>&#128293; Kalori: 210</small>
+              <p>Donat klasik bertabur keju parut melimpah.</p>
+              <button type="button" data-product="Donat Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 140</small>
-            <p>Perpaduan kopi dan susu hangat dengan rasa manis, creamy, serta aroma kopi yang menggoda.</p>
-            <button type="button" data-product="Kopi Susu Panas">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/kopi-tubruk.webp"
-              alt="Kopi Tubruk"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Kopi Tubruk</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kacang.png" alt="Roti Kacang" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 15</small>
-            <p>Kopi dengan cita rasa khas yang kuat dan aroma harum, cocok untuk pencinta kopi tradisional.</p>
-            <button type="button" data-product="Kopi Tubruk">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/susu-hangat.webp"
-              alt="Susu Hangat"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Susu Hangat</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kacang</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 240</small>
+              <p>Roti isi pasta kacang tanah manis gurih khas rumahan.</p>
+              <button type="button" data-product="Roti Kacang">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 150</small>
-            <p>Minuman susu hangat dengan rasa lembut dan creamy, cocok untuk menemani waktu santai.</p>
-            <button type="button" data-product="Susu Hangat">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/teh-hangat.webp"
-              alt="Teh Hangat"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Teh Hangat</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kasur.png" alt="Roti Kasur" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 40</small>
-            <p>Teh hangat dengan aroma khas dan rasa ringan yang nyaman dinikmati kapan saja.</p>
-            <button type="button" data-product="Teh Hangat">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="hangat">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/thai-tea.webp"
-              alt="Thai Tea Hangat"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Hangat</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Thai Tea Hangat</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kasur</h3>
+                <strong>Rp 18.000</strong>
+              </div>
+              <small>&#128293; Kalori: 320</small>
+              <p>Roti sobek lembut berukuran besar, pas untuk dinikmati bersama keluarga.</p>
+              <button type="button" data-product="Roti Kasur">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 180</small>
-            <p>Minuman teh khas Thailand dengan perpaduan rasa manis, creamy, dan aroma teh yang khas.</p>
-            <button type="button" data-product="Thai Tea Hangat">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/americano-milk-tea.webp"
-              alt="Americano Milk Tea"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Americano Milk Tea</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_keju.png" alt="Roti Keju" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 110</small>
-            <p>Perpaduan minuman kopi dan teh susu dengan cita rasa unik yang nikmat dan menyegarkan.</p>
-            <button type="button" data-product="Americano Milk Tea">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-cappucino.webp"
-              alt="Es Cappucino"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Cappucino</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Keju</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 250</small>
+              <p>Roti lembut dengan isian keju cheddar berkualitas tinggi.</p>
+              <button type="button" data-product="Roti Keju">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 150</small>
-            <p>Minuman cappuccino dingin dengan perpaduan kopi dan susu yang creamy dan menyegarkan.</p>
-            <button type="button" data-product="Es Cappucino">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-chocolate.webp"
-              alt="Es Chocolate"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Chocolate</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kenong.png" alt="Roti Kenong" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
             </div>
-            <small>&#128293; Kalori: 240</small>
-            <p>Minuman cokelat dingin dengan rasa cokelat yang manis, creamy, dan nikmat.</p>
-            <button type="button" data-product="Es Chocolate">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-japanese-coffee.webp"
-              alt="Es Japanese Coffee"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Japanese Coffee</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kenong</h3>
+                <strong>Rp 16.000</strong>
+              </div>
+              <small>&#128293; Kalori: 290</small>
+              <p>Roti tradisional dengan bentuk unik dan tekstur empuk padat.</p>
+              <button type="button" data-product="Roti Kenong">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 10</small>
-            <p>Kopi khas Jepang yang diseduh panas langsung di atas es untuk menghasilkan rasa kopi yang segar dan aromatik.</p>
-            <button type="button" data-product="Es Japanese Coffee">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-kopi-soda.webp"
-              alt="Es Kopi Soda"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Kopi Soda</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kering_besar.png" alt="Roti Kering Besar" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 90</small>
-            <p>Perpaduan kopi dan soda dingin dengan sensasi segar serta cita rasa yang unik.</p>
-            <button type="button" data-product="Es Kopi Soda">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-kopi-susu.webp"
-              alt="Es Kopi Susu"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Kopi Susu</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kering Besar</h3>
+                <strong>Rp 30.000</strong>
+              </div>
+              <small>&#128293; Kalori: 350</small>
+              <p>Kue kering/roti kering ukuran besar kemasan spesial.</p>
+              <button type="button" data-product="Roti Kering Besar">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 160</small>
-            <p>Perpaduan kopi, susu, dan es dengan rasa manis creamy serta aroma kopi yang nikmat.</p>
-            <button type="button" data-product="Es Kopi Susu">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-lemon-tea.webp"
-              alt="Es Lemon Tea"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Lemon Tea</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kering_kecil.png" alt="Roti Kering Kecil" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 95</small>
-            <p>Minuman teh dingin dengan perpaduan rasa manis dan asam lemon yang menyegarkan.</p>
-            <button type="button" data-product="Es Lemon Tea">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-matchacino.webp"
-              alt="Es Matchacino"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Matchacino</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kering Kecil</h3>
+                <strong>Rp 18.000</strong>
+              </div>
+              <small>&#128293; Kalori: 190</small>
+              <p>Camilan roti kering renyah porsi pas untuk teman ngeteh.</p>
+              <button type="button" data-product="Roti Kering Kecil">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 220</small>
-            <p>Minuman matcha dingin dengan rasa khas teh hijau dan tekstur creamy yang nikmat.</p>
-            <button type="button" data-product="Es Matchacino">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-milk-tea.webp"
-              alt="Es Milk Tea"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Milk Tea</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kering_toples.png" alt="Roti Kering Toples" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 190</small>
-            <p>Perpaduan teh dan susu dingin dengan rasa manis serta tekstur lembut yang menyegarkan.</p>
-            <button type="button" data-product="Es Milk Tea">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-susu.webp"
-              alt="Es Susu"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Susu</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kering Toples</h3>
+                <strong>Rp 28.000</strong>
+              </div>
+              <small>&#128293; Kalori: 310</small>
+              <p>Aneka roti kering pilihan dalam kemasan toples elegan.</p>
+              <button type="button" data-product="Roti Kering Toples">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 160</small>
-            <p>Minuman susu dingin dengan rasa lembut dan creamy yang menyegarkan.</p>
-            <button type="button" data-product="Es Susu">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-teh.webp"
-              alt="Es Teh"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Teh</h3>
-              <strong>Rp 7.000</strong>
+          </article>
+
+          <article class="collection-card product" data-kategori="toples">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_kering_toples2.png" alt="Roti Kering Toples V2" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Toples</span>
             </div>
-            <small>&#128293; Kalori: 70</small>
-            <p>Minuman teh dingin dengan rasa manis dan menyegarkan, cocok menemani berbagai hidangan.</p>
-            <button type="button" data-product="Es Teh">Tambah ke Keranjang</button>
-          </div>
-        </article>
-        <article class="collection-card product" data-kategori="dingin">
-          <div class="collection-card__media">
-            <img
-              class="collection-card__image"
-              src="../assets/images/products/es-thai-tea.webp"
-              alt="Es Thai Tea"
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="collection-card__tag">Minuman Dingin</span>
-          </div>
-          <div class="collection-card__content">
-            <div class="collection-card__heading">
-              <h3>Es Thai Tea</h3>
-              <strong>Rp 7.000</strong>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Kering Toples V2</h3>
+                <strong>Rp 28.000</strong>
+              </div>
+              <small>&#128293; Kalori: 310</small>
+              <p>Varian lain roti kering toples dengan cita rasa gurih renyah.</p>
+              <button type="button" data-product="Roti Kering Toples V2">Tambah ke Keranjang</button>
             </div>
-            <small>&#128293; Kalori: 210</small>
-            <p>Thai tea dingin dengan perpaduan teh khas Thailand, susu, dan rasa manis yang creamy.</p>
-            <button type="button" data-product="Es Thai Tea">Tambah ke Keranjang</button>
-          </div>
-        </article>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_milk_sugar.png" alt="Roti Milk Sugar" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Milk Sugar</h3>
+                <strong>Rp 7.500</strong>
+              </div>
+              <small>&#128293; Kalori: 230</small>
+              <p>Roti lembut beraroma susu dengan taburan kristal gula manis di atasnya.</p>
+              <button type="button" data-product="Roti Milk Sugar">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_pisangcoklat.png" alt="Roti Pisang Cokelat" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Pisang Cokelat</h3>
+                <strong>Rp 7.500</strong>
+              </div>
+              <small>&#128293; Kalori: 260</small>
+              <p>Perpaduan buah pisang manis dan cokelat lumer di dalam roti empuk.</p>
+              <button type="button" data-product="Roti Pisang Cokelat">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_pizza.png" alt="Roti Pizza" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Pizza</h3>
+                <strong>Rp 9.000</strong>
+              </div>
+              <small>&#128293; Kalori: 310</small>
+              <p>Roti gurih ala pizza dengan topping sosis, saus, dan keju leleh.</p>
+              <button type="button" data-product="Roti Pizza">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_sisir.png" alt="Roti Sisir" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Sisir</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 210</small>
+              <p>Roti sisir klasik beroleskan mentega manis yang harum.</p>
+              <button type="button" data-product="Roti Sisir">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_sobek.png" alt="Roti Sobek" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Sobek</h3>
+                <strong>Rp 15.000</strong>
+              </div>
+              <small>&#128293; Kalori: 280</small>
+              <p>Roti sobek lembut isi mix (cokelat dan keju) yang lezat.</p>
+              <button type="button" data-product="Roti Sobek">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_sosis.png" alt="Roti Sosis" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Sosis</h3>
+                <strong>Rp 8.000</strong>
+              </div>
+              <small>&#128293; Kalori: 270</small>
+              <p>Roti gurih empuk dengan isian/topping sosis pilihan.</p>
+              <button type="button" data-product="Roti Sosis">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_srikaya.png" alt="Roti Srikaya" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Srikaya</h3>
+                <strong>Rp 7.000</strong>
+              </div>
+              <small>&#128293; Kalori: 240</small>
+              <p>Roti lembut berisikan selai srikaya manis legit khas.</p>
+              <button type="button" data-product="Roti Srikaya">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
+          <article class="collection-card product" data-kategori="roti">
+            <div class="collection-card__media">
+              <img class="collection-card__image" src="../assets/images/products-rev/roti_tawar_ori.png" alt="Roti Tawar Original" loading="lazy" decoding="async"/>
+              <span class="collection-card__tag">Roti</span>
+            </div>
+            <div class="collection-card__content">
+              <div class="collection-card__heading">
+                <h3>Roti Tawar Original</h3>
+                <strong>Rp 12.000</strong>
+              </div>
+              <small>&#128293; Kalori: 150</small>
+              <p>Roti tawar lembut berkualitas tinggi untuk sarapan keluarga.</p>
+              <button type="button" data-product="Roti Tawar Original">Tambah ke Keranjang</button>
+            </div>
+          </article>
+
         </div>
       </section>
 
-      <!-- Tombol nomor halaman dibuat oleh js/collection.js. -->
       <nav id="pagination" class="pagination" aria-label="Navigasi halaman koleksi"></nav>
     </main>
-<footer class="footer home-footer">
+
+    <footer class="footer home-footer">
       <div class="shell footer-grid">
         <div>
           <a class="brand" href="home.html#beranda">
@@ -1085,12 +583,12 @@
           <a href="partnership.html">Kemitraan</a>
         </div>
         <div>
-          <b>Jadwal Panggang &amp; Toko</b>
+          <b>Jadwal Pangbang & Toko</b>
           <span>Senin - Sabtu: 08.00 WIB - 16.00 WIB</span>
-          <span>Minggu &amp; Hari Libur: Tutup</span>
+          <span>Minggu & Hari Libur: Tutup</span>
         </div>
         <div>
-          <b>Lokasi &amp; Kontak</b>
+          <b>Lokasi & Kontak</b>
           <span>Jl. Tawang Mangu No. 68 , Politeknik Negeri Jember</span>
           <a href="">+62 8233-3497-811</a>
           <a href="">rasakarya@gmail.com</a>
