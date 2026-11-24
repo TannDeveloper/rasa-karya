@@ -190,7 +190,7 @@
 .about-origin-photo figcaption,
 .about-facilities-photo figcaption {
   padding-top: 10px;
-  color: #82756a;
+  color: #6d625a; /* AA 4.5:1 di atas putih (sebelumnya #82756a = 4.49:1) */
   font-size: 11px;
 }
 
@@ -261,9 +261,10 @@
   padding-top: 13px;
 }
 
-.about-timeline li > b {
+.about-timeline li > b,
+.about-timeline li > time {
   margin-bottom: 12px;
-  color: var(--orange);
+  color: #c7751d; /* sedikit lebih gelap dari --orange (#d9822b = 2.93:1) agar 3:1 untuk teks besar 31px di atas cream */
   font: 700 31px/1 'Playfair Display', serif;
 }
 
@@ -290,6 +291,38 @@
   color: #6d625a;
   font-size: 12px;
   line-height: 1.6;
+}
+
+/* Titik "Kini": penutup perjalanan, satu baris horizontal di ujung rel.
+   Variasi ritme yang disengaja (RHYTHM 2: konsisten dengan satu break),
+   dot terisi emas = "kita ada di sini", kontras dengan dot kosong oranye masa lalu. */
+.about-timeline .timeline-now {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  margin-top: 4px;
+}
+.timeline-now .timeline-dot {
+  position: static;
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  background: var(--gold);
+  border: 3px solid var(--gold);
+}
+.timeline-now > b {
+  margin-bottom: 0;
+  color: var(--brown); /* masa kini pakai brown yang "mapan", beda dari tahun lampau yang oranye */
+}
+.timeline-now strong {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.timeline-now p {
+  max-width: none;
+  font-size: 13px;
 }
 
 .about-values {
@@ -328,7 +361,7 @@
 .value-card > span {
   display: block;
   margin-bottom: 30px;
-  color: #b47a3c;
+  color: #8a5a1f; /* AA 4.5:1 untuk teks 11px (sebelumnya #b47a3c = 3.65:1) */
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -551,17 +584,25 @@
   }
 
   .about-timeline li {
-    padding: 0 0 0 14px;
-  }
+      padding: 0 0 0 14px;
+    }
+
+    .about-timeline li.timeline-now {
+      align-items: flex-start;
+    }
+    .timeline-now .timeline-dot {
+      margin-top: 4px;
+    }
 
   .timeline-dot {
     top: 3px;
     left: -25px;
   }
 
-  .about-timeline li > b {
-    margin-bottom: 7px;
-  }
+  .about-timeline li > b,
+    .about-timeline li > time {
+      margin-bottom: 7px;
+    }
 
   .about-values {
     grid-template-columns: 1fr;

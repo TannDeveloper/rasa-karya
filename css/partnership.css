@@ -30,37 +30,66 @@
   line-height: 1.6;
 }
 
-/* 2. Grid Logo Mitra */
+/* 2. Deret Logo Mitra: satu panel selebar komponen lain, logo jalan mulus
+   (marquee). Track berisi 2 salinan; animasi translateX(-50%) = geser satu
+   salinan penuh, jadi loop tanpa gap. Pembatas = garis antar kolom. */
 .partner-logos-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-bottom: 50px;
+  display: block;
+  max-width: none; /* ikut lebar konten utama, sama seperti komponen lain */
+  margin: 0 0 50px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.partner-logos-track {
+  display: flex;
+  width: max-content;
+  animation: partner-marquee 20s linear infinite;
+}
+
+@keyframes partner-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .logo-card {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 24px 16px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
   display: flex;
+  flex: 0 0 180px;
+  min-width: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 26px 18px;
+  text-align: center;
+  background: none;
+  border-right: 1px solid var(--line); /* pembatas antar logo */
+}
+
+/* akhir tiap salinan: tanpa garis kanan, biar sambungan loop rata */
+.logo-card:nth-child(6n) {
+  border-right: 0;
 }
 
 .logo-card img {
-  height: 50px;
+  height: 48px;
   object-fit: contain;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .logo-card p {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: #2b1a10;
   margin: 0;
+}
+
+/* berhenti saat kursor di atas strip */
+@media (hover: hover) and (pointer: fine) {
+  .partner-logos-grid:hover .partner-logos-track {
+    animation-play-state: paused;
+  }
 }
 
 /* 3. Layout Main Content (Form + Sidebar) */
@@ -223,10 +252,37 @@
   overflow: hidden;
 }
 
-/* Responsif Mobile */
+/* Responsif: di bawah 850px marquee dimatikan, salinan bantu disembunyikan,
+   track jadi grid statis (marquee tidak bisa jalan di baris yang wrap). */
 @media (max-width: 850px) {
   .partner-logos-grid {
-    grid-template-columns: repeat(2, 1fr);
+    max-width: 640px;
+    margin: 0 auto 50px;
+  }
+
+  .partner-logos-track {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    animation: none;
+  }
+
+  .partner-logos-grid [aria-hidden="true"] {
+    display: none;
+  }
+
+  .logo-card {
+    flex-basis: auto;
+    border-right: 0; /* mobile pakai garis kiri + atas, bukan kanan */
+    border-left: 1px solid var(--line);
+  }
+
+  /* baris 2 mulai berbatas atas, garis kiri hanya di dalam baris */
+  .logo-card:nth-child(3n + 1) {
+    border-left: 0;
+  }
+  .logo-card:nth-child(n + 4) {
+    border-top: 1px solid var(--line);
   }
 
   .partner-content-layout {
@@ -235,5 +291,30 @@
 
   .form-row {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .partner-logos-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-card:nth-child(odd) {
+    border-left: 0;
+  }
+  .logo-card:nth-child(even) {
+    border-left: 1px solid var(--line);
+  }
+  .logo-card:nth-child(n + 3) {
+    border-top: 1px solid var(--line);
+  }
+}
+
+/* Kurangi gerakan: strip berhenti, salinan ganda disembunyikan */
+@media (prefers-reduced-motion: reduce) {
+  .partner-logos-track {
+    animation: none;
+  }
+  .partner-logos-grid [aria-hidden="true"] {
+    display: none;
   }
 }
