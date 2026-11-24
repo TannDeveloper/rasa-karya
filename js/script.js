@@ -96,3 +96,12 @@ document.querySelectorAll('nav a').forEach((link) => {
   link.addEventListener('click', setActiveNavigation);
 });
 menuButton?.addEventListener('click', toggleMenu);
+
+// Nav home mengambang transparan di atas foto hero; setelah melewati hero,
+// is-scrolled mengembalikan nav ke gold agar tetap kontras (R-25).
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+  const updateHeaderState = () => siteHeader.classList.toggle('is-scrolled', window.scrollY > 12);
+  updateHeaderState();
+  window.addEventListener('scroll', updateHeaderState, { passive: true });
+}
