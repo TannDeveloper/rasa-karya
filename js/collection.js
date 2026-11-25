@@ -138,3 +138,61 @@ tombolFilter.forEach((tombol) => {
 
 // Tampilan awal.
 perbaruiTampilan();
+
+let popupTerakhirFokus = null;
+
+  function bukaPopup(id) {
+    const popup = document.getElementById(id);
+    if (!popup) return;
+    popupTerakhirFokus = document.activeElement;
+    popup.classList.add('active');
+    document.body.classList.add('popup-open');
+    // fokus ke tombol tutup supaya bisa dipakai lewat keyboard
+    // (ditunda sedikit: elemen yang masih transisi tersembunyi tidak bisa difokus)
+    const tutup = popup.querySelector('[data-popup-close]');
+    window.setTimeout(function () {
+      if (tutup) tutup.focus();
+    }, 100);
+  }
+
+  function tutupPopup(popup) {
+    popup.classList.remove('active');
+    if (!document.querySelector('.popup-overlay.active')) {
+      document.body.classList.remove('popup-open');
+    }
+    if (popupTerakhirFokus) popupTerakhirFokus.focus();
+  }
+
+  // Klik tombol pembuka
+  document.querySelectorAll('[data-popup-open]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      bukaPopup(btn.dataset.popupOpen);
+    });
+  });
+
+  // Klik tombol tutup (X atau tombol dengan data-popup-close)
+  document.querySelectorAll('[data-popup-close]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tutupPopup(btn.closest('.popup-overlay'));
+    });
+  });
+
+  // Klik area gelap di luar kotak pop up
+  document.querySelectorAll('.popup-overlay').forEach(function (overlay) {
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) tutupPopup(overlay);
+    });
+  });
+
+  // Tekan Esc untuk menutup
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      const aktif = document.querySelector('.popup-overlay.active');
+      if (aktif) tutupPopup(aktif);
+    }
+  });
+
+  // Opsional: tampilkan pop up otomatis saat halaman dibuka (hapus tanda // untuk aktifkan)
+  // window.addEventListener('load', function () {
+  //   setTimeout(function () { bukaPopup('popup-promo'); }, 1500);
+  // });

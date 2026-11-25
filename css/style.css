@@ -80,6 +80,17 @@ body {
 .account a:hover {
   color:var(--orange)
 }
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-image img {
+  max-width: 150px;
+  height: auto;
+}
+
 .brand {
   display:flex;
   align-items:center;
@@ -1139,6 +1150,8 @@ nav a[aria-current="page"] {
   background: #fff;
   border: 1px solid #efe2d8;
   box-shadow: 0 4px 12px #28180a24;
+  font-family: inherit;
+  cursor: pointer;
 }
 .cart--floating:focus-visible {
   outline: 2px solid var(--orange);
