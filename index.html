@@ -10,16 +10,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/motion.css" />
-  <link rel="icon" href="../assets/images/favicon.svg"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/motion.css" />
+  <link rel="icon" href="assets/images/favicon.svg"/>
 </head>
 
 <body class="home-page">
   <header class="site-header">
     <a class="brand" href="#beranda" aria-label="Rasa Karya beranda">
       <span class="brand-mark">
-        <img src="../assets/images/mini-logo.svg" alt="Logo Rasa Karya">
+        <img src="assets/images/mini-logo.svg" alt="Logo Rasa Karya">
       </span>
       <span>
         <b>Rasa Karya</b>
@@ -27,17 +27,20 @@
       </span>
     </a>
 
-    <button class="menu" type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
+    <!-- Tombol toggle menu (tampil hanya di mobile). Harus tepat sebelum <nav>. -->
+    <button class="menu" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Buka menu">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
 
     <nav id="navigation" aria-label="Navigasi utama">
       <a href="index.html" aria-current="page">Beranda</a>
-      <a href="../pages/about.html">Tentang Kami</a>
-      <a href="../pages/product.html">Produk &amp; Pemesanan</a>
-      <a href="../pages/partnership.html">Kerja Sama Mitra</a>
+      <a href="pages/about.html">Tentang Kami</a>
+      <a href="pages/product.html">Produk &amp; Pemesanan</a>
+      <a href="pages/partnership.html">Kerja Sama Mitra</a>
     </nav>
-      <div class="header-image">
-        <img src="../assets/images/logo-header-polije.png" alt="logo-polije">  
-      </div>
+
+    <div class="header-image">
+      <img src="assets/images/logo-header-polije.png" alt="logo-polije">
     </div>
   </header>
 
@@ -50,7 +53,7 @@
             <h1>TEFA Bakery & Coffee<br><em>Rasa Karya </em></h1>
             <p class="lede">Rasa Karya merupakan Teaching Factory (TEFA) Bakery &  Coffee dari Politeknik Negeri Jember yang menghadirkan beragam produk roti dan olahan bakery berkualitas. Melalui perpaduan kreativitas, pembelajaran, dan praktik secara langsung, TEFA Bakery & Coffee berupaya menyajikan produk yang tidak hanya lezat, tetapi juga dibuat dengan memperhatikan kualitas dan kepuasan pelanggan .</p>
             <div class="actions">
-              <a class="button primary" href="product.html">Lihat Produk &amp; Pemesanan</a>
+              <a class="button primary" href="pages/product.html">Lihat Produk &amp; Pemesanan</a>
             </div>
           </div>
         </section>
@@ -62,12 +65,12 @@
           <h2>Karya Vokasi, Cita Rasa Inspirasi</h2>
           <p>Setiap produk di TEFA Bakery dikembangkan melalui proses pembelajaran dan standar industri yang ketat. Menggunakan bahan-bahan pilihan berkualitas tinggi, kami mempersembahkan kelezatan terbaik yang lahir dari kreativitas dan dedikasi penuh para siswa.</p>
         </div>
-        <a class="text-link" href="product.html">Lihat Semua 35+ Varian</a>
+        <a class="text-link" href="pages/collection.html">Lihat Semua 35+ Varian</a>
       </div>
 
       <div class="products">
         <article class="product">
-          <img src="../assets/images/products-rev/roti_sobek.png" alt="Roti sobek">
+          <img src="assets/images/products-rev/roti_sobek.png" alt="Roti sobek">
           <div>
             <span>BEST SELLER</span>
             <h3>Roti Sobek</h3>
@@ -76,7 +79,7 @@
         </article>
 
         <article class="product">
-          <img src="../assets/images/products-rev/roti_pizza.png" alt="Roti pizza">
+          <img src="assets/images/products-rev/roti_pizza.png" alt="Roti pizza">
           <div>
             <span>BEST SELLER</span>
             <h3>Roti Pizza</h3>
@@ -85,7 +88,7 @@
         </article>
 
         <article class="product">
-          <img src="../assets/images/products-rev/roti_abon_gulung.png" alt="Roti abon gulung">
+          <img src="assets/images/products-rev/roti_abon_gulung.png" alt="Roti abon gulung">
           <div>
             <span>BEST SELLER</span>
             <h3>Roti Abon Gulung</h3>
@@ -133,7 +136,7 @@
         </ul>
         <a class="text-link" href="about.html">Jelajahi Sejarah Dapur Kami →</a>
       </div>
-      <img src="../assets/images/dapur-polije.png" alt="Ruang produksi TEFA Bakery &amp; Coffee Polije">
+      <img src="assets/images/dapur-polije.png" alt="Ruang produksi TEFA Bakery &amp; Coffee Polije">
     </section>
 
     <section id="mitra" class="partner">
@@ -162,7 +165,7 @@
       <div class="shell footer-grid">
         <div>
           <a class="brand" href="index.html#beranda">
-            <span class="brand-mark"><img src="../assets/images/mini-logo.svg" alt=""></span>
+            <span class="brand-mark"><img src="assets/images/mini-logo.svg" alt=""></span>
             <b>Rasa Karya</b>
           </a>
           <p>Kelezatan murni dari ragi alami, tepung batu pilihan, dan tradisi memanggang artisan dengan dedikasi penuh di setiap fajar.</p>
@@ -194,7 +197,7 @@
     </footer>
 
   <div id="toast" role="status" aria-live="polite"></div>
-  <script src="../js/reveal.js"></script>
-  <script src="../js/script.js"></script>
+  <script src="js/reveal.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

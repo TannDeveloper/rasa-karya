@@ -251,10 +251,26 @@ tombolKosongkan?.addEventListener('click', kosongkanKeranjang);
 // Isi pop up pertama kali agar tidak kosong saat dibuka lewat ikon keranjang.
 if (popupKeranjang && kotakDaftar) tampilkanPopupKeranjang();
 
+// ===== Toggle menu (mobile) =====
+// Hanya mengubah aria-expanded dan aria-label. Animasi hamburger -> X
+// sepenuhnya dikerjakan CSS (.menu-icon), jadi tidak ada teks "Menu"/"Tutup".
+function setMenu(open) {
+  if (!menuButton) return;
+  menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.setAttribute('aria-label', open ? 'Tutup menu' : 'Buka menu');
+}
+
 function toggleMenu() {
   const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
-  menuButton.setAttribute('aria-expanded', String(!isOpen));
-  menuButton.textContent = isOpen ? 'Menu' : 'Tutup';
+  setMenu(!isOpen);
+}
+
+// Pastikan isi tombol selalu berupa ikon 3 garis, apa pun isi HTML-nya
+// (menghapus teks "Menu" atau ikon Material Symbols lama kalau masih ada).
+if (menuButton) {
+  menuButton.innerHTML =
+    '<span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>';
+  setMenu(false);
 }
 
 function setActiveNavigation(event) {
@@ -265,6 +281,9 @@ function setActiveNavigation(event) {
   });
 
   selectedLink.setAttribute('aria-current', 'page');
+
+  // Tutup menu mobile setelah memilih tautan.
+  setMenu(false);
 }
 
 // Delegasi: kartu produk yang dirender belakangan (mis. pagination koleksi)
@@ -278,6 +297,18 @@ document.querySelectorAll('nav a').forEach((link) => {
   link.addEventListener('click', setActiveNavigation);
 });
 menuButton?.addEventListener('click', toggleMenu);
+
+// Tutup menu dengan Escape, klik di luar header, atau saat layar dilebarkan ke desktop.
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') setMenu(false);
+});
+document.addEventListener('click', (event) => {
+  if (!menuButton || !(event.target instanceof Element)) return;
+  if (!event.target.closest('.site-header')) setMenu(false);
+});
+window.matchMedia('(min-width: 901px)').addEventListener('change', (event) => {
+  if (event.matches) setMenu(false);
+});
 
 // Nav home mengambang transparan di atas foto hero; setelah melewati hero,
 // is-scrolled mengembalikan nav ke gold agar tetap kontras (R-25).

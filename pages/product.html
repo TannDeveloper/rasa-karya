@@ -8,25 +8,15 @@
       content="Rasa Karya: roti artisan segar, dibuat perlahan setiap fajar."
     />
     <title>Rasa Karya - Produk & Pemesanan</title>
-     
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-    />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/product.css" />
-  <link rel="stylesheet" href="../css/motion.css" />
-  <link rel="icon" href="../assets/images/favicon.svg"/>
+    <link rel="stylesheet" href="../css/motion.css" />
+    <link rel="icon" href="../assets/images/favicon.svg"/>
   </head>
 
   <body>
@@ -41,13 +31,15 @@
         </span>
       </a>
 
+      <!-- Tombol toggle menu (tampil hanya di mobile). Harus tepat sebelum <nav>. -->
       <button
         class="menu"
         type="button"
         aria-expanded="false"
         aria-controls="navigation"
+        aria-label="Buka menu"
       >
-        Menu
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
       </button>
 
       <nav id="navigation" aria-label="Navigasi utama">
@@ -57,10 +49,8 @@
         <a href="partnership.html">Kerja Sama Mitra</a>
       </nav>
 
-      <div class="header-actions">
       <div class="header-image">
-        <img src="../assets/images/logo-header-polije.png" alt="logo-polije">  
-      </div>
+        <img src="../assets/images/logo-header-polije.png" alt="logo-polije" />
       </div>
     </header>
 
@@ -152,6 +142,6 @@
     <div id="toast" role="status" aria-live="polite"></div>
 
     <script src="../js/reveal.js"></script>
-  <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

@@ -130,7 +130,7 @@ nav a {
   font-weight:600;
   font-size:13px;
   padding:7px 10px;
-  border-radius:20px
+  border-radius:4px
 }
 .material-symbols-outlined {
   display:inline-block;
@@ -157,7 +157,7 @@ nav a[aria-current="page"] {
   background:var(--cream);
   color:var(--text-nav);
   padding:8px 16px;
-  border-radius:999px
+  border-radius:4px
 }
 .cart {
   display:inline-flex;
@@ -538,10 +538,18 @@ nav a[aria-current="page"] {
     top:64px;
     left:0;
     right:0;
-    padding:18px 20px;
+    padding:20px;
     background:#fff;
     border-bottom:1px solid var(--line);
-    flex-direction:column
+    border-radius:0;
+    box-shadow:0 8px 20px rgba(0,0,0,0.05);
+    flex-direction:column;
+    gap:12px;
+    z-index:100;
+  }
+  nav a {
+    border-radius:2px !important;
+    padding:10px 14px;
   }
   .menu {
     display:block;
@@ -1166,5 +1174,462 @@ nav a[aria-current="page"] {
      supaya teks turun ke baris kedua, bukan menabrak tombol keranjang. */
   .back-link {
     max-width: calc(100% - 84px);
+  }
+}
+
+/* =====================================================================
+   NAVBAR + LAYOUT MOBILE  (blok paling bawah, sengaja menimpa aturan lama)
+   Desktop (>=901px): navbar pill melayang.
+   Mobile (<=900px): navbar kotak + tombol toggle, layout & ukuran dirapikan.
+   ===================================================================== */
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { overflow-x: clip; }   /* cegah geser horizontal tanpa merusak sticky */
+img { max-width: 100%; }
+
+/* ---------- DESKTOP (>= 901px) ---------- */
+@media (min-width: 901px) {
+  .site-header {
+    top: 12px;
+    width: calc(100% - 80px);
+    max-width: 1280px;
+    margin: 12px auto 0;
+    padding: 0 28px;
+    border: 0;
+    border-radius: 999px;            /* ganti 24px kalau mau sudut kotak membulat */
+    box-shadow: 0 6px 20px #28180a26;
+  }
+  .menu {
+    display: none;
+  }
+  #navigation {
+    padding: 6px 10px;
+    border-radius: 999px;
+  }
+  nav a {
+    padding: 7px 14px;
+    border-radius: 999px;
+  }
+
+  /* Header punya margin atas 12px, jadi hero ditarik 92px (80 + 12) */
+  .home-page .hero {
+    margin-top: -92px;
+    padding-top: 162px;
+  }
+
+  /* Di atas foto hero, header transparan tanpa bayangan */
+  .home-page .site-header:not(.is-scrolled) {
+    box-shadow: none;
+  }
+}
+
+/* ---------- MOBILE & TABLET (<= 900px) ---------- */
+@media (max-width: 900px) {
+
+  /* ===== Header: kotak ===== */
+  .site-header {
+    display: flex;
+    height: 64px;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0 16px;
+    top: 0;
+    gap: 10px;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #f4ece6;
+  }
+  .brand {
+    flex: 0 1 auto;
+    min-width: 0;
+    gap: 8px;
+    white-space: nowrap;
+  }
+  .brand-mark img {
+    width: 36px;
+    height: 36px;
+  }
+  .brand b {
+    font-size: 18px;
+  }
+  .brand small {
+    font-size: 7px;
+    margin-top: 4px;
+  }
+  .header-image {
+    flex: 0 0 auto;
+    order: 2;
+    margin-left: auto;
+  }
+  .header-image img {
+    display: block;
+    width: auto;
+    max-width: 80px;
+    max-height: 32px;
+  }
+
+  /* Tombol toggle: kotak */
+  .menu {
+    order: 3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    margin-left: 0;
+    padding: 0;
+    background: var(--cream);
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    border-radius: 0;
+    cursor: pointer;
+  }
+  .menu .material-symbols-outlined {
+    font-size: 24px;
+  }
+
+  /* Dropdown menu: kotak, selebar layar.
+     Memakai #navigation agar menang atas aturan #navigation di atas. */
+  .site-header > nav,
+  #navigation {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 4px;
+    max-height: calc(100svh - 64px);
+    overflow-y: auto;
+    padding: 12px 16px 16px;
+    background: #fff;
+    color: var(--text-nav);
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    z-index: 100;
+  }
+  /* PENTING: selector ber-id supaya display:flex ini mengalahkan display:none di atas */
+  .menu[aria-expanded="true"] + #navigation {
+    display: flex;
+  }
+  .site-header nav a {
+    display: flex;
+    align-items: center;
+    min-height: 46px;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 0 !important;
+  }
+  .account {
+    display: none;
+  }
+
+  /* ===== Jarak samping seragam ===== */
+  .home-page .shell {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* ===== Hero ===== */
+  .home-page .hero {
+    min-height: calc(100svh - 64px);
+    padding: 72px 20px 52px;
+  }
+  .home-page .hero h1 {
+    font-size: clamp(34px, 10vw, 46px);
+    line-height: 1.08;
+  }
+  .home-page .lede {
+    max-width: none;
+    margin: 16px 0 24px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  .trust-badges > span {
+    padding: 5px 12px;
+    font-size: 11px;
+  }
+  .home-page .hero .primary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  /* ===== Koleksi ===== */
+  .home-page .collection {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+  .home-page .section-head h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .home-page .section-head p:not(.overline) {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .home-page .section-head > a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 14px;
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  .home-page .products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .home-page .product img {
+    height: 200px;
+  }
+  .home-page .product h3 {
+    font-size: 20px;
+  }
+  .home-page .product p {
+    min-height: 0;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  /* ===== Statistik ===== */
+  .home-page .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    padding: 28px 20px;
+  }
+  .home-page .stats article {
+    min-height: 0;
+    padding: 18px 12px;
+  }
+  .home-page .stats strong {
+    font-size: 28px;
+  }
+  .home-page .stats b {
+    font-size: 14px;
+  }
+  .home-page .stats p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  /* ===== Cerita ===== */
+  .home-page .story {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    margin: 28px 20px;
+    padding: 0;                       /* menimpa padding dari .home-page .shell */
+  }
+  .home-page .story img {
+    order: -1;                        /* foto di atas, teks di bawah */
+    height: 220px;
+    min-height: 0;
+  }
+  .home-page .story-copy {
+    padding: 26px 22px 30px;
+  }
+  .home-page .story-copy h2 {
+    font-size: 26px;
+  }
+  .home-page .story-copy > p:not(.overline) {
+    font-size: 14px;
+    line-height: 1.65;
+    text-align: left;                 /* justify di layar sempit bikin celah antar kata */
+  }
+  .home-page .story li {
+    padding-left: 24px;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .home-page .story .text-link {
+    display: inline-block;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  /* ===== Mitra ===== */
+  .home-page .partner {
+    padding: 0 20px 36px;
+  }
+  .home-page .partner-inner {
+    display: block;
+    min-height: 0;
+    padding: 28px 22px;
+  }
+  .home-page .partner h2 {
+    font-size: 26px;
+  }
+  .home-page .partner p:not(.overline) {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .home-page .partner .primary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 46px;
+    margin-top: 6px;
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+  .home-page .partner dl {
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 24px 0 0;
+  }
+  .home-page .partner dl div {
+    flex: 1 1 120px;
+    min-width: 0;
+  }
+  .home-page .partner dt {
+    font-size: 30px;
+  }
+  .home-page .partner dd {
+    font-size: 13px;
+  }
+
+  /* ===== Footer ===== */
+  .footer.home-footer {
+    padding: 32px 0 20px;
+  }
+  .footer.home-footer .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .footer.home-footer .footer-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+  .footer.home-footer p,
+  .footer.home-footer a,
+  .footer.home-footer .footer-grid span {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .footer.home-footer .footer-grid a {
+    display: inline-block;
+    padding: 4px 0;
+  }
+  .footer.home-footer .copyright {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .footer.home-footer .copyright > span:last-child {
+    flex-wrap: wrap;
+    gap: 6px 20px;
+  }
+}
+
+/* ---------- HP (<= 600px): produk jadi 1 kolom ---------- */
+@media (max-width: 600px) {
+  .home-page .products {
+    grid-template-columns: 1fr;
+  }
+  .home-page .product img {
+    height: 220px;
+  }
+  .home-page .product p {
+    font-size: 14px;
+  }
+}
+
+/* ---------- HP kecil (<= 480px) ---------- */
+@media (max-width: 480px) {
+  .site-header {
+    padding: 0 14px;
+    gap: 8px;
+  }
+  .brand b {
+    font-size: 17px;
+  }
+  .header-image img {
+    max-width: 64px;
+  }
+  .home-page .hero {
+    padding: 64px 18px 44px;
+  }
+  .home-page .shell {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .home-page .stats {
+    padding: 24px 18px;
+  }
+  .home-page .story {
+    margin: 24px 18px;
+  }
+  .home-page .partner {
+    padding: 0 18px 32px;
+  }
+  .footer.home-footer .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- HP sangat kecil (<= 400px) ---------- */
+@media (max-width: 400px) {
+  .home-page .stats {
+    grid-template-columns: 1fr;
+  }
+  .header-image img {
+    max-width: 56px;
+  }
+}
+
+/* ---------- Ikon toggle: hamburger -> X (animasi CSS, tanpa teks) ---------- */
+.menu-icon {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 16px;
+  pointer-events: none;
+}
+.menu-icon span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transition: transform .3s ease, top .3s ease, opacity .2s ease;
+}
+.menu-icon span:nth-child(1) { top: 0; }
+.menu-icon span:nth-child(2) { top: 7px; }
+.menu-icon span:nth-child(3) { top: 14px; }
+
+.menu[aria-expanded="true"] .menu-icon span:nth-child(1) {
+  top: 7px;
+  transform: rotate(45deg);
+}
+.menu[aria-expanded="true"] .menu-icon span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.menu[aria-expanded="true"] .menu-icon span:nth-child(3) {
+  top: 7px;
+  transform: rotate(-45deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .menu-icon span { transition: none; }
+}
+
+/* Halaman lain yang masih membungkus logo Polije dengan .header-actions:
+   di mobile bungkusnya yang diurutkan, supaya tata letak header tetap sama. */
+@media (max-width: 900px) {
+  .header-actions {
+    flex: 0 0 auto;
+    order: 2;
+    margin-left: auto;
+    gap: 0;
+  }
+  .header-actions .header-image {
+    flex: 0 0 auto;
+    margin-left: 0;
   }
 }
