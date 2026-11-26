@@ -59,27 +59,6 @@ body {
   gap:16px;
   margin-left:auto
 }
-.account {
-  display:flex;
-  flex-direction:column;
-  line-height:1.2;
-  color:var(--text);
-  font-size:11px;
-  padding-left:14px;
-  border-left:1px solid var(--line)
-}
-.account span {
-  color:var(--text-tertiary);
-  font-size:10px
-}
-.account a {
-  color:var(--ink);
-  font-weight:700;
-  text-decoration:none
-}
-.account a:hover {
-  color:var(--orange)
-}
 .header-image {
   flex: 1;
   display: flex;
@@ -248,54 +227,6 @@ nav a[aria-current="page"] {
   font-weight:700;
   text-decoration:none
 }
-.micro {
-  font-size:12px;
-  margin-top:24px;
-  color:#82756a
-}
-.hero-visual {
-  height:460px;
-  width:530px;
-  position:relative;
-}
-.hero-visual img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:12px;
-  filter:saturate(.9)
-}
-.hero-visual:after {
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(135deg,transparent 50%,#28180a55)
-}
-.hero-visual aside {
-  position:absolute;
-  z-index:1;
-  right:-18px;
-  bottom:22px;
-  width:188px;
-  padding:15px;
-  background:#fff;
-  box-shadow:0 12px 32px #2c1a0e24
-}
-.hero-visual aside span {
-  font-size:9px;
-  letter-spacing:1px;
-  color:#8f4e00
-}
-.hero-visual aside strong {
-  display:block;
-  font:700 30px "Playfair Display";
-  color:var(--ink)
-}
-.hero-visual aside p {
-  font-size:11px;
-  line-height:1.4;
-  margin:4px 0
-}
 .stats {
   display:grid;
   grid-template-columns:repeat(4,1fr);
@@ -344,7 +275,7 @@ nav a[aria-current="page"] {
 }
 .products {
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(4,1fr);
   gap:24px
 }
 .product {
@@ -516,74 +447,13 @@ nav a[aria-current="page"] {
   transform:none
 }
 @media(max-width:800px) {
-  .site-header > nav,
-  .site-header > .header-actions {
-    justify-self:auto
-  }
   .shell {
     padding-left:20px;
     padding-right:20px
   }
-  .site-header {
-    height:64px;
-    padding:0 20px;
-    display:flex
-  }
-  .brand b {
-    font-size:20px
-  }
-  nav {
-    display:none;
-    position:absolute;
-    top:64px;
-    left:0;
-    right:0;
-    padding:20px;
-    background:#fff;
-    border-bottom:1px solid var(--line);
-    border-radius:0;
-    box-shadow:0 8px 20px rgba(0,0,0,0.05);
-    flex-direction:column;
-    gap:12px;
-    z-index:100;
-  }
-  nav a {
-    border-radius:2px !important;
-    padding:10px 14px;
-  }
-  .menu {
-    display:block;
-    min-width:44px;
-    min-height:44px;
-    margin-left:auto;
-    background:none;
-    border:0;
-    font:700 12px "Plus Jakarta Sans";
-    color:var(--brown)
-  }
-  .menu[aria-expanded="true"] + nav {
-    display:flex
-  }
-  .header-actions {
-    gap:8px
-  }
-  .account {
-    display:none
-  }
   .cart {
     display:inline-flex;
     padding:8px
-  }
-  .hero {
-    grid-template-columns:1fr;
-    padding-top:48px
-  }
-  .hero h1 {
-    font-size:44px
-  }
-  .hero-visual {
-    width:100%;
-    height:340px
   }
   .stats,.products {
     grid-template-columns:1fr 1fr
@@ -620,14 +490,11 @@ nav a[aria-current="page"] {
     grid-template-columns:1fr
   }
   .actions {
-    align-items:flex-start;
-    flex-direction:column;
-    gap:13px
-  }
-  .hero-visual aside {
-    right:10px
-  }
-  .section-head h2,.story h2,.partner h2 {
+      align-items:flex-start;
+      flex-direction:column;
+      gap:13px
+    }
+    .section-head h2,.story h2,.partner h2 {
     font-size:34px
   }
   .partner dl {
@@ -665,10 +532,7 @@ nav a[aria-current="page"] {
   }
   .home-page .site-header:not(.is-scrolled) .brand { color:#fff }
   .home-page .site-header:not(.is-scrolled) .brand small { color:rgba(255,255,255,.72) }
-  .home-page .site-header:not(.is-scrolled) .account { color:rgba(255,255,255,.85); border-left-color:rgba(255,255,255,.3) }
-  .home-page .site-header:not(.is-scrolled) .account span { color:rgba(255,255,255,.65) }
-  .home-page .site-header:not(.is-scrolled) .account a { color:#fff }
-  .home-page .site-header.is-scrolled {
+    .home-page .site-header.is-scrolled {
     background:var(--gold);
     border-bottom-color:#f4ece6
   }
@@ -730,34 +594,6 @@ nav a[aria-current="page"] {
   gap:24px;
   padding:14px max(40px,calc((100% - 1200px) / 2));
   background:#fff1e9
-}
-.schedule-intro {
-  display:flex;
-  align-items:center;
-  gap:10px;
-  flex:0 0 auto;
-  color:var(--ink)
-}
-.schedule-intro > .material-symbols-outlined {
-  display:grid;
-  place-items:center;
-  width:30px;
-  height:30px;
-  border-radius:50%;
-  background:var(--brown);
-  color:#fff;
-  font-size:16px
-}
-.schedule-intro b,
-.schedule-intro small {
-  display:block
-}
-.schedule-intro b {
-  font-size:12px
-}
-.schedule-intro small {
-  color:var(--text-tertiary);
-  font-size:10px
 }
 .bake-schedule ul {
   display:flex;
@@ -996,8 +832,7 @@ nav a[aria-current="page"] {
 .footer.home-footer a {
   color:var(--text)
 }
-.halal-note,
-.closed-note {
+.halal-note {
   color:#8f4e00
 }
 .footer.home-footer .copyright {
@@ -1114,7 +949,7 @@ nav a[aria-current="page"] {
   }
 }
 
-/* ---------- halaman sub tanpa header (koleksi & pemesanan layanan) ----------
+/* Halaman sub tanpa header (koleksi & pemesanan layanan):
    Halaman ini dibuka dari Produk & Pemesanan, jadi header penuh dilepas agar
    tidak ada pintu keluar di tengah proses memilih produk. Yang tersisa:
    tombol kembali (jalan pulang) dan keranjang mengapung (status keranjang). */
@@ -1177,17 +1012,14 @@ nav a[aria-current="page"] {
   }
 }
 
-/* =====================================================================
-   NAVBAR + LAYOUT MOBILE  (blok paling bawah, sengaja menimpa aturan lama)
-   Desktop (>=901px): navbar pill melayang.
-   Mobile (<=900px): navbar kotak + tombol toggle, layout & ukuran dirapikan.
-   ===================================================================== */
+/* Navbar: blok terakhir, sengaja menimpa aturan lama di atas.
+   Desktop (>=901px): navbar pill melayang. Mobile (<=900px): kotak + toggle. */
 
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { overflow-x: clip; }   /* cegah geser horizontal tanpa merusak sticky */
 img { max-width: 100%; }
 
-/* ---------- DESKTOP (>= 901px) ---------- */
+/* Desktop (>= 901px) */
 @media (min-width: 901px) {
   .site-header {
     top: 12px;
@@ -1223,10 +1055,9 @@ img { max-width: 100%; }
   }
 }
 
-/* ---------- MOBILE & TABLET (<= 900px) ---------- */
+/* Mobile & tablet (<= 900px) */
 @media (max-width: 900px) {
 
-  /* ===== Header: kotak ===== */
   .site-header {
     display: flex;
     height: 64px;
@@ -1239,6 +1070,8 @@ img { max-width: 100%; }
     border-radius: 0;
     box-shadow: none;
     border-bottom: 1px solid #f4ece6;
+    z-index: 1001;
+    position: relative;
   }
   .brand {
     flex: 0 1 auto;
@@ -1269,7 +1102,6 @@ img { max-width: 100%; }
     max-height: 32px;
   }
 
-  /* Tombol toggle: kotak */
   .menu {
     order: 3;
     display: inline-flex;
@@ -1282,11 +1114,12 @@ img { max-width: 100%; }
     min-height: 44px;
     margin-left: 0;
     padding: 0;
-    background: var(--cream);
+    background: none;
     color: var(--brown);
-    border: 1px solid var(--brown);
+    border: 0;
     border-radius: 0;
     cursor: pointer;
+    border-radius: 12px;
   }
   .menu .material-symbols-outlined {
     font-size: 24px;
@@ -1294,25 +1127,39 @@ img { max-width: 100%; }
 
   /* Dropdown menu: kotak, selebar layar.
      Memakai #navigation agar menang atas aturan #navigation di atas. */
-  .site-header > nav,
-  #navigation {
-    display: none;
-    position: absolute;
-    top: 64px;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    gap: 4px;
-    max-height: calc(100svh - 64px);
-    overflow-y: auto;
-    padding: 12px 16px 16px;
-    background: #fff;
-    color: var(--text-nav);
-    border-bottom: 1px solid var(--line);
-    border-radius: 0;
-    box-shadow: 0 8px 20px rgba(0,0,0,.08);
-    z-index: 100;
-  }
+  @media (max-width: 900px) {
+
+    .site-header > nav,
+    #navigation {
+        display: none;
+        position: absolute;
+
+        top: 64px;
+        left: 0;
+        right: 0;
+
+        width: 100%;
+
+        flex-direction: column;
+        gap: 4px;
+
+        max-height: calc(100svh - 64px);
+        overflow-y: auto;
+
+        padding: 12px 16px 16px;
+
+        background: #fff;
+        color: #50453C;
+
+        border-bottom: 1px solid var(--line);
+        border-radius: 0 0 36px 36px;
+
+        box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+
+        z-index: 100;
+    }
+
+}
   /* PENTING: selector ber-id supaya display:flex ini mengalahkan display:none di atas */
   .menu[aria-expanded="true"] + #navigation {
     display: flex;
@@ -1323,19 +1170,14 @@ img { max-width: 100%; }
     min-height: 46px;
     padding: 10px 14px;
     font-size: 15px;
-    border-radius: 0 !important;
-  }
-  .account {
-    display: none;
+    border-radius: 36px;
   }
 
-  /* ===== Jarak samping seragam ===== */
   .home-page .shell {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* ===== Hero ===== */
   .home-page .hero {
     min-height: calc(100svh - 64px);
     padding: 72px 20px 52px;
@@ -1362,7 +1204,6 @@ img { max-width: 100%; }
     font-size: 14px;
   }
 
-  /* ===== Koleksi ===== */
   .home-page .collection {
     padding-top: 36px;
     padding-bottom: 36px;
@@ -1399,7 +1240,6 @@ img { max-width: 100%; }
     line-height: 1.55;
   }
 
-  /* ===== Statistik ===== */
   .home-page .stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
@@ -1420,7 +1260,6 @@ img { max-width: 100%; }
     line-height: 1.5;
   }
 
-  /* ===== Cerita ===== */
   .home-page .story {
     grid-template-columns: 1fr;
     min-height: 0;
@@ -1454,7 +1293,6 @@ img { max-width: 100%; }
     font-size: 14px;
   }
 
-  /* ===== Mitra ===== */
   .home-page .partner {
     padding: 0 20px 36px;
   }
@@ -1494,7 +1332,6 @@ img { max-width: 100%; }
     font-size: 13px;
   }
 
-  /* ===== Footer ===== */
   .footer.home-footer {
     padding: 32px 0 20px;
   }
@@ -1527,7 +1364,7 @@ img { max-width: 100%; }
   }
 }
 
-/* ---------- HP (<= 600px): produk jadi 1 kolom ---------- */
+/* HP (<= 600px): produk 1 kolom */
 @media (max-width: 600px) {
   .home-page .products {
     grid-template-columns: 1fr;
@@ -1540,7 +1377,7 @@ img { max-width: 100%; }
   }
 }
 
-/* ---------- HP kecil (<= 480px) ---------- */
+/* HP kecil (<= 480px) */
 @media (max-width: 480px) {
   .site-header {
     padding: 0 14px;
@@ -1573,7 +1410,7 @@ img { max-width: 100%; }
   }
 }
 
-/* ---------- HP sangat kecil (<= 400px) ---------- */
+/* HP sangat kecil (<= 400px) */
 @media (max-width: 400px) {
   .home-page .stats {
     grid-template-columns: 1fr;
@@ -1583,44 +1420,58 @@ img { max-width: 100%; }
   }
 }
 
-/* ---------- Ikon toggle: hamburger -> X (animasi CSS, tanpa teks) ---------- */
+/* Ikon toggle: hamburger -> X (animasi CSS, tanpa teks) */
 .menu-icon {
   position: relative;
   display: block;
-  width: 22px;
-  height: 16px;
+  width: 30px;
+  height: 22px;
   pointer-events: none;
 }
+
 .menu-icon span {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background: currentColor;
-  transition: transform .3s ease, top .3s ease, opacity .2s ease;
+  border-radius: 2px;
+
+  transition:
+    transform .3s ease,
+    top .3s ease,
+    opacity .2s ease;
 }
-.menu-icon span:nth-child(1) { top: 0; }
-.menu-icon span:nth-child(2) { top: 7px; }
-.menu-icon span:nth-child(3) { top: 14px; }
+
+.menu-icon span:nth-child(1) {
+  top: 0;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 9px;
+}
+
+.menu-icon span:nth-child(3) {
+  top: 18px;
+}
 
 .menu[aria-expanded="true"] .menu-icon span:nth-child(1) {
-  top: 7px;
+  top: 9px;
   transform: rotate(45deg);
 }
+
 .menu[aria-expanded="true"] .menu-icon span:nth-child(2) {
   opacity: 0;
   transform: scaleX(0);
 }
+
 .menu[aria-expanded="true"] .menu-icon span:nth-child(3) {
-  top: 7px;
+  top: 9px;
   transform: rotate(-45deg);
 }
-@media (prefers-reduced-motion: reduce) {
-  .menu-icon span { transition: none; }
-}
 
-/* Halaman lain yang masih membungkus logo Polije dengan .header-actions:
-   di mobile bungkusnya yang diurutkan, supaya tata letak header tetap sama. */
+/* Logo Polije dibungkus .header-actions. Di mobile urutan flex ditentukan
+   oleh pembungkusnya, supaya logo tetap rapat ke tombol menu. */
 @media (max-width: 900px) {
   .header-actions {
     flex: 0 0 auto;

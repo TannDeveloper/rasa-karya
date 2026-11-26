@@ -24,17 +24,11 @@
   font: 700 clamp(26px, 3.2vw, 42px)/1.2 "Playfair Display", serif;
   letter-spacing: -0.5px;
 }
-.collection-hero > p:not(.eyebrow) {
+.collection-hero > p {
   max-width: 660px;
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
-}
-.eyebrow {
-  color: var(--orange);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 1.8px;
 }
 .filter-nav {
   display: flex;
@@ -278,11 +272,6 @@
   border-color: #e6dad0;
   cursor: default;
 }
-
-.copyright-links {
-  display: flex;
-  gap: 18px;
-}
 .collection-page #toast {
   z-index: 20;
 }
@@ -525,7 +514,7 @@ body.popup-open { overflow: hidden; }
     line-height: 1.25;
     letter-spacing: -0.3px;
   }
-  .collection-hero > p:not(.eyebrow) {
+  .collection-hero > p {
     font-size: 15px;
     line-height: 1.6;
   }

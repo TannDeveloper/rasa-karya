@@ -65,7 +65,6 @@
 .hero-copy > :nth-child(n + 4), .about-intro-copy > :nth-child(n + 4),
 .collection-hero > :nth-child(n + 4), .service-intro > :nth-child(n + 4) { animation-delay: 290ms; }
 
-.hero-visual,
 .about-highlight,
 .gateway-card {
   animation: rise-in 420ms var(--ease-out-soft) both;
@@ -168,7 +167,6 @@
   .collection-hero > *,
   .service-intro > *,
   .partner-hero-center > *,
-  .hero-visual,
   .about-highlight,
   .gateway-card {
     animation-duration: 150ms;
